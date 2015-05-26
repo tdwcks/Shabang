@@ -28,13 +28,13 @@ h1 {
 
 h2 {
     font-family: $main_font;
-    color: $colour_dark;
+    color: $colourTypeDark;
     font-size: 1.5em;
     line-height: 1.4em;
     margin-bottom: 0.3em;
 
     &.type-logo-strapline {
-      color: $colourTypeDark  ;
+      color: $colourTypeDark;
       font-size: 1.2em;
       line-height: 1.2em;
       float: left;
@@ -70,7 +70,7 @@ h2 {
   display: block;
   margin: 0 auto;
   width: 160px;
-  border-bottom: 3px solid $colour_midgrey;
+  border-bottom: 3px solid $colourTypeMid;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -87,7 +87,7 @@ h3 {
 
 h4 {
     font-family: $main_font;
-    color: $colour_dark;
+    color: $colourTypeDark;
     font-size: 1.5em;
     line-height: 1.4em;
     margin-bottom: 0.3em;
@@ -115,12 +115,12 @@ h4 {
 }
 
 .hero-review-title {
-  color: $colour_lightgrey;
+  color: $colourTypeLight;
   width: 50%;
   margin-bottom: 0;
 
   span {
-    color: lighten($colour_midgrey, 20%);
+    color: $colourTypeLight
   }
 }
 

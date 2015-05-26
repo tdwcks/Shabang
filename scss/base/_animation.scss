@@ -3,3 +3,23 @@
 // Animation
 //
 //
+
+@include keyframes(header_menu_in) {
+  from {
+    @include transform(translateY(-42px));
+  }
+
+  to {
+    @include transform(translateY(0px));
+   }
+}
+
+@include keyframes(header_menu_out) {
+  from {
+    @include transform(translateY(0px));
+  }
+
+  to {
+    @include transform(translateY(-42px));
+   }
+}

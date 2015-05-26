@@ -138,7 +138,7 @@
 
                     </p> <!-- type-paragraph-centered -->
 
-                    <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one">Go Shopping</a>
+                    <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green">Go Shopping</a>
 
                 </div> <!-- element-centre-title -->
 
@@ -202,7 +202,7 @@
 
                 </div> <!-- layout-span-four -->
 
-                <div class="layout-span-four">
+                <div class="layout-span-four layout-column-right">
 
                     <div class="element-box-portrait colour-background-green">
 

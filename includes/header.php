@@ -6,51 +6,13 @@
 
 		<nav class="header-main-navigation">
 
-			<ul class="header-navigation-internal">
-
-				<li class="js-navigation-extra">
-
-                    <a href="#" class="link-style-one colour-foreground-blue">Discover</a>
-
-                    <span id="js-discover-arrow" class="header-arrow"></span>
-
-                </li>
-
-                <li class="js-navigation-extra">
-
-                    <a href="#" class="link-style-one colour-foreground-green">Activities</a>
-
-                    <span id="js-activities-arrow" class="header-arrow"></span>
-
-                </li>
-
-                <li>
-                    
-                    <a href="<?php echo $userPath; ?>whats_on.php" class="link-style-one colour-foreground-orange">What's On</a>
-
-                    <span id="js-activities-arrow" class="header-arrow"></span>
-
-                </li> 
-
-                <li>
-                    
-                    <a href="<?php echo $userPath; ?>shop.php" class="link-style-one colour-foreground-red">Shop</a>
-
-                    <span id="js-activities-arrow" class="header-arrow"></span>
-
-                </li>
-
-                <li>
-                    
-                    <a href="<?php echo $userPath; ?>contact.php" class="link-style-one colour-foreground-blue">Contact</a>
-
-                    <span id="js-activities-arrow" class="header-arrow"></span>
-
-                </li>  
-
-			</ul> <!-- header-navigation-internal -->
-
 			<ul class="header-navigation-external">
+
+				<li>
+
+					<a href="https://www.charitycheckout.co.uk/1142621/donate" class="link-button-style-one colour-background-yellow">Donate</a>
+
+				</li>
 
 				<li>
 
@@ -72,13 +34,45 @@
 
 				</li>
 
-				<li>
-
-					<a href="https://www.charitycheckout.co.uk/1142621/donate" class="link-button-style-one colour-background-yellow">Donate</a>
-
-				</li>
-
 			</ul> <!-- header-navigation-external -->
+
+			<ul class="header-navigation-internal">
+
+				<li class="js-navigation-discover">
+
+                    <a href="#" class="link-style-one colour-foreground-blue">Discover</a>
+
+                    <span id="js-discover-arrow" class="header-arrow"></span>
+
+                </li>
+
+                <li class="js-navigation-activities">
+
+                    <a href="#" class="link-style-one colour-foreground-green">Activities</a>
+
+                    <span id="js-activities-arrow" class="header-arrow"></span>
+
+                </li>
+
+                <li>
+                    
+                    <a href="<?php echo $userPath; ?>whats_on.php" class="link-style-one colour-foreground-orange">What's On</a>
+
+                </li> 
+
+                <li>
+                    
+                    <a href="<?php echo $userPath; ?>shop.php" class="link-style-one colour-foreground-red">Shop</a>
+
+                </li>
+
+                <li>
+                    
+                    <a href="<?php echo $userPath; ?>contact.php" class="link-style-one colour-foreground-blue">Contact</a>
+
+                </li>  
+
+			</ul> <!-- header-navigation-internal -->
 
 		</nav> <!-- header-main-navigation -->
 
@@ -88,7 +82,7 @@
 
 <div class="header-submenu">
 
-		<div id="js-discover-menu" class="header-layout-bar colour-backgound-blue">
+		<div id="js-discover-menu" class="colour-background-blue header-layout-bar">
 
 			<div class="layout-container">
 

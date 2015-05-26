@@ -4,3 +4,43 @@
 //
 //
 
+a {
+	@include transition(all, 0.3s, ease-in-out);
+}
+
+.link-style-one {
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 0.95em;
+}
+
+.link-button-style-one {
+	@include border-radius(20px);
+	padding: 9px 30px 7px 30px;
+	text-transform: uppercase;
+	color: $colourBg;
+	text-decoration: none;
+	background: $colourYellow;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	font-weight: 400;
+
+	&:hover {
+		@include border-radius(10px);
+	}
+}
+
+.link-icon-style-one {
+	
+	.fa {
+		color: $colourTypeMid;
+		@include transition(all, 0.3s, ease-in-out);
+		font-size: 1.2em;
+
+		&:hover {
+			color: $colourBlue;
+		}
+	}
+}

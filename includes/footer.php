@@ -18,7 +18,7 @@
 
 					<li>
 
-						<h5 class="type-title-style-one colour-colour-blue">Discover</h5>
+						<h5 class="type-title-style-one colour-foreground-blue">Discover</h5>
 
 					</li>
 
@@ -63,7 +63,7 @@
 
 					<li>
 
-						<h5 class="type-title-style-one colour-colour-green">Activities</h5>
+						<h5 class="type-title-style-one colour-foreground-green">Activities</h5>
 
 					</li>
 
@@ -119,7 +119,7 @@
 
 					<li>
 
-						<h5 class="type-title-style-one colour-colour-orange">What's On</h5>
+						<h5 class="type-title-style-one colour-foreground-orange">What's On</h5>
 
 					</li>
 
@@ -131,7 +131,7 @@
 
 					<li>
 
-						<h5 class="type-title-style-one footer-padding-top colour-colour-red">Shop</h5>
+						<h5 class="type-title-style-one footer-padding-top colour-foreground-red">Shop</h5>
 
 					</li>
 
@@ -151,7 +151,7 @@
 
 					<li>
 
-						<h5 class="type-title-style-one colour-colour-orange">What's On</h5>
+						<h5 class="type-title-style-one colour-foreground-orange">What's On</h5>
 
 					</li>
 
@@ -163,7 +163,7 @@
 
 					<li>
 
-						<h5 class="type-title-style-one footer-padding-top colour-colour-red">Shop</h5>
+						<h5 class="type-title-style-one footer-padding-top colour-foreground-red">Shop</h5>
 
 					</li>
 
@@ -185,7 +185,7 @@
 
 					<li>
 
-						<h5 class="type-title-style-one colour-colour-blue">Contact</h5>
+						<h5 class="type-title-style-one colour-foreground-blue">Contact</h5>
 
 					</li>
 
@@ -213,7 +213,7 @@
 
 			<div class="layout-span-three">
 
-				<h5 class="type-title-style-one colour-colour-green">Supporters</h5>
+				<h5 class="type-title-style-one colour-foreground-green">Supporters</h5>
 
 				<ul class="footer-supporters">
 
