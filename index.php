@@ -98,7 +98,7 @@
 
             <div class="layout-container">
 
-                <div class="layout-span-three layout-shift-three">
+                <div class="layout-span-three layout-shift-two">
 
                     <div class="image-container-circle">
 
@@ -108,7 +108,7 @@
 
                 </div> <!-- layout-span-three -->
 
-                <div class="layout-span-four layout-shift-one">
+                <div class="layout-span-four layout-shift-one layout-margin-one">
 
                     <p class="type-paragraph-large">
 
@@ -116,7 +116,7 @@
 
                     </p> <!-- type-paragraph-large -->
 
-                    <a href="<?php echo $userPath; ?>whats_on.php" class="link-button-style-two colour-background-yellow">Learn More</a>
+                    <a href="<?php echo $userPath; ?>whats_on.php" class="link-button-style-one colour-background-yellow">Learn More</a>
 
                 </div> <!-- layout-span-four -->
 
@@ -128,109 +128,121 @@
 
             <div class="layout-container">
 
-                <div class="element-centre-title">
+                <div class="layout-row">
 
-                    <h2 class="type-title-style-one">Shabang! Shop</h2>
+                    <div class="layout-span-four layout-shift-four">
 
-                    <p class="type-paragraph-centered">
+                        <div class="element-title-centre">
 
-                        Check out our fantastic range of resources available for you at home or at school.
+                            <h2 class="type-title-style-one colour-foreground-green">Shabang! Shop</h2>
 
-                    </p> <!-- type-paragraph-centered -->
+                            <p class="type-paragraph-centered">
 
-                    <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green">Go Shopping</a>
+                                Check out our fantastic range of resources available for you at home or at school.
 
-                </div> <!-- element-centre-title -->
+                            </p> <!-- type-paragraph-centered -->
 
-                <div class="layout-span-four">
+                            <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green link-centred">Go Shopping</a>
 
-                    <div class="element-box-portrait colour-background-blue">
+                        </div> <!-- element-title-centre -->
 
-                        <div class="image-container-golden">
+                    </div> <!-- layout-span-four -->
 
-                            <img alt="Kim Reuter and Russ Elias" src="img/">
+                </div> <!-- layout-row -->
 
-                        </div> <!-- image-container-golden -->
+                <div class="layout-row">
 
-                        <div class="element-box-information">
+                    <div class="layout-span-four"> 
 
-                            <h3 class="type-title-style-one">Film: All at Sea</h3>
+                        <div class="element-box-portrait colour-background-blue">
 
-                            <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
+                            <div class="image-container-golden">
 
-                        </div> <!-- element-box-information -->
+                                <img alt="Kim Reuter and Russ Elias" src="img/">
 
-                        <div class="element-box-actions">
+                            </div> <!-- image-container-golden -->
 
-                            <span class="type-span-style-one">£12.99</span>
+                            <div class="element-box-information">
 
-                            <a href="product.php?id=55" class="link-button-style-one colour-background-blue">View Film</a>
+                                <h3 class="type-title-style-one">Film: All at Sea</h3>
 
-                        </div> <!-- element-box-actions -->
+                                <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
 
-                    </div> <!-- element-box-portrait -->
+                            </div> <!-- element-box-information -->
 
-                </div> <!-- layout-span-four -->
+                            <div class="element-box-actions">
 
-                <div class="layout-span-four">
+                                <span class="type-span-style-one">£12.99</span>
 
-                    <div class="element-box-portrait colour-background-orange">
+                                <a href="product.php?id=55" class="link-button-style-one colour-background-blue">View Film</a>
 
-                        <div class="image-container-golden">
+                            </div> <!-- element-box-actions -->
 
-                            <img alt="Kim Reuter and Russ Elias" src="img/">
+                        </div> <!-- element-box-portrait -->
 
-                        </div> <!-- image-container-golden -->
+                    </div> <!-- layout-span-four -->
 
-                        <div class="element-box-information">
+                    <div class="layout-span-four">
 
-                            <h3 class="type-title-style-one">Film: All at Sea</h3>
+                        <div class="element-box-portrait colour-background-orange">
 
-                            <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
+                            <div class="image-container-golden">
 
-                        </div> <!-- element-box-information -->
+                                <img alt="Kim Reuter and Russ Elias" src="img/">
 
-                        <div class="element-box-actions">
+                            </div> <!-- image-container-golden -->
 
-                            <span class="type-span-style-one">£12.99</span>
+                            <div class="element-box-information">
 
-                            <a href="product.php?id=55" class="link-button-style-one colour-background-orange">View Film</a>
+                                <h3 class="type-title-style-one">Film: All at Sea</h3>
 
-                        </div> <!-- element-box-actions -->
+                                <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
 
-                    </div> <!-- element-box-portrait -->
+                            </div> <!-- element-box-information -->
 
-                </div> <!-- layout-span-four -->
+                            <div class="element-box-actions">
 
-                <div class="layout-span-four layout-column-right">
+                                <span class="type-span-style-one">£12.99</span>
 
-                    <div class="element-box-portrait colour-background-green">
+                                <a href="product.php?id=55" class="link-button-style-one colour-background-orange">View Film</a>
 
-                        <div class="image-container-golden">
+                            </div> <!-- element-box-actions -->
 
-                            <img alt="Kim Reuter and Russ Elias" src="img/">
+                        </div> <!-- element-box-portrait -->
 
-                        </div> <!-- image-container-golden -->
+                    </div> <!-- layout-span-four -->
 
-                        <div class="element-box-information">
+                    <div class="layout-span-four layout-column-right">
 
-                            <h3 class="type-title-style-one">Film: All at Sea</h3>
+                        <div class="element-box-portrait colour-background-green">
 
-                            <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
+                            <div class="image-container-golden">
 
-                        </div> <!-- element-box-information -->
+                                <img alt="Kim Reuter and Russ Elias" src="img/">
 
-                        <div class="element-box-actions">
+                            </div> <!-- image-container-golden -->
 
-                            <span class="type-span-style-one">£12.99</span>
+                            <div class="element-box-information">
 
-                            <a href="product.php?id=55" class="link-button-style-one colour-background-green">View Film</a>
+                                <h3 class="type-title-style-one">Film: All at Sea</h3>
 
-                        </div> <!-- element-box-actions -->
+                                <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
 
-                    </div> <!-- element-box-portrait -->
+                            </div> <!-- element-box-information -->
 
-                </div> <!-- layout-span-four -->
+                            <div class="element-box-actions">
+
+                                <span class="type-span-style-one">£12.99</span>
+
+                                <a href="product.php?id=55" class="link-button-style-one colour-background-green">View Film</a>
+
+                            </div> <!-- element-box-actions -->
+
+                        </div> <!-- element-box-portrait -->
+
+                    </div> <!-- layout-span-four -->
+
+                </div> <!-- layout-row -->
 
             </div> <!-- layout-container -->
 
@@ -246,21 +258,25 @@
 
             <div class="layout-container">
 
-                <div class="element-centre-title">
+                <div class="layout-row">
 
-                    <h2 class="type-title-style-one">Social Wall</h2>
+                    <div class="layout-span-four layout-shift-four">
 
-                    <p class="type-paragraph-centered">
+                        <div class="element-title-centre">
 
-                        Find out what people are saying about Shabang! &amp; get involved in the conversation.
+                            <h2 class="type-title-style-one colour-foreground-blue">Social Wall</h2>
 
-                    </p> <!-- type-paragraph-centered -->
+                            <p class="type-paragraph-centered">
 
-                </div> <!-- element-centre-title -->
+                                Find out what people are saying about Shabang! &amp; get involved in the conversation.
 
-                <div id="social-boxes">
+                            </p> <!-- type-paragraph-centered -->
 
-                </div>
+                        </div> <!-- element-title-centre -->
+
+                    </div> <!-- layout-span-four -->
+
+                </div> <!-- layout-row -->
 
             </div> <!-- layout-container -->
 

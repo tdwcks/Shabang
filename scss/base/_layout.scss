@@ -24,10 +24,7 @@
 }
 
 .layout-shift-six {
-	margin-right: 24px;
-	height: 1px;
-	float: left;
-	@include calc(width, "50% - 12px");
+	@include calc(margin-left, "50% + 12px");
 
 	@include mq("small", "max-width") {
 	    width: 100%;
@@ -45,10 +42,7 @@
 }
 
 .layout-shift-four {
-	margin-right: 24px;
-	height: 1px;
-	float: left;
-	@include calc(width, "33.3% - 16px");
+	@include calc(margin-left, "33.3% + 9px");
 
 	@include mq("small", "max-width") {
 	    width: 100%;
@@ -66,10 +60,7 @@
 }
 
 .layout-shift-three {
-	margin-right: 24px;
-	height: 1px;
-	float: left;
-	@include calc(width, "25% - 18px");
+	@include calc(margin-left, "25% + 6px");
 
 	@include mq("medium", "max-width") {
 	    width: 0;
@@ -99,10 +90,7 @@
 }
 
 .layout-shift-two {
-	margin-right: 24px;
-	height: 1px;
-	float: left;
-	@include calc(width, "16.6667% - 20px");
+	@include calc(margin-left, "16.6667% + 4px");
 
 	@include mq("medium", "max-width") {
 	    width: 0;
@@ -130,6 +118,14 @@
 	    	margin-right: 0;
 	    }
 	}
+}
+
+.layout-shift-one {
+	@include calc(margin-left, "8.33% + 2px");
+}
+
+.layout-margin-one {
+	margin-top: 15px;
 }
 
 .layout-column-right {

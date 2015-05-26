@@ -4,4 +4,12 @@
 //
 //
 
+.element-box-portrait {
+	width: 100%;
+	@include maintain-ratio(1 1);
+}
 
+.element-title-centre {
+	padding: 50px 0;
+	display: block;
+}

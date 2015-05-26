@@ -3,3 +3,19 @@
 // Images
 //
 //
+
+.image-container-circle {
+	width: 100%;
+	@include maintain-ratio(1 1);
+	@include border-radius(200px);
+	overflow: hidden;
+	background: $colourYellow;
+}
+
+.image-container-golden {
+	width: 100%;
+	@include maintain-ratio(1.619 1);
+	overflow: hidden;
+	background: $colourYellow;
+
+}

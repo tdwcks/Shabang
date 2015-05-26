@@ -29,40 +29,13 @@ h1 {
 h2 {
     font-family: $main_font;
     color: $colourTypeDark;
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 1.4em;
+    font-weight: 300;
     margin-bottom: 0.3em;
 
-    &.type-logo-strapline {
-      color: $colourTypeDark;
-      font-size: 1.2em;
-      line-height: 1.2em;
-      float: left;
-      width: 190px;
-      margin: 26px 0px;
-
-      span {
-        font-size: 1em;
-        color: $colourTypeDark;
-      }
-
-       @include mq("extra-small", "max-width") {
-          display: none;
-      }
-    }
-
-    &.type-footer-head {
-      padding-top: 25px;
-      width: 50%;
-      display: block;
-      color: $colourBlue;
-
-      span {
-        font-size: 1em;
-        display: block;
-        clear: both;
-        color: $colourTypeMid;
-      }
+    &.type-title-style-one {
+      text-align: center;
     }
 }
 
@@ -177,9 +150,15 @@ p {
     }
   }
 
-  &.type-body-smallest {
-    color: $colourTypeMid;
-    font-size: 0.8em;
+  &.type-paragraph-large {
+    font-size: 1.3em;
+    color: $colourBg;
+    padding-bottom: 10px;
+  }
+
+  &.type-paragraph-centered {
+    text-align: center;
+    padding-bottom: 20px;
   }
 }
 

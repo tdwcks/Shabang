@@ -34,8 +34,6 @@
         <![endif]-->
 
 
-        
-
         <div class="layout-container">
 
             <div class="layout-row">
@@ -87,6 +85,12 @@
                 <div class="layout-span-two"></div>
 
                 <div class="layout-column-right layout-span-two"></div>
+
+            </div>
+
+            <div class="layout-row">
+
+                <div class="layout-span-six layout-shift-three"></div>
 
             </div>
 
