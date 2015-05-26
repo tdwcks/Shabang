@@ -1,0 +1,218 @@
+@font-face {
+  font-family: haptik;
+  font-weight: normal;
+  font-style: normal;
+  src: font-url("GT-Haptik-Regular-Trial-webfont.eot");
+  src: font-url("GT-Haptik-Regular-Trial-webfont.eot?#iefix") format("embedded-opentype"), font-url("GT-Haptik-Regular-Trial-webfont.woff") format("woff"), font-url("GT-Haptik-Regular-Trial-webfont.ttf") format("truetype"), font-url("GT-Haptik-Regular-Trial-webfont.svg#haptik") format("svg"); }
+@font-face {
+  font-family: sectra;
+  font-weight: normal;
+  font-style: normal;
+  src: font-url("GT-Sectra-Bold-Trial-webfont.eot");
+  src: font-url("GT-Sectra-Bold-Trial-webfont.eot?#iefix") format("embedded-opentype"), font-url("GT-Sectra-Bold-Trial-webfont.woff") format("woff"), font-url("GT-Sectra-Bold-Trial-webfont.ttf") format("truetype"), font-url("GT-Sectra-Bold-Trial-webfont.svg#sectra") format("svg"); }
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  position: relative; }
+
+h1 {
+  font-weight: 300;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  font-weight: normal; }
+
+h2 {
+  font-family: sectra, serif;
+  color: #3c3c3c;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin-bottom: 0.3em; }
+  h2.type-logo-strapline {
+    color: #3b3b3b;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    float: left;
+    width: 190px;
+    margin: 26px 0px; }
+    h2.type-logo-strapline span {
+      font-size: 1em;
+      color: #3b3b3b; }
+    @media (max-width: 700px) {
+      h2.type-logo-strapline {
+        display: none; } }
+  h2.type-footer-head {
+    padding-top: 25px;
+    width: 50%;
+    display: block;
+    color: #4295CC; }
+    h2.type-footer-head span {
+      font-size: 1em;
+      display: block;
+      clear: both;
+      color: #656565; }
+
+.type-local-reviews {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  border-bottom: 3px solid #656565;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom: 0.4em; }
+  h3.type-form-title {
+    color: #e7e7e5; }
+
+h4 {
+  font-family: sectra, serif;
+  color: #3c3c3c;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin-bottom: 0.3em; }
+  h4.type-footer-head {
+    color: #3b3b3b;
+    width: 50%;
+    margin-bottom: 0; }
+    h4.type-footer-head span {
+      font-size: 1em;
+      color: #4295CC; }
+  h4.type-map-title {
+    width: 100%;
+    text-align: center;
+    padding-top: 45px; }
+    h4.type-map-title span {
+      font-size: 1em; }
+
+.hero-review-title {
+  color: #e6e6e4;
+  width: 50%;
+  margin-bottom: 0; }
+  .hero-review-title span {
+    color: #989898; }
+
+h5 {
+  font-family: sectra, serif;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  margin-bottom: 0.3em; }
+
+.author-title {
+  font-family: haptik, serif;
+  color: #fff;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 0.5em;
+  font-size: 0.9em;
+  width: 200px;
+  float: left; }
+
+.small_print {
+  font-size: 0.875em;
+  line-height: 1.6em; }
+
+p {
+  font-weight: 300;
+  font-size: 1.125em;
+  line-height: 1.687em; }
+  p a {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+  p strong {
+    font-weight: bold; }
+  p em {
+    font-style: italic; }
+  p .side-matter-ref {
+    border: none; }
+    p .side-matter-ref sup {
+      font-size: 0.6em;
+      margin-left: 0; }
+  p.type-body-smallest {
+    color: #656565;
+    font-size: 0.8em; }
+
+span {
+  font-size: 0.8em; }
+  span.type-footer-twitter {
+    color: #f1f1ef;
+    padding-top: 15px;
+    display: block;
+    width: 70%;
+    float: left;
+    font-size: 0.8em; }
+
+.posted-timestamp {
+  color: #fff;
+  font-size: 0.85em;
+  width: 200px;
+  float: left; }
+
+.type-copyright {
+  color: #656565;
+  font-size: 0.75em; }
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1; }
+
+body,
+html {
+  min-height: 100%;
+  height: 100%; }
+
+body:after {
+  position: fixed !important; }
+
+body {
+  background: #000;
+  font-family: haptik, serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0; }
+
+img,
+iframe {
+  width: 100%;
+  max-width: 100%; }
+
+::-moz-selection {
+  color: #fff;
+  text-shadow: none; }
+
+::selection {
+  color: #fff;
+  text-shadow: none; }
+
+header {
+  z-index: 10; }
+
+/*# sourceMappingURL=application.css.css.map */

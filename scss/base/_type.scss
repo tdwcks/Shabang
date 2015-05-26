@@ -1,0 +1,212 @@
+// ==========================================================================
+//
+// Typography
+//
+//
+
+$main_font: Brandon, sans-serif;
+$base_font_size: 18px;
+
+@include font-face(Brandon, 'fonts/brandon_reg-webfont', 300);
+@include font-face(Brandon, 'fonts/brandon_med-webfont', 400);
+@include font-face(Brandon, 'fonts/brandon_bld-webfont', 500);
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  position: relative;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: $main_font;
+    color: $colour_dark;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin-bottom: 0.3em;
+
+    &.type-logo-strapline {
+      color: $colourTypeDark  ;
+      font-size: 1.2em;
+      line-height: 1.2em;
+      float: left;
+      width: 190px;
+      margin: 26px 0px;
+
+      span {
+        font-size: 1em;
+        color: $colourTypeDark;
+      }
+
+       @include mq("extra-small", "max-width") {
+          display: none;
+      }
+    }
+
+    &.type-footer-head {
+      padding-top: 25px;
+      width: 50%;
+      display: block;
+      color: $colourBlue;
+
+      span {
+        font-size: 1em;
+        display: block;
+        clear: both;
+        color: $colourTypeMid;
+      }
+    }
+}
+
+.type-local-reviews {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  border-bottom: 3px solid $colour_midgrey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-bottom: 0.4em;
+
+    &.type-form-title {
+      color: $colourBgDark;
+    }
+}
+
+h4 {
+    font-family: $main_font;
+    color: $colour_dark;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin-bottom: 0.3em;
+
+    &.type-footer-head {
+      color: $colourTypeDark;
+      width: 50%;
+      margin-bottom: 0;
+
+      span {
+        font-size: 1em;
+        color: $colourBlue;
+      }
+    }
+
+    &.type-map-title {
+      width: 100%;
+      text-align: center;
+      padding-top: 45px;
+
+        span {
+          font-size: 1em;
+        }
+    }
+}
+
+.hero-review-title {
+  color: $colour_lightgrey;
+  width: 50%;
+  margin-bottom: 0;
+
+  span {
+    color: lighten($colour_midgrey, 20%);
+  }
+}
+
+h5 {
+    font-family: $main_font;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+
+.author-title {
+  font-family: $main_font;
+  color: #fff;
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 0.5em;
+  font-size: 0.9em;
+  width: 200px;
+  float: left;
+}
+
+.small_print {
+  font-size: 0.875em;
+  line-height: 1.6em;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.125em;
+  line-height: 1.687em;
+
+  a {
+    @include transition(all, 0.4s, ease-in-out);
+
+    &:hover {
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  .side-matter-ref {
+      border: none;
+
+    sup {
+      font-size: 0.6em;
+      margin-left: 0;
+    }
+  }
+
+  &.type-body-smallest {
+    color: $colourTypeMid;
+    font-size: 0.8em;
+  }
+}
+
+span {
+  font-size: 0.8em;
+
+  &.type-footer-twitter {
+    color: $colourBg;
+    padding-top: 15px;
+    display: block;
+    width: 70%;
+    float: left;
+    font-size: 0.8em;
+  }
+
+}
+
+.posted-timestamp {
+  color: #fff;
+  font-size: 0.85em;
+  width: 200px;
+  float: left;
+}
+
+.type-copyright {
+  color: $colourTypeMid;
+  font-size: 0.75em;
+
+}
+

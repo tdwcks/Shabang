@@ -1,0 +1,62 @@
+// ==========================================================================
+//
+// Layout
+//
+//
+
+.layout-container {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 88%;
+	max-width: 1200px;
+}
+
+.layout-row {
+	clear: both;
+	width: 100%;
+	padding: 25px 0;
+}
+
+.layout-span-twelve {
+	height: 50px;
+	background: red;
+	float: left;
+	width: 100%;
+}
+
+.layout-span-six {
+	margin-right: 24px;
+	height: 50px;
+	background: red;
+	float: left;
+	@include calc(width, "50% - 12px");
+}
+
+.layout-span-four {
+	margin-right: 24px;
+	height: 50px;
+	background: red;
+	float: left;
+	@include calc(width, "33.3% - 16px");
+}
+
+.layout-span-three {
+	margin-right: 24px;
+	height: 50px;
+	background: red;
+	float: left;
+	@include calc(width, "25% - 18px");
+}
+
+.layout-span-two {
+	margin-right: 24px;
+	height: 50px;
+	background: red;
+	float: left;
+	@include calc(width, "16.6667% - 20px");
+}
+
+.layout-column-right {
+	margin-right: 0;
+}
