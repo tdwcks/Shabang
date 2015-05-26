@@ -25,12 +25,38 @@
 	width: 100%;
 }
 
+.layout-shift-six {
+	margin-right: 24px;
+	height: 1px;
+	float: left;
+	@include calc(width, "50% - 12px");
+
+	@include mq("small", "max-width") {
+	    width: 100%;
+	}
+}
+
 .layout-span-six {
 	margin-right: 24px;
 	height: 50px;
-	background: red;
+	background: blue;
 	float: left;
 	@include calc(width, "50% - 12px");
+
+	@include mq("small", "max-width") {
+	    width: 100%;
+	}
+}
+
+.layout-shift-four {
+	margin-right: 24px;
+	height: 1px;
+	float: left;
+	@include calc(width, "50% - 12px");
+
+	@include mq("small", "max-width") {
+	    width: 100%;
+	}
 }
 
 .layout-span-four {
@@ -39,6 +65,21 @@
 	background: red;
 	float: left;
 	@include calc(width, "33.3% - 16px");
+
+	@include mq("small", "max-width") {
+	    width: 100%;
+	}
+}
+
+.layout-shift-three {
+	margin-right: 24px;
+	height: 1px;
+	float: left;
+	@include calc(width, "50% - 12px");
+
+	@include mq("small", "max-width") {
+	    width: 100%;
+	}
 }
 
 .layout-span-three {
@@ -47,6 +88,22 @@
 	background: red;
 	float: left;
 	@include calc(width, "25% - 18px");
+
+	@include mq("small", "max-width") {
+	    @include calc(width, "50% - 12px");
+
+	    &:nth-child(2) {
+	    	margin-right: 0;
+	    }
+	}
+
+	@include mq("small", "max-width") {
+	    @include calc(width, "50% - 12px");
+
+	    &:nth-child(2) {
+	    	margin-right: 0;
+	    }
+	}
 }
 
 .layout-span-two {
@@ -55,6 +112,23 @@
 	background: red;
 	float: left;
 	@include calc(width, "16.6667% - 20px");
+
+	@include mq("small", "max-width") {
+	    @include calc(width, "33.3% - 16px");
+
+	    &:nth-child(3) {
+	    	margin-right: 0;
+	    	background: green;
+	    }
+	}
+
+	@include mq("small", "max-width") {
+	    width: 100%;
+
+	    &:nth-child(2) {
+	    	margin-right: 0;
+	    }
+	}
 }
 
 .layout-column-right {

@@ -90,26 +90,6 @@
 
             </div>
 
-            <div class="layout-row">
-
-                <div class="layout-span-three"></div>
-
-                <div class="layout-span-six"></div>
-
-                <div class="layout-column-right layout-span-three"></div>
-
-            </div>
-
-            <div class="layout-row">
-
-                <div class="layout-span-three"></div>
-
-                <div class="layout-span-six"></div>
-
-                <div class="layout-column-right layout-span-three"></div>
-
-            </div>
-
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
