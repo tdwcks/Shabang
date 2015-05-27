@@ -4,7 +4,7 @@
 
 		<div class="layout-container">
 
-			<div class="layout-span-three">
+			<div class="layout-span-three layout-shift">
 
 			<h1 class="footer-logo">Shabang!</h1>
 
@@ -14,7 +14,7 @@
 
 			<div class="layout-span-three">
 
-				<ul class="footer-site-map">
+				<ul class="footer-site-map footer-site-map-shift">
 
 					<li>
 
@@ -46,7 +46,7 @@
 
                     <li>
 
-                    	<a href="funders.php">Funders &amp; Supporters</a>
+                    	<a href="funders.php">Funders</a>
 
                     </li>
 
@@ -58,6 +58,10 @@
                     </li>
 
 				</ul> <!-- footer-site-map -->
+
+			</div> <!-- layout-span-three -->
+
+			<div class="layout-span-three">
 
 				<ul class="footer-site-map">
 
@@ -111,42 +115,6 @@
 
 				</ul> <!-- footer-site-map -->
 
-			</div> <!-- layout-span-three -->
-
-			<div class="layout-span-three">
-
-				<ul class="footer-site-map">
-
-					<li>
-
-						<h5 class="type-title-style-one colour-foreground-orange">What's On</h5>
-
-					</li>
-
-					<li>
-
-						<a href="whats_on.php">Schedule Page</a>
-
-					</li>
-
-					<li>
-
-						<h5 class="type-title-style-one footer-padding-top colour-foreground-red">Shop</h5>
-
-					</li>
-
-					<li>
-
-						<a href="shop.php">Products</a>
-
-					</li>
-
-					<li>
-
-						<a href="cart.php">Cart</a>
-
-					</li>
-
 				<ul class="footer-site-map">
 
 					<li>
@@ -180,6 +148,10 @@
 					</li>
 
 				</ul> <!-- footer-site-map -->
+
+			</div> <!-- layout-span-three -->
+
+			<div class="layout-span-three layout-column-right">
 
 				<ul class="footer-site-map">
 
@@ -209,13 +181,9 @@
 
 				</ul> <!-- footer-site-map -->
 
-			</div> <!-- layout-span-three -->
+				<ul class="footer-supporters ">
 
-			<div class="layout-span-three">
-
-				<h5 class="type-title-style-one colour-foreground-green">Supporters</h5>
-
-				<ul class="footer-supporters">
+					<h5 class="type-title-style-one colour-foreground-green">Supporters</h5>
 
 					<li>
 
@@ -247,15 +215,15 @@
 
 		<div class="layout-container">
 
-			<span class="type-small-print"> Illustrations by <a class="link-style-type-two" href="http://kathsartyblog.blogspot.co.uk" target="_blank">Kath Stewart</a></span>
+			<span class="type-small-print"> Illustrations by <a class="link-style-two" href="http://kathsartyblog.blogspot.co.uk" target="_blank">Kath Stewart</a></span>
             
-            <span class="type-small-print"> Films by <a class="link-style-type-two" href="http://www.mediapreview.net" target="_blank">MediaPreview</a></span>
+            <span class="type-small-print"> Films by <a class="link-style-two" href="http://www.mediapreview.net" target="_blank">MediaPreview</a></span>
 	       	
-	       	<span class="type-small-print"> Website by <a class="link-style-type-two" href="http://www.miln.co" target="_blank">Miln</a></span>
+	       	<span class="type-small-print"> Website by <a class="link-style-two" href="http://www.miln.co" target="_blank">Miln</a></span>
     		
-    		<span class="copy">Copyright &copy; 2014 Shabang Inclusive Learning. All Rights Reserved.</span>  
+    		<span class="type-copyright">Copyright &copy; 2014 Shabang Inclusive Learning. All Rights Reserved.</span>  
             
-            <a href="#" class="link-button-style-one">To The Top</a>
+            <a href="#" class="link-button-style-one link-float-right">To The Top</a>
 
 		</div> <!-- layout-container -->
 

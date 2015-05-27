@@ -39,15 +39,6 @@ h2 {
     }
 }
 
-.type-local-reviews {
-  display: block;
-  margin: 0 auto;
-  width: 160px;
-  border-bottom: 3px solid $colourTypeMid;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 h3 {
     font-size: 1.2em;
     line-height: 1.2em;
@@ -56,45 +47,20 @@ h3 {
     &.type-form-title {
       color: $colourBgDark;
     }
+
+    &.type-title-style-one {
+      text-transform: uppercase;
+      font-size: 1em;
+      color: $colourBg;
+    }
 }
 
 h4 {
-    font-family: $main_font;
-    color: $colourTypeDark;
-    font-size: 1.5em;
-    line-height: 1.4em;
-    margin-bottom: 0.3em;
-
-    &.type-footer-head {
-      color: $colourTypeDark;
-      width: 50%;
-      margin-bottom: 0;
-
-      span {
-        font-size: 1em;
-        color: $colourBlue;
-      }
-    }
-
-    &.type-map-title {
-      width: 100%;
-      text-align: center;
-      padding-top: 45px;
-
-        span {
-          font-size: 1em;
-        }
-    }
-}
-
-.hero-review-title {
-  color: $colourTypeLight;
-  width: 50%;
-  margin-bottom: 0;
-
-  span {
-    color: $colourTypeLight
-  }
+  font-family: $main_font;
+  color: $colourTypeDark;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin-bottom: 0.3em;
 }
 
 h5 {
@@ -102,34 +68,25 @@ h5 {
     font-size: 1.1em;
     line-height: 1.2em;
     margin-bottom: 0.3em;
-}
 
-
-.author-title {
-  font-family: $main_font;
-  color: #fff;
-  display: block;
-  margin-top: 24px;
-  margin-bottom: 0.5em;
-  font-size: 0.9em;
-  width: 200px;
-  float: left;
-}
-
-.small_print {
-  font-size: 0.875em;
-  line-height: 1.6em;
+    &.type-title-style-one {
+      font-size: 0.9em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 10px 0;
+    }
 }
 
 p {
   font-weight: 300;
   font-size: 1.125em;
-  line-height: 1.687em;
+  line-height: 1.5em;
 
   a {
     @include transition(all, 0.4s, ease-in-out);
 
     &:hover {
+
     }
   }
 
@@ -152,40 +109,50 @@ p {
 
   &.type-paragraph-large {
     font-size: 1.3em;
-    color: $colourBg;
     padding-bottom: 10px;
+    display: inline-block;
   }
 
   &.type-paragraph-centered {
     text-align: center;
     padding-bottom: 20px;
   }
+
+  &.type-paragraph-small {
+    font-size: 0.9em;
+    clear: left;
+    display: block;
+    color: $colourTypeExtraLight;
+  }
+
+  &.type-paragraph-left {
+    font-size: 1.05em;
+    color: $colourBg;
+  }
 }
 
 span {
   font-size: 0.8em;
 
-  &.type-footer-twitter {
-    color: $colourBg;
-    padding-top: 15px;
+  &.type-span-style-one {
+    font-size: 1em;
+    max-width: 70px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     display: block;
-    width: 70%;
-    float: left;
-    font-size: 0.8em;
   }
 
-}
+  &.type-small-print {
+    font-size: 0.9em;
+    color: $colourTypeLight;
+    padding: 25px 25px 0 0;
+  }
 
-.posted-timestamp {
-  color: #fff;
-  font-size: 0.85em;
-  width: 200px;
-  float: left;
-}
+  &.type-copyright {
+    padding-left: 75px;
+    color: $colourTypeDark;
 
-.type-copyright {
-  color: $colourTypeMid;
-  font-size: 0.75em;
+  }
 
 }
 

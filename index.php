@@ -38,8 +38,6 @@
 
         <article class="article-hero">
 
-
-
         </article> <!-- article-hero -->
 
         <article class="article-audio-player">
@@ -86,7 +84,7 @@
 
                     <span id="element-jukebox-duration">0:30</span>
 
-                    <a id="js-jukebox-buy" class="link-button-style-one">Pick Song</a>
+                    <a id="js-jukebox-buy" class="link-button-style-one link-float-right">Pick Song</a>
 
                 </div>
 
@@ -204,7 +202,7 @@
 
                                 <span class="type-span-style-one">£12.99</span>
 
-                                <a href="product.php?id=55" class="link-button-style-one colour-background-orange">View Film</a>
+                                <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-orange">View Film</a>
 
                             </div> <!-- element-box-actions -->
 
@@ -248,11 +246,11 @@
 
         </article> <!-- article-home-shop -->
 
-        <article class="article-home-characters">
+        <article class="article-home-characters colour-background-green">
 
 
 
-        </articles> <!-- article-home-characters -->
+        </article> <!-- article-home-characters -->
 
         <article class="article-social-wall">
 

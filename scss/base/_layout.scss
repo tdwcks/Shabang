@@ -8,8 +8,16 @@
 	position: relative;
 	display: block;
 	margin: 0 auto;
-	width: 94%;
+	width: 95%;
 	max-width: 1200px;
+}
+
+.layout-container-inner {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1100px;
 }
 
 .layout-row {
@@ -107,7 +115,6 @@
 
 	    &:nth-child(3) {
 	    	margin-right: 0;
-	    	background: green;
 	    }
 	}
 

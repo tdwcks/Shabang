@@ -6,10 +6,25 @@
 
 .element-box-portrait {
 	width: 100%;
-	@include maintain-ratio(1 1);
+	@include maintain-ratio(1 1.2);
+	position: relative;
 }
 
 .element-title-centre {
-	padding: 50px 0;
+	padding: 0px 0 50px 0;
 	display: block;
+}
+
+.element-box-information {
+	padding: 25px 25px 0px 25px;
+
+}
+
+.element-box-actions {
+	padding: 15px 25px;
+	background: $colourLighten;
+	background: red;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }

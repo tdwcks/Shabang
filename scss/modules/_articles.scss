@@ -27,8 +27,32 @@
 	padding: 50px 0px;
 }
 
+.article-home-characters {
+	width: 100%;
+	height: 300px;
+	padding: 50px 0px;
+}
+
 .article-social-wall {
 	width: 100%;
-	height: 1000px;
+	height: 500px;
 	padding: 50px 0px;
+}
+
+.article-image-slider {
+	width: 100%;
+	height:450px;
+	background: $colourBgDark;
+}
+
+.article-about-information {
+	width: 100%;
+	height: 270px;
+	padding: 50px 0px;
+}
+
+.article-about-more {
+	width: 100%;
+	height: 600px;
+	background: $colourBlue;
 }
