@@ -78,3 +78,30 @@
 	height: 520px;
 	padding: 50px 0px;
 }
+
+.article-characters-picker  {
+	width: 100%;
+	height: 300px;
+	background: $colourBgDark;
+
+}
+
+.article-characters-content {
+	position: relative;
+	height: 1250px;
+	background: $colourGreen;
+}
+
+.article-characters-media {
+	position: absolute;
+	bottom: 0;
+	height: 500px;
+	width: 100%;
+	background: $colourDarken;
+}
+
+.article-feedback-funders {
+	padding: 50px 0px;
+	height: 1500px;
+}
+

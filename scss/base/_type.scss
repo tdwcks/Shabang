@@ -140,6 +140,12 @@ p {
     color: $colourTypeExtraLight;
   }
 
+  &.type-paragraph {
+    font-size: 1em;
+    clear: left;
+    display: block;
+  }
+
   &.type-paragraph-left {
     font-size: 1.05em;
     color: $colourTypeDark;
