@@ -17,6 +17,17 @@
 	margin-bottom: 24px;
 }
 
+.element-box-portrait-two {
+	width: 100%;
+	@include maintain-ratio(9 16);
+	position: relative;
+	margin-bottom: 24px;
+
+	.type-title-style-one {
+		color: $colourBg;
+	}
+}
+
 .element-title-centre {
 	padding: 0px 0 50px 0;
 	display: block;
