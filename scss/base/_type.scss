@@ -37,6 +37,10 @@ h2 {
     &.type-title-style-one {
       text-align: center;
     }
+
+    &.type-title-style-two {
+      font-size: 2em;
+    }
 }
 
 h3 {
@@ -83,6 +87,26 @@ h5 {
       font-weight: 300;
       font-size: 1.1em;
       line-height: 1.3em;
+    }
+
+    &.type-title-style-three {
+      color: $colourTypeMid;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 1em;
+      line-height: 1.3em;
+    }
+
+    &.type-title-four {
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 400;
+      font-size: 1.4em;
+      line-height: 1.3em;
+      padding-bottom: 20px;
     }
 }
 
@@ -134,6 +158,15 @@ p {
     color: $colourTypeDark;
   }
 
+  &.type-paragraph-regular {
+    font-size: 1.25em;
+    margin-top: 0;
+    padding: 10px 0px;
+    clear: left;
+    display: block;
+    color: $colourTypeDark;
+  }
+
   &.type-paragraph-small {
     font-size: 0.9em;
     clear: left;
@@ -165,6 +198,18 @@ span {
     text-transform: uppercase;
     display: block;
     float: left;
+  }
+
+  &.type-span-style-two {
+    font-size: 1em;
+    padding: 25px 0px 10px 0;
+    display: block;
+
+    i {
+      padding-right: 15px;
+
+    }
+
   }
 
   &.type-small-print {

@@ -20,6 +20,10 @@
 	background: $colourGreen;
 }
 
+.colour-background-dark-green {
+	background: darken($colourGreen, 3%);
+}
+
 .colour-foreground-orange {
 	color: $colourOrange;
 }

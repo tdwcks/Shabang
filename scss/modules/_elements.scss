@@ -85,5 +85,24 @@
 		padding: 0;
 		margin-bottom: 0;
 	}
+}
 
+.element-sidebar-details {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.element-sidebar-detail {
+	border-top: 1px solid $colourLines;
+	padding: 20px 0;
+
+	p {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	&:last-child {
+		border-bottom: 1px solid $colourLines;
+	}
 }

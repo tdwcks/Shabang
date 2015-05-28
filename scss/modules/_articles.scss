@@ -16,13 +16,15 @@
 
 .article-home-information {
 	width: 100%;
-	height: 300px;
+	overflow: auto;
+	height: auto;
 	padding: 50px 0px;
 }
 
 .article-home-shop {
 	position: relative;
-	height: 615px;
+	overflow: auto;
+	height: auto;
 	width: 100%;
 	padding: 50px 0px;
 }
@@ -35,7 +37,8 @@
 
 .article-social-wall {
 	width: 100%;
-	height: 500px;
+	overflow: auto;
+	height: auto;
 	padding: 50px 0px;
 }
 
@@ -47,13 +50,15 @@
 
 .article-about-information {
 	width: 100%;
-	height: 200px;
+	overflow: auto;
+	height: auto;
 	padding: 50px 0px;
 }
 
 .article-about-more {
 	width: 100%;
-	height: 570px;
+	overflow: auto;
+	height: auto;
 	padding: 50px 0px;
 	background: $colourBlue;
 
@@ -75,7 +80,8 @@
 
 .article-faq {
 	width: 100%;
-	height: 520px;
+	overflow: auto;
+	height: auto;
 	padding: 50px 0px;
 }
 
@@ -88,20 +94,56 @@
 
 .article-characters-content {
 	position: relative;
-	height: 1250px;
+	overflow: auto;
+	height: auto;
 	background: $colourGreen;
 }
 
 .article-characters-media {
 	position: absolute;
 	bottom: 0;
-	height: 500px;
+	overflow: auto;
+	height: auto;
 	width: 100%;
 	background: $colourDarken;
 }
 
 .article-feedback-funders {
 	padding: 50px 0px;
-	height: 1500px;
+	overflow: auto;
+	height: auto;
 }
 
+.article-top-banner {
+	overflow:auto; 
+	height: auto;
+	width: 100%;
+	padding: 25px 0px 15px 0;
+
+	h2 {
+		color: $colourBg;
+	}
+
+	h5 {
+		color: $colourBg;
+	}
+}
+
+.article-top-banner-lower {
+	height: auto;
+	overflow:auto; 
+	width: 100%;
+	padding: 5px 0px 10px 0px;
+
+	p {
+		padding: 0;
+		color: $colourBg;
+	}
+}
+
+.article-longform-content {
+	height: auto;
+	overflow:auto; 
+	width: 100%;
+	padding: 50px 0px;
+}
