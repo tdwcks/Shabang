@@ -14,7 +14,7 @@
 
 .image-container-golden {
 	width: 100%;
-	@include maintain-ratio(1.619 1);
+	@include maintain-ratio(16 9);
 	overflow: hidden;
 	background: $colourBgDark;
 

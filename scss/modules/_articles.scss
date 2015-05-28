@@ -22,7 +22,7 @@
 
 .article-home-shop {
 	position: relative;
-	min-height: 100%;
+	height: 615px;
 	width: 100%;
 	padding: 50px 0px;
 }
@@ -47,12 +47,34 @@
 
 .article-about-information {
 	width: 100%;
-	height: 270px;
+	height: 200px;
 	padding: 50px 0px;
 }
 
 .article-about-more {
 	width: 100%;
-	height: 600px;
+	height: 570px;
+	padding: 50px 0px;
 	background: $colourBlue;
+
+	.type-title-style-one {
+		color: $colourBg;
+		margin-top: 60px;
+	}
+
+	.type-paragraph-large {
+		float: left;
+	}
+
+	.type-paragraph-mid {
+		margin-top: 40px;
+		font-size: 1.05em;
+		color: $colourBg;
+	}
+}
+
+.article-faq {
+	width: 100%;
+	height: 520px;
+	padding: 50px 0px;
 }

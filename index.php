@@ -84,7 +84,7 @@
 
                     <span id="element-jukebox-duration">0:30</span>
 
-                    <a id="js-jukebox-buy" class="link-button-style-one link-float-right">Pick Song</a>
+                    <a id="js-jukebox-buy" class="link-button-style-one colour-background-green link-float-right">Pick Song</a>
 
                 </div>
 
@@ -108,7 +108,7 @@
 
                 <div class="layout-span-four layout-shift-one layout-margin-one">
 
-                    <p class="type-paragraph-large">
+                    <p class="type-paragraph-large colour-foreground-cream">
 
                         We are Kim Reuter and Russ Elias, Innovators in the field of excellent and accessible theatre, song, music, arts and drama for children with additional needs.
 
@@ -152,7 +152,7 @@
 
                     <div class="layout-span-four"> 
 
-                        <div class="element-box-portrait colour-background-blue">
+                        <div class="element-box-landscape colour-background-blue">
 
                             <div class="image-container-golden">
 
@@ -164,25 +164,23 @@
 
                                 <h3 class="type-title-style-one">Film: All at Sea</h3>
 
-                                <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
-
                             </div> <!-- element-box-information -->
 
                             <div class="element-box-actions">
 
-                                <span class="type-span-style-one">£12.99</span>
+                                <span class="type-span-style-one colour-foreground-blue">£12.99</span>
 
-                                <a href="product.php?id=55" class="link-button-style-one colour-background-blue">View Film</a>
+                                <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-blue">View Film</a>
 
                             </div> <!-- element-box-actions -->
 
-                        </div> <!-- element-box-portrait -->
+                        </div> <!-- element-box-landscape -->
 
                     </div> <!-- layout-span-four -->
 
                     <div class="layout-span-four">
 
-                        <div class="element-box-portrait colour-background-orange">
+                        <div class="element-box-landscape colour-background-orange">
 
                             <div class="image-container-golden">
 
@@ -194,25 +192,23 @@
 
                                 <h3 class="type-title-style-one">Film: All at Sea</h3>
 
-                                <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
-
                             </div> <!-- element-box-information -->
 
                             <div class="element-box-actions">
 
-                                <span class="type-span-style-one">£12.99</span>
+                                <span class="type-span-style-one colour-foreground-orange">£12.99</span>
 
                                 <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-orange">View Film</a>
 
                             </div> <!-- element-box-actions -->
 
-                        </div> <!-- element-box-portrait -->
+                        </div> <!-- element-box-landscape -->
 
                     </div> <!-- layout-span-four -->
 
                     <div class="layout-span-four layout-column-right">
 
-                        <div class="element-box-portrait colour-background-green">
+                        <div class="element-box-landscape colour-background-green">
 
                             <div class="image-container-golden">
 
@@ -224,19 +220,17 @@
 
                                 <h3 class="type-title-style-one">Film: All at Sea</h3>
 
-                                <p class="type-paragraph-left">A collection of 5 Tunes on a gardening theme. Played by your favourite horticulture experts Bud &amp; Blossom.</p>
-
                             </div> <!-- element-box-information -->
 
                             <div class="element-box-actions">
 
-                                <span class="type-span-style-one">£12.99</span>
+                                <span class="type-span-style-one colour-foreground-green">£12.99</span>
 
-                                <a href="product.php?id=55" class="link-button-style-one colour-background-green">View Film</a>
+                                <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-green">View Film</a>
 
                             </div> <!-- element-box-actions -->
 
-                        </div> <!-- element-box-portrait -->
+                        </div> <!-- element-box-landscape -->
 
                     </div> <!-- layout-span-four -->
 

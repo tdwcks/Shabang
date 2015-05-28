@@ -4,9 +4,9 @@
 //
 //
 
-.element-box-portrait {
+.element-box-landscape {
 	width: 100%;
-	@include maintain-ratio(1 1.2);
+	@include maintain-ratio(10 9.2);
 	position: relative;
 }
 
@@ -21,10 +21,41 @@
 }
 
 .element-box-actions {
+	box-sizing: border-box;
 	padding: 15px 25px;
 	background: $colourLighten;
-	background: red;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+}
+
+.element-question-answer {
+	border-top: 1px solid $colourLines;
+	padding: 20px 0 15px 0;
+
+	&:last-child {
+
+		border-bottom: 1px solid $colourLines;
+	}
+}
+
+.element-question {
+
+	.type-title-style-two {
+		width: 100%;
+	}
+}
+
+.element-answer {
+
+	display: none;
+
+	.type-paragraph-small {
+		width: 90%;
+		font-size: 0.95em;
+		color: $colourTypeDark;
+		padding: 0;
+		margin-bottom: 0;
+	}
+
 }
