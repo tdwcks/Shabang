@@ -119,9 +119,10 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 1.3em;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    margin: 0; }
 
 p {
   font-weight: 300;
@@ -924,5 +925,10 @@ header {
     margin-bottom: 0; }
   .element-sidebar-detail:last-child {
     border-bottom: 1px solid #dadada; }
+
+.element-activities-event h5 {
+  padding-top: 20px; }
+.element-activities-event:last-child {
+  border-bottom: 1px solid #dadada; }
 
 /*# sourceMappingURL=application.css.css.map */

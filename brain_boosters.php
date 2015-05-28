@@ -130,9 +130,28 @@
 
                 <div class="layout-span-two layout-shift-one layout-column-right">
 
-                    <h5 class="colour-foreground-green type-title-four">Next Sessions</h5>
 
-                    <div class="image-container-golden"></div>
+                    <h5 class="colour-foreground-green type-title-four">Next Sessions:</h5>
+
+                    <div class="element-activities-event">
+
+                        <div class="image-container-golden"></div>
+
+                        <h5 class="colour-foreground-green type-title-style-three">Brain Boosters</h5>
+
+                        <p class="type-paragraph-small">Monday, 21st January 2015</p>
+
+                    </div> <!-- element-activities-event -->
+
+                    <div class="element-activities-event">
+
+                        <div class="image-container-golden"></div>
+
+                        <h5 class="colour-foreground-green type-title-style-three">Brain Boosters</h5>
+
+                        <p class="type-paragraph-small">Monday, 21st January 2015</p>
+
+                    </div> <!-- element-activities-event -->
 
                 </div> <!-- layout-span-two -->
 

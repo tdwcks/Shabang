@@ -106,3 +106,14 @@
 		border-bottom: 1px solid $colourLines;
 	}
 }
+
+.element-activities-event {
+
+	h5 {
+		padding-top: 20px;
+	}
+
+	&:last-child {
+		border-bottom: 1px solid $colourLines;
+	}
+}

@@ -36,8 +36,6 @@ $(document).ready(function() {
 
 	});
 
-	$('.type-title-four').circleType({radius: 150});
-
 });
 
 
