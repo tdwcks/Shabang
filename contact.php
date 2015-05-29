@@ -36,6 +36,16 @@
 
         <?php include('includes/header.php'); ?>
 
+        <div class="article-message">
+
+            <div class="layout-container">
+
+                <h4 class="type-title-four">You're Message has been sent to Shabang!</h4>
+
+            </div>
+
+        </div> <!-- article-message -->
+
         <div class="article-contact">
 
             <div class="layout-container">
@@ -52,8 +62,56 @@
 
                 <div class="layout-span-six layout-column-right">
 
+                    <h3 class="type-title-style-one">Contact Form</h3>
 
-                </div>
+                    <form id="form-contact" method="post">
+
+                        <fieldset class="form-fieldset-half">
+                            
+                            <label>First Name:</label>
+                          
+                          <input id="name" name="name" type="text" placeholder="eg. Captain Barnacle Bill" />
+                        
+                        </fieldset> <!-- form-fieldset-half -->
+
+                        <fieldset class="form-fieldset-half">
+                            
+                            <label>Second Name:</label>
+                          
+                          <input id="name" name="name" type="text" placeholder="eg. Captain Barnacle Bill" />
+                        
+                        </fieldset> <!-- form-fieldset-half -->
+                        
+                        <fieldset class="form-fieldset-half">
+                            
+                            <label>Email address:</label>
+                            
+                            <input id="email" name="email" type="email" placeholder="eg. b.bill@thesea.org" />
+
+                        </fieldset> <!-- form-fieldset-half -->
+                        
+                        <fieldset class="form-fieldset-half">
+                            
+                            <label>Phone Number:</label>
+                            
+                            <input id="tel" name="tel" type="text" placeholder="eg. 01484 848073" />
+
+                        </fieldset> <!-- form-fieldset-half -->
+
+                        <fieldset>
+                            
+                          <label>Message:</label>
+                          
+                          <textarea id="contactmessage" name="contactmessage" placeholder="eg. Hello my old sea dog..."></textarea>
+                        
+                        </fieldset>
+
+                        <input id="submit" name="submit" type="submit" value="Submit" />
+                    
+                    </form> <!-- form-contact -->
+
+
+                </div> <!-- layout-span-six -->
 
             </div> <!-- layout-container -->
 

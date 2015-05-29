@@ -3,3 +3,69 @@
 // Forms
 //
 //
+
+fieldset {
+	border: none;
+	padding: 0;
+
+	&.form-fieldset-half {
+		@include calc(width, "50% - 12px");
+		margin-right: 20px;
+		float: left;
+
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+	}
+}
+
+
+
+label {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 20px 0;
+	display: block;
+	font-size: 0.9em;
+}
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	@include border-radius(4px);
+	outline: none;
+	border: 0;
+	padding: 10px 15px 13px 15px;
+	font-size: 1em;
+	color: $colourGreen;
+	background: $colourBgDark;
+	border: 1px solid $colourLines;
+	font-family: $main_font;
+	font-weight: 300; 
+	margin: 0;
+
+	&:focus {
+		border: 1px solid $colourGreen;
+	}
+}
+
+textarea {
+	box-sizing: border-box;
+	width: 100%;
+	@include border-radius(4px);
+	outline: none;
+	border: 0;
+	padding: 10px 15px 13px 15px;
+	font-size: 1em;
+	color: $colourGreen;
+	background: $colourBgDark;
+	border: 1px solid $colourLines;
+	font-family: $main_font;
+	font-weight: 300; 
+	margin: 0;
+}
+
+#form-contact {
+	position: relative;
+}
