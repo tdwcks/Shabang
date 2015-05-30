@@ -57,11 +57,13 @@ iframe {
 }
 
 ::-moz-selection {
+  background: $colourYellow;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
+  background: $colourYellow;
   color: #fff;
   text-shadow: none;
 }

@@ -40,7 +40,7 @@
 
             <div class="layout-container">
 
-                <h4 class="type-title-four">You're Message has been sent to Shabang!</h4>
+                <h4 class="type-title-one colour-foreground-cream"> Thank You! Your Message has been sent to Shabang!</h4>
 
             </div>
 
@@ -48,70 +48,71 @@
 
         <div class="article-contact">
 
+            <div class="article-contact-information">
+
+                <a href="tel:01484 848073" class="style-type-four">01484 848073</a>
+
+                <a href="tel:01484 848073" class="style-type-four">01484 848073</a>
+
+            </div> <!-- element-contact-information -->
+
             <div class="layout-container">
 
-                <div class="layout-span-six">
+                <div class="layout-row">
 
-                    <div class="element-contact-information">
+                    <div class="layout-span-six layout-shift-three layout-column-right">
 
+                        <h3 class="type-title-style-two colour-foreground-blue">Contact Form</h3>
 
+                        <form id="form-contact" method="post">
 
-                    </div> <!-- element-contact-information -->
-
-                </div> <!-- layout-span-six -->
-
-                <div class="layout-span-six layout-column-right">
-
-                    <h3 class="type-title-style-one">Contact Form</h3>
-
-                    <form id="form-contact" method="post">
-
-                        <fieldset class="form-fieldset-half">
+                            <fieldset class="form-fieldset-half">
+                                
+                                <label>First Name:</label>
+                              
+                              <input id="name" name="name" type="text" placeholder="Captain" />
                             
-                            <label>First Name:</label>
-                          
-                          <input id="name" name="name" type="text" placeholder="eg. Captain Barnacle Bill" />
+                            </fieldset> <!-- form-fieldset-half -->
+
+                            <fieldset class="form-fieldset-half">
+                                
+                                <label>Second Name:</label>
+                              
+                              <input id="name" name="name" type="text" placeholder="Barnacle Bill" />
+                            
+                            </fieldset> <!-- form-fieldset-half -->
+                            
+                            <fieldset class="form-fieldset-half">
+                                
+                                <label>Email address:</label>
+                                
+                                <input id="email" name="email" type="email" placeholder="barnaclebill@thesea.org" />
+
+                            </fieldset> <!-- form-fieldset-half -->
+                            
+                            <fieldset class="form-fieldset-half">
+                                
+                                <label>Phone Number:</label>
+                                
+                                <input id="tel" name="tel" type="text" placeholder="01484 848073" />
+
+                            </fieldset> <!-- form-fieldset-half -->
+
+                            <fieldset class="form-full-width">
+                                
+                              <label>Message:</label>
+                              
+                              <textarea id="contactmessage" name="contactmessage" rows="6" placeholder="Hello my old sea dog..."></textarea>
+                            
+                            </fieldset>
+
+                            <input id="submit" name="submit" type="submit" value="Submit" />
                         
-                        </fieldset> <!-- form-fieldset-half -->
+                        </form> <!-- form-contact -->
 
-                        <fieldset class="form-fieldset-half">
-                            
-                            <label>Second Name:</label>
-                          
-                          <input id="name" name="name" type="text" placeholder="eg. Captain Barnacle Bill" />
-                        
-                        </fieldset> <!-- form-fieldset-half -->
-                        
-                        <fieldset class="form-fieldset-half">
-                            
-                            <label>Email address:</label>
-                            
-                            <input id="email" name="email" type="email" placeholder="eg. b.bill@thesea.org" />
+                    </div> <!-- layout-span-six -->
 
-                        </fieldset> <!-- form-fieldset-half -->
-                        
-                        <fieldset class="form-fieldset-half">
-                            
-                            <label>Phone Number:</label>
-                            
-                            <input id="tel" name="tel" type="text" placeholder="eg. 01484 848073" />
-
-                        </fieldset> <!-- form-fieldset-half -->
-
-                        <fieldset>
-                            
-                          <label>Message:</label>
-                          
-                          <textarea id="contactmessage" name="contactmessage" placeholder="eg. Hello my old sea dog..."></textarea>
-                        
-                        </fieldset>
-
-                        <input id="submit" name="submit" type="submit" value="Submit" />
-                    
-                    </form> <!-- form-contact -->
-
-
-                </div> <!-- layout-span-six -->
+                </div> <!-- layout-row -->
 
             </div> <!-- layout-container -->
 

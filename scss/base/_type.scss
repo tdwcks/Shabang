@@ -58,6 +58,12 @@ h3 {
       letter-spacing: 1px;
       color: $colourBg;
     }
+
+    &.type-title-style-two {
+      text-transform: uppercase;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+    }
 }
 
 h4 {
@@ -66,6 +72,14 @@ h4 {
   font-size: 1.5em;
   line-height: 1.4em;
   margin-bottom: 0.3em;
+
+  &.type-title-one {
+     letter-spacing: 1px;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: 500;
+     font-size: 1em;
+  }
 }
 
 h5 {

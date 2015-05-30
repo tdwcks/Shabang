@@ -26,9 +26,18 @@
 }
 
 .layout-span-twelve {
-	height: 50px;
 	float: left;
 	width: 100%;
+}
+
+.layout-span-eight {
+	margin-right: 24px;
+	float: left;
+	@include calc(width, "66.64% - 12px");
+
+	@include mq("small", "max-width") {
+	    width: 100%;
+	}
 }
 
 .layout-shift-six {

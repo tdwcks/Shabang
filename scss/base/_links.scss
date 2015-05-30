@@ -28,7 +28,7 @@ a {
 
 .link-button-style-one {
 	@include border-radius(20px);
-	padding: 9px 30px 7px 30px;
+	padding: 9px 20px 7px 20px;
 	text-transform: uppercase;
 	color: $colourBg;
 	text-decoration: none;
@@ -36,6 +36,7 @@ a {
 	font-size: 0.8em;
 	letter-spacing: 1px;
 	font-weight: 400;
+	cursor: pointer;
 
 	&:hover {
 		@include border-radius(10px);
