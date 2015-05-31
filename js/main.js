@@ -39,3 +39,35 @@ $(document).ready(function() {
 });
 
 
+
+
+$(document).ready(function() {
+
+	if ($(window).width() < 1100) {
+	 	$('#js-layout-span-twelve').removeClass('layout-span-three');
+	 	$('#js-layout-span-twelve').addClass('layout-span-twelve');
+	}
+
+	else {
+		$('#js-layout-span-twelve').removeClass('layout-span-twelve');
+		$('#js-layout-span-twelve').addClass('layout-span-three');
+	}
+
+});
+
+$(window).resize(function() {
+
+	if ($(window).width() < 1100) {
+	 	$('#js-layout-span-twelve').removeClass('layout-span-three');
+	 	$('#js-layout-span-twelve').addClass('layout-span-twelve');
+	}
+
+	else {
+		$('#js-layout-span-twelve').removeClass('layout-span-twelve');
+		$('#js-layout-span-twelve').addClass('layout-span-three');
+	}
+
+});
+
+
+

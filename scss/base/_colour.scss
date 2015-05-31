@@ -28,6 +28,11 @@
 	color: $colourYellow;
 }
 
+.colour-background-yellow {
+	background: $colourYellow;
+}
+
+
 .colour-foreground-orange {
 	color: $colourOrange;
 }
@@ -46,4 +51,8 @@
 
 .colour-foreground-cream {
 	color: $colourBg;
+}
+
+.colour-foreground-white {
+	color: #fff;
 }

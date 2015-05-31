@@ -5,8 +5,11 @@
 //
 
 .article-hero {
-	height: 400px;
-	width: 100px;
+	position: relative;
+	overflow: auto;
+	height: auto;
+	width: 100%;
+	padding: 50px 0px;
 }
 
 .article-audio-player {

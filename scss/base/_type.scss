@@ -64,6 +64,15 @@ h3 {
       font-size: 1.1em;
       letter-spacing: 1px;
     }
+
+    &.type-title-style-three {
+      font-size: 1.5em;
+      margin: 0;
+      color: $colourBg;
+      float: left;
+      font-weight: 300;
+      width: 60%;
+    }
 }
 
 h4 {
@@ -206,7 +215,7 @@ span {
 
   &.type-span-style-one {
     font-size: 1em;
-    width: 70px;
+    width: 60px;
     letter-spacing: 1px;
     font-weight: 400;
     padding-top: 6px;
@@ -224,7 +233,39 @@ span {
       padding-right: 15px;
 
     }
+  }
 
+  &.type-style-one {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    width: 50%;
+    float: left;
+  }
+
+  &.type-style-two {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    width: 50%;
+    text-align: right;
+    float: right;
+  }
+
+  &.type-fake-button {
+    @include transition(all, 0.3s, ease-in-out);
+    @include border-radius(20px);
+    padding: 9px 20px 7px 20px;
+    text-transform: uppercase;
+    color: $colourBg;
+    text-decoration: none;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    cursor: pointer;
+    float: right;
   }
 
   &.type-small-print {

@@ -10,7 +10,7 @@
 
 				<li>
 
-					<a href="https://www.charitycheckout.co.uk/1142621/donate" class="link-button-style-one colour-background-yellow">Donate</a>
+					<a href="https://www.charitycheckout.co.uk/1142621/donate" class="link-button-style-one c xolour-background-yellow">Donate</a>
 
 				</li>
 

@@ -42,20 +42,12 @@
 
 .layout-shift-six {
 	@include calc(margin-left, "50% + 12px");
-
-	@include mq("small", "max-width") {
-	    width: 100%;
-	}
 }
 
 .layout-span-six {
 	margin-right: 24px;
 	float: left;
 	@include calc(width, "50% - 12px");
-
-	@include mq("small", "max-width") {
-	    width: 100%;
-	}
 }
 
 .layout-shift-four {
@@ -80,7 +72,7 @@
 	@include calc(margin-left, "25% + 6px");
 
 	@include mq("medium", "max-width") {
-	    width: 0;
+	    width: 100%;
 	}
 }
 
@@ -88,6 +80,12 @@
 	margin-right: 24px;
 	float: left;
 	@include calc(width, "25% - 18px");
+
+	@include mq("medium", "max-width") {
+	    
+	    @include calc(width, "50% - 12px");
+	    margin-right: 0;
+	}
 
 	@include mq("small", "max-width") {
 	    @include calc(width, "50% - 12px");

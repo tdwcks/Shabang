@@ -8,7 +8,7 @@
 
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>The Whole Shabang! | Huddersfield</title>
+        <title>The Whole Shabang! | shabang.org.uk - Huddersfield</title>
 
         <meta name="description" content="">
 
@@ -37,6 +37,80 @@
         <?php include('includes/header.php'); ?>
 
         <article class="article-hero">
+
+            <div class="layout-container">
+
+                <div class="layout-span-six">
+
+                    <a class="element-hero-featured colour-background-red">
+
+                        <div class="image-container-golden">
+
+                        </div> <!-- image-container-golden -->
+
+                        <div class="element-featured-box-information">
+
+                            <span class="type-style-one">Recent Story</span>
+
+                            <span class="type-style-two">Posted 14th June</span>
+
+                        </div> <!-- element-box-information -->
+
+                        <div class="element-box-actions">
+
+                            <h3 class="type-title-style-three">Brain Boosters Weekend</h3>
+
+                            <span class="type-fake-button colour-background-red">Read Story</span>
+
+                        </div> <!-- element-box-actions -->
+
+                    </a> <!-- element-hero-featured -->
+
+                </div> <!-- layout-span-six -->
+
+                <div class="layout-span-three">
+
+                    <a class="element-hero-secondary colour-background-blue">
+
+                    </a> <!-- element-hero-secondary -->
+
+                    <a class="element-hero-secondary colour-background-green">
+
+                        <h5 class="type-title-style-one">Next Event:</h5>
+
+                    </a> <!-- element-hero-secondary -->
+
+                </div> <!-- layout-span-three -->
+
+                 <div id="js-layout-span-twelve" class="layout-span-three layout-column-right">
+
+                    <a class="element-hero-tertiary colour-background-yellow">
+
+                        <div class="image-container-golden">
+
+                        </div> <!-- image-container-golden -->
+
+                        <div class="element-box-information">
+
+                            <h3 class="type-title-style-two colour-foreground-white">Star Steppin</h3>
+
+                            <p class="type-style-two colour-foreground-white">Download Our Star Stepping Tune for free thanks to The Big Lottery Fund.</p>
+
+                        </div> <!-- element-box-information -->
+
+                        <div class="element-box-actions">
+
+                            <span class="type-span-style-one colour-foreground-white">£12.99</span>
+
+                            <span class="type-fake-button colour-background-yellow">Add To Basket</span>
+
+                        </div> <!-- element-box-actions -->
+
+                    </a> <!-- element-hero-tertiary -->
+
+                </div> <!-- layout-span-three -->
+
+            </div> <!-- layout-container -->
 
         </article> <!-- article-hero -->
 
@@ -180,7 +254,7 @@
 
                     <div class="layout-span-four">
 
-                        <div class="element-box-landscape colour-background-orange">
+                        <div class="element-box-landscape colour-background-yellow">
 
                             <div class="image-container-golden">
 
@@ -196,9 +270,9 @@
 
                             <div class="element-box-actions">
 
-                                <span class="type-span-style-one colour-foreground-orange">£12.99</span>
+                                <span class="type-span-style-one colour-foreground-yellow">£12.99</span>
 
-                                <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-orange">View Film</a>
+                                <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-yellow">View Film</a>
 
                             </div> <!-- element-box-actions -->
 

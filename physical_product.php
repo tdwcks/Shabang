@@ -40,7 +40,19 @@
 
             <div class="layout-container">
 
+                <a class="link-icon-large"><i class="fa fa-angle-left"></i>Back To Shop</a>
 
+                <div class="element-product-switcher">
+
+                    <a class="link-icon-large link-icon-left"><i class="fa fa-angle-left"></i>Prev</a>
+
+                    <a class="link-icon-large link-icon-left"><i class="fa fa-angle-left"></i>Next</a>
+
+                </div> <!-- element-product-switcher -->
+
+                <div class="element-shop-top-actions">
+
+                </div> <!-- element-shop-top-actions -->
 
             </div> <!-- layout-container -->
 
@@ -54,7 +66,7 @@
 
                     <div class="image-container-golden">
 
-
+                        
 
                     </div> <!-- image-container-golden -->
 

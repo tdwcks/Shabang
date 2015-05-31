@@ -28,6 +28,112 @@
 	}
 }
 
+.element-hero-featured {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin: 0;
+	@include maintain-ratio(11.2 9);
+	position: relative;
+	cursor: pointer;
+
+	.image-container-golden {
+		position: relative;
+		clear: both;
+		@include calc(width, "100% - 30px");
+		margin: 0 15px;
+		top: 15px;
+	}
+
+	.element-featured-box-information {
+		margin: 0 25px;
+		top: 30px;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 1em;
+		letter-spacing: 1px;
+		clear: both;
+		float: left;
+		position: relative;
+		@include calc(width, "100% - 50px");
+	}
+
+	&:hover .type-fake-button {
+		@include border-radius(10px);
+	}
+
+	@include mq("medium", "max-width") {
+	   	@include maintain-ratio(10 9);
+	}
+
+	@include mq("small", "max-width") {
+	   	@include maintain-ratio(10 9);
+
+	   	h3 {
+	   		font-size: 1.3em;
+	   		width: 100%;
+	   	}
+
+	   	.type-fake-button {
+	   		display: none;
+	   	}
+	}
+}
+
+.element-hero-secondary {
+	position: relative;
+	display: block;
+	width: 100%;
+	@include maintain-ratio(11.3 9);
+	margin-bottom: 24px;
+
+	&:hover .type-fake-button {
+		@include border-radius(10px);
+	}
+
+	@include mq("medium", "max-width") {
+	    @include maintain-ratio(21.3 9);
+	}
+}
+
+.element-hero-tertiary {
+	position: relative;
+	display: block;
+	width: 100%;
+	@include maintain-ratio(1 1.7);
+	cursor: pointer;
+
+	.image-container-golden {
+		position: relative;
+		clear: both;
+		@include calc(width, "100% - 30px");
+		margin: 0 15px;
+		top: 15px;
+	}
+
+	.element-box-information {
+		margin: 15px 0;
+		top: 30px;
+	}
+
+	&:hover .type-fake-button {
+		@include border-radius(10px);
+	}
+
+	@include mq("medium", "max-width") {
+
+		@include maintain-ratio(50 9);
+	    
+	    .element-box-information p {
+	    	font-size: 1em;
+	    }
+
+	    .image-container-golden {
+	    	display: none;
+		}
+	}
+}
+
 .element-title-centre {
 	padding: 0px 0 50px 0;
 	display: block;
@@ -43,10 +149,11 @@
 	}
 }
 
+
 .element-box-actions {
 	box-sizing: border-box;
 	padding: 15px 25px;
-	background: $colourLighten;
+	background: $colourDarken;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -133,3 +240,4 @@
 	padding: 20px 0;
 	border-bottom: 1px solid $colourLines;
 }
+

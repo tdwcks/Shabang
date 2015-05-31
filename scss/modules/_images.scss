@@ -17,5 +17,17 @@
 	@include maintain-ratio(16 9);
 	overflow: hidden;
 	background: $colourBgDark;
+}
 
+.image-container-golden-half {
+	width: 100%;
+	@include maintain-ratio(16 9);
+	overflow: hidden;
+	background: $colourBgDark;
+
+	@include mq("medium", "max-width") {
+
+		@include maintain-ratio(16 9);
+		width: 50%;
+	}
 }
