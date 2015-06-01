@@ -4,6 +4,12 @@
 
 		<h1 class="header-logo">Shabang!</h1>
 
+        <div class="link-menu-trigger">
+
+            <span class="type-span-style-one">Menu</span>
+
+        </div> <!--link-menu-trigger -->
+
 		<nav class="header-main-navigation">
 
 			<ul class="header-navigation-external">

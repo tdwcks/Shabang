@@ -12,6 +12,10 @@
 	background: $colourBlue;
 }
 
+.colour-background-dark-blue {
+	background: darken($colourBlue, 3%);
+}
+
 .colour-foreground-green {
 	color: $colourGreen;
 }
@@ -32,6 +36,9 @@
 	background: $colourYellow;
 }
 
+.colour-background-dark-yellow {
+	background: darken($colourYellow, 3%);
+}
 
 .colour-foreground-orange {
 	color: $colourOrange;
@@ -41,12 +48,20 @@
 	background: $colourOrange;
 }
 
+.colour-background-dark-orange {
+	background: darken($colourOrange, 3%);
+}
+
 .colour-foreground-red {
 	color: $colourRed;
 }
 
 .colour-background-red {
 	background: $colourRed;
+}
+
+.colour-background-dark-red {
+	background: darken($colourRed, 3%);
 }
 
 .colour-foreground-cream {

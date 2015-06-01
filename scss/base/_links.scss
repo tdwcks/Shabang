@@ -8,6 +8,34 @@ a {
 	@include transition(all, 0.3s, ease-in-out);
 }
 
+.link-menu-trigger {
+	position: relative;
+	float: right;
+	width: 90px;
+	display: block;
+	margin-top: 40px;
+
+	span {
+		padding: 0;
+		font-size: 1.1em;
+		color: $colourTypeDark;
+	}
+
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 25px;
+		height: 25px;
+		background-image: url(img/icon-hamburger.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+	}
+}
+
 .link-style-one {
 	text-decoration: none;
 	text-transform: uppercase;

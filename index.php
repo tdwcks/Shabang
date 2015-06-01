@@ -8,7 +8,7 @@
 
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <title>WORDPRESS: The Whole Shabang! | shabang.org.uk - Huddersfield</title>
+        <title>The Whole Shabang! | shabang.org.uk - Huddersfield</title>
 
         <meta name="description" content="">
 

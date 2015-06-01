@@ -5,6 +5,9 @@
 .colour-background-blue {
   background: #169ee4; }
 
+.colour-background-dark-green {
+  background: #1594d6; }
+
 .colour-foreground-green {
   color: #07af32; }
 
@@ -20,17 +23,26 @@
 .colour-background-yellow {
   background: #edc721; }
 
+.colour-background-dark-yellow {
+  background: #ecc313; }
+
 .colour-foreground-orange {
   color: #f98d28; }
 
 .colour-background-orange {
   background: #f98d28; }
 
+.colour-background-dark-orange {
+  background: #f98519; }
+
 .colour-foreground-red {
   color: #e8471d; }
 
 .colour-background-red {
   background: #e8471d; }
+
+.colour-background-dark-red {
+  background: #df4017; }
 
 .colour-foreground-cream {
   color: #f8fbf4; }
@@ -546,6 +558,29 @@ a {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
+
+.link-menu-trigger {
+  position: relative;
+  float: right;
+  width: 90px;
+  display: block;
+  margin-top: 40px; }
+  .link-menu-trigger span {
+    padding: 0;
+    font-size: 1.1em;
+    color: #4A4A4A; }
+  .link-menu-trigger:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url(img/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center; }
 
 .link-style-one {
   text-decoration: none;
@@ -1320,7 +1355,6 @@ header {
   display: block;
   text-indent: -9999px;
   float: left;
-  width: 250px;
   width: 226px;
   height: 56px;
   margin-top: 20px;
@@ -1332,6 +1366,9 @@ header {
     display: block;
     width: 100%;
     height: 100%; }
+  @media (max-width: 700px) {
+    .header-logo {
+      width: 180px; } }
 
 .header-main-navigation ul {
   padding: 39px 0 0 0;
@@ -1339,6 +1376,11 @@ header {
   .header-main-navigation ul li {
     float: left;
     list-style-type: none; }
+@media (max-width: 835px) {
+  .header-main-navigation {
+    width: 100%; }
+    .header-main-navigation ul {
+      padding: 5px 0 0 0; } }
 
 .header-navigation-external {
   float: right; }
@@ -1357,8 +1399,23 @@ header {
     .header-navigation-internal li:last-child {
       margin-right: 0; } }
   @media (max-width: 835px) {
-    .header-navigation-internal li:last-child {
-      margin-right: 0; } }
+    .header-navigation-internal {
+      padding: 0 0 0 0;
+      margin: 0;
+      clear: both;
+      width: 100%;
+      box-sizing: border-box; }
+      .header-navigation-internal li {
+        border-bottom: 1px solid #dadada;
+        width: 100%;
+        padding: 15px 15px;
+        font-size: 1.15em;
+        color: #fff;
+        margin: 0;
+        box-sizing: border-box;
+        cursor: pointer; }
+      .header-navigation-internal li:last-child {
+        margin-right: 0; } }
 
 .header-submenu {
   width: 100%;
