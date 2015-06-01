@@ -19,15 +19,22 @@
 	background: $colourBgDark;
 }
 
-.image-container-golden-half {
-	width: 100%;
-	@include maintain-ratio(16 9);
+.image-container-secondary {
 	overflow: hidden;
+	display: block;
+	width: 50%;
+	height: 300px;
+	@include calc(width, "50% + 12px");
 	background: $colourBgDark;
+	float: left;
 
 	@include mq("medium", "max-width") {
+	    display: none;
+	}
 
-		@include maintain-ratio(16 9);
-		width: 50%;
+	@include mq("extra-small", "max-width") {
+	    display: block;
+	    width: 100%;
+	    height: 150px;
 	}
 }

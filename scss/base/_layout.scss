@@ -48,6 +48,11 @@
 	margin-right: 24px;
 	float: left;
 	@include calc(width, "50% - 12px");
+
+	@include mq("extra-small", "max-width") {
+	   	width: 100%;
+	   	margin-right: 0;
+	}
 }
 
 .layout-shift-four {
@@ -65,6 +70,11 @@
 
 	@include mq("small", "max-width") {
 	    width: 100%;
+	}
+
+	@include mq("extra-small", "max-width") {
+	   	width: 100%;
+	   	margin-right: 0;
 	}
 }
 
@@ -102,6 +112,11 @@
 	    	margin-right: 0;
 	    }
 	}
+
+	@include mq("extra-small", "max-width") {
+	   	width: 100%;
+	   	margin-right: 0;
+	}
 }
 
 .layout-shift-two {
@@ -136,6 +151,26 @@
 
 .layout-shift-one {
 	@include calc(margin-left, "8.33% + 2px");
+}
+
+.layout-split-half {
+	@include calc(width, "50% - 12px");
+	float: left;
+	margin-right: 24px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	@include mq("medium", "max-width") {
+	    width: 100%;
+	}
+}
+
+.layout-title-center {
+	display: block;
+	margin: 0 auto;
+	@include calc(width, "33.3% - 16px");
 }
 
 .layout-margin-one {

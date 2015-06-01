@@ -68,47 +68,126 @@
 
                 </div> <!-- layout-span-six -->
 
-                <div class="layout-span-three">
+                <div class="layout-span-six layout-column-right">
 
                     <a class="element-hero-secondary colour-background-blue">
 
+                        <div class="image-container-secondary">
+
+                            
+                        </div> <!-- image-container-secondary -->
+
+                        <div class="element-secondary-information">
+
+                            <span class="type-style-one">Shop</span>
+
+                            <h3 class="type-title-style-three">Shabang Song Book Volume 2</h3>
+
+                        </div> <!-- element-secondary-information -->
+
+                        <div class="element-secondary-actions">
+
+                            <span class="type-style-one">£19.99</span>
+
+                            <span class="type-fake-button colour-background-blue">View</span>
+
+                        </div>
+
                     </a> <!-- element-hero-secondary -->
 
-                    <a class="element-hero-secondary colour-background-green">
+                    <div class="layout-split-half">
 
-                        <h5 class="type-title-style-one">Next Event:</h5>
+                        <a class="element-hero-tertiary colour-background-orange">
 
-                    </a> <!-- element-hero-secondary -->
+                            <span class="type-fake-button-two colour-background-yellow">Watch Video</span>
+
+                        </a> <!-- element-hero-tertiary -->
+
+                    </div> <!-- layout-split-half -->
+
+                    <div class="layout-split-half">
+
+                        <a class="element-hero-tertiary element-second-story colour-background-green">
+
+                            <div class="element-tertiary-information">
+
+                                <span class="type-style-one">Recent Stories</span>
+
+                                <h3 class="type-title-style-three">Let's Fly Away Premier In Penistone</h3>
+
+                            </div> <!-- element-tertiary-information -->
+
+                            <div class="element-tertiary-actions">
+
+                                <span class="type-fake-button colour-background-green">Read Story</span>
+
+                            </div> <!-- element-tertiary-information -->
+
+                        </a> <!-- element-hero-tertiary -->
+
+                    </div> <!-- layout-split-half -->
+
+                </div> <!-- layout-span-six -->
+
+            </div> <!-- layout-container -->
+
+        </article> <!-- article-hero -->
+
+        <article class="article-hero-events-list colour-background-blue">
+
+            <div class="layout-container">
+
+                <div class="layout-span-three">
+
+                    <a class="element-hero-event">
+
+                        <h3 class="type-title-style-two colour-foreground-white">Brain Boosters</h3>
+
+                        <h5 class="type-title-four colour-foreground-white">Monday 21st June 2015</br> 10:00 - 11:00</h5>
+
+                    </a>  <!-- element-hero-event -->
 
                 </div> <!-- layout-span-three -->
 
-                 <div id="js-layout-span-twelve" class="layout-span-three layout-column-right">
+                <div class="layout-span-three">
 
-                    <a class="element-hero-tertiary colour-background-yellow">
+                    <a class="element-hero-event">
 
-                        <div class="image-container-golden">
+                        <h3 class="type-title-style-two colour-foreground-white">Brain Boosters</h3>
 
-                        </div> <!-- image-container-golden -->
+                        <h5 class="type-title-four colour-foreground-white">Monday 21st June 2015</br> 10:00 - 11:00</h5>
 
-                        <div class="element-box-information">
-
-                            <h3 class="type-title-style-two colour-foreground-white">Star Steppin</h3>
-
-                            <p class="type-style-two colour-foreground-white">Download Our Star Stepping Tune for free thanks to The Big Lottery Fund.</p>
-
-                        </div> <!-- element-box-information -->
-
-                        <div class="element-box-actions">
-
-                            <span class="type-span-style-one colour-foreground-white">£12.99</span>
-
-                            <span class="type-fake-button colour-background-yellow">Add To Basket</span>
-
-                        </div> <!-- element-box-actions -->
-
-                    </a> <!-- element-hero-tertiary -->
+                    </a>  <!-- element-hero-event -->
 
                 </div> <!-- layout-span-three -->
+
+                <div class="layout-span-three">
+
+                    <a class="element-hero-event">
+
+                        <h3 class="type-title-style-two colour-foreground-white">Brain Boosters</h3>
+
+                        <h5 class="type-title-four colour-foreground-white">Monday 21st June 2015</br> 10:00 - 11:00</h5>
+
+                    </a>  <!-- element-hero-event -->
+
+                </div> <!-- layout-span-three -->
+
+                <div class="layout-span-three">
+
+                    <a class="element-hero-event">
+
+                        <h3 class="type-title-style-two colour-foreground-white">Brain Boosters</h3>
+
+                        <h5 class="type-title-four colour-foreground-white">Monday 21st June 2015</br> 10:00 - 11:00</h5>
+
+                    </a>  <!-- element-hero-event -->
+
+                </div> <!-- layout-span-three -->
+
+                <a class="link-arrow-right">
+
+                </a> <!-- link-arrow-right -->
 
             </div> <!-- layout-container -->
 
@@ -126,13 +205,21 @@
 
                 </audio>
 
-                <i id="js-jukebox-play" class="link-icon-style-two fa fa-play"></i>
+                <i id="js-jukebox-play" class="link-icon-style-two colour-foreground-green fa fa-play"></i>
 
-                <div id="js-song-select" class="link-drop-down link-drop-down-container">
+                <div class="link-drop-down-container">
 
-                    <span>Pick A Tune</span>
+                    <span class="type-style-three">Pick A Tune</span>
 
                     <ul class="link-drop-down-items">
+
+                        <li class="link-drop-down-item">Bud and Blossom</li>
+
+                        <li class="link-drop-down-item">Bud and Blossom</li>
+
+                         <li class="link-drop-down-item">Bud and Blossom</li>
+
+                        <li class="link-drop-down-item">Bud and Blossom</li>
 
                         <!-- Change to PHP in Production
                             $query = mysqli_query($localDB, "SELECT * FROM Products WHERE Type = 'MP3' ORDER BY NoofDownloads Desc LIMIT 5") or die(mysqli_error($localDB));
@@ -154,9 +241,9 @@
 
                     </div>
 
-                    <span id="element-jukebox-timecode">0:00</span>
+                    <span id="js-jukebox-timecode" class="type-small-print">0:00 /</span>
 
-                    <span id="element-jukebox-duration">0:30</span>
+                    <span id="js-jukebox-duration" class="type-small-print">0:30</span>
 
                     <a id="js-jukebox-buy" class="link-button-style-one colour-background-green link-float-right">Pick Song</a>
 
@@ -182,7 +269,7 @@
 
                 <div class="layout-span-four layout-shift-one layout-margin-one">
 
-                    <p class="type-paragraph-large colour-foreground-cream">
+                    <p class="type-paragraph-super colour-foreground-cream">
 
                         We are Kim Reuter and Russ Elias, Innovators in the field of excellent and accessible theatre, song, music, arts and drama for children with additional needs.
 
@@ -202,7 +289,7 @@
 
                 <div class="layout-row">
 
-                    <div class="layout-span-four layout-shift-four">
+                    <div class="layout-title-center">
 
                         <div class="element-title-centre">
 
@@ -226,7 +313,7 @@
 
                     <div class="layout-span-four"> 
 
-                        <div class="element-box-landscape colour-background-blue">
+                        <a class="element-box-landscape colour-background-blue">
 
                             <div class="image-container-golden">
 
@@ -242,19 +329,19 @@
 
                             <div class="element-box-actions">
 
-                                <span class="type-span-style-one colour-foreground-blue">£12.99</span>
+                                <span class="type-span-style-one colour-foreground-white">£12.99</span>
 
-                                <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-blue">View Film</a>
+                               <span class="type-fake-button link-float-right colour-background-blue">View Film</span>
 
                             </div> <!-- element-box-actions -->
 
-                        </div> <!-- element-box-landscape -->
+                        </a> <!-- element-box-landscape -->
 
                     </div> <!-- layout-span-four -->
 
                     <div class="layout-span-four">
 
-                        <div class="element-box-landscape colour-background-yellow">
+                        <a class="element-box-landscape colour-background-yellow">
 
                             <div class="image-container-golden">
 
@@ -270,19 +357,19 @@
 
                             <div class="element-box-actions">
 
-                                <span class="type-span-style-one colour-foreground-yellow">£12.99</span>
+                                <span class="type-span-style-one colour-foreground-white">£12.99</span>
 
-                                <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-yellow">View Film</a>
+                                <span class="type-fake-button link-float-right colour-background-yellow">View Film</span>
 
                             </div> <!-- element-box-actions -->
 
-                        </div> <!-- element-box-landscape -->
+                        </a> <!-- element-box-landscape -->
 
                     </div> <!-- layout-span-four -->
 
                     <div class="layout-span-four layout-column-right">
 
-                        <div class="element-box-landscape colour-background-green">
+                        <a class="element-box-landscape colour-background-green">
 
                             <div class="image-container-golden">
 
@@ -298,13 +385,13 @@
 
                             <div class="element-box-actions">
 
-                                <span class="type-span-style-one colour-foreground-green">£12.99</span>
+                                <span class="type-span-style-one colour-foreground-white">£12.99</span>
 
-                                <a href="product.php?id=55" class="link-button-style-one link-float-right colour-background-green">View Film</a>
+                                <span class="type-fake-button link-float-right colour-background-green">View Film</span>
 
                             </div> <!-- element-box-actions -->
 
-                        </div> <!-- element-box-landscape -->
+                        </a> <!-- element-box-landscape -->
 
                     </div> <!-- layout-span-four -->
 
