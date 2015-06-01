@@ -587,7 +587,7 @@ a {
   height: 124px;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  background-image: url(../../img/icon-arrow-right.svg);
+  background-image: url(img/icon-arrow-right.svg);
   background-repeat: no-repeat;
   background-size: 30% 30%;
   background-position: center center; }
@@ -632,7 +632,7 @@ a {
     height: 38px;
     width: 38px;
     background-color: #0a8b28;
-    background-image: url(../../img/icon-arrow-down.svg);
+    background-image: url(img/icon-arrow-down.svg);
     background-repeat: no-repeat;
     background-size: 30% 30%;
     background-position: center center; }
@@ -1324,7 +1324,7 @@ header {
   height: 56px;
   margin-top: 20px;
   position: relative;
-  background-image: url(../../img/logo_h1.svg);
+  background-image: url(img/logo_h1.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%; }
   .header-logo a {
@@ -1339,6 +1339,7 @@ header {
     float: left;
     list-style-type: none; }
 .header-main-navigation .header-navigation-internal {
+  margin-right: 25px;
   float: right; }
   .header-main-navigation .header-navigation-internal li {
     margin-right: 35px; }

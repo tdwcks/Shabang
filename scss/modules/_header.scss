@@ -21,7 +21,7 @@ header {
 	height: 56px;
 	margin-top: 20px;
 	position: relative;
-	background-image: url(../../img/logo_h1.svg);
+	background-image: url(img/logo_h1.svg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 
@@ -45,6 +45,7 @@ header {
 	}
 
 	.header-navigation-internal {
+		margin-right: 25px;
 
 		float: right;
 
