@@ -48,6 +48,10 @@ body {
   font-style:normal;
   margin: 0 !important;
   padding: 0;
+
+  @include mq("small", "max-width") {
+    background: $colourBgDark;
+  }
 }
 
 img,

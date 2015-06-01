@@ -2,44 +2,62 @@
 
 $(document).ready(function() {
 
-	$(document).on('click', '.js-navigation-discover', function(e) {
+
+	$(document).on('click', '#js-menu-trigger', function(e) {
 		e.preventDefault(); 
 
-		if ($('body').hasClass('navigation--discover--active')) {
-
-			var removeDiscoverActive = function(){
-
-			  $('body').removeClass('navigation--discover--active')
-
-			}
-
-			$('body').addClass('navigation--discover--inactive');
-
-			setInterval(removeDiscoverActive, 300);
-
-			var removeDiscoverInActive = function(){
-
-			  $('body').removeClass('navigation--discover--inactive')
-
-			}
-
-			setInterval(removeDiscoverInActive, 300);
-
+		if ($('body').hasClass('is-menu-active')) {
+			
+			$('#js-menu-trigger span').html('Menu');
+			$('body').removeClass('is-menu-active');
 			
 		}
 
 		else {
 
-			$('body').addClass('navigation--discover--active');
+			$('#js-menu-trigger span').html('close');
+			$('body').addClass('is-menu-active');
 
-		}
+		}	
 
 	});
 
+	$(document).on('click', '#js-discover-trigger', function(e) {
+		e.preventDefault(); 
+
+		if ($('body').hasClass('is-discover-active')) {
+
+			$('body').removeClass('is-discover-active');
+			
+		}
+
+		else {
+
+			$('body').addClass('is-discover-active');
+
+		}	
+
+	});
+
+	$(document).on('click', '#js-activities-trigger', function(e) {
+		e.preventDefault(); 
+
+		if ($('body').hasClass('is-activities-active')) {
+
+			$('body').removeClass('is-activities-active');
+			
+		}
+
+		else {
+
+			$('body').addClass('is-activities-active');
+
+		}	
+
+	});
+
+
 });
-
-
-
 
 $(document).ready(function() {
 

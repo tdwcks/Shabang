@@ -16,7 +16,7 @@
 	width: 100%;
 	@include maintain-ratio(16 9);
 	overflow: hidden;
-	background: $colourBgDark;
+	background: $colourDarken;
 }
 
 .image-container-secondary {
@@ -25,7 +25,7 @@
 	width: 50%;
 	height: 300px;
 	@include calc(width, "50% + 12px");
-	background: $colourBgDark;
+	background: $colourDarken;
 	float: left;
 
 	@include mq("medium", "max-width") {

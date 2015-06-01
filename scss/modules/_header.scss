@@ -31,7 +31,7 @@ header {
 	}
 
 	@include mq("extra-small", "max-width") {
-		width: 180px;
+		width: 170px;
 	}
 }
 
@@ -58,19 +58,38 @@ header {
 
 .header-navigation-external {
 	float: right;
+	padding-left: 25px;
 
 	li {
 		margin-right: 35px;
+
+		&:first-child {
+			margin-left: 40px;
+		}
 	}
 
 	@include mq("medium", "max-width") {
 		display: none;
 	}
+
+	@include mq("small", "max-width") {
+		display: block;
+		margin-top: 20px;
+		width: 250px;
+
+		li {
+			padding-top: 35px;
+			float: right;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		display: none;
+	}
 }
 
 .header-navigation-internal {
-	margin-right: 15px;
-
+	
 	float: right;
 
 	li {
@@ -82,7 +101,6 @@ header {
     	li:last-child {
     		margin-right: 0;
     	}
-
 	}
 
 	@include mq("small", "max-width") {
@@ -91,24 +109,158 @@ header {
 		clear: both;
 		width: 100%;
 		box-sizing: border-box;
+		display: none;
 
-		li {
-			border-bottom: 1px solid $colourLines;
-			width: 100%;
-			padding: 15px 15px;
-			font-size: 1.15em;
-			color: #fff;
-			margin: 0;
-			box-sizing: border-box;
-			cursor: pointer;
+		.is-menu-active & {
+			display: block;
 		}
+	}
+}
 
-    	li:last-child {
-    		margin-right: 0;
-    	}
+.header-main-menu-item {
+	
+	&:nth-child(1):after {
+		
+		.is-discover-active & {
+			@include transform(rotate(-180deg));
+		}
+	}
+
+	&:nth-child(2):after {
+		background-image: url(img/icon-arrow-green.svg);
+
+		.is-activities-active & {
+			@include transform(rotate(-180deg));
+		}
+	}
+
+	&:nth-child(3):after {
+		@include transform(rotate(-90deg));
+		background-image: url(img/icon-arrow-orange.svg);
+	}
+
+	&:nth-child(4):after {
+		@include transform(rotate(-90deg));
+		background-image: url(img/icon-arrow-red.svg);
+	}
+
+	&:nth-child(5):after {
+		@include transform(rotate(-90deg));
+	}
+
+	.is-menu-active & {
+
+	    @for $i from 1 through 5 {
+		    
+		    &:nth-child(#{$i}) {
+		        @include animation--fadedown($i/10);
+		    }
+	    }
+  	}
+
+  	@include mq("small", "max-width") {
+		clear: both;
+		border-bottom: 1px solid $colourLines;
+		width: 100%;
+		padding: 15px 15px;
+		font-size: 1.15em;
+		color: #fff;
+		margin: 0;
+		box-sizing: border-box;
+		cursor: pointer;
+		opacity: 0;
+		position: relative;
+
+		&:after {
+			position: absolute;
+			top: 15px;
+			right: 0;
+			content: "";
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-image: url(img/icon-arrow-blue.svg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			background-position: center center;
+			float: right;
+			@include transition(all, 0.3s, ease-in-out);
+		}
 
 	}
 
+}
+
+li .header-discover-submenu {
+
+	display: none;
+	margin-top: 10px;
+
+	.is-discover-active & { 
+		display: block;
+	}
+
+}
+
+li .header-activities-submenu {
+
+	display: none;
+	margin-top: 10px;
+
+	.is-activities-active & { 
+		display: block;
+	}
+
+}
+
+li ul li {
+	padding: 0;
+	border-bottom: 0;
+	padding: 5px 0;
+	opacity: 0;
+	width: 100%;
+
+
+	a {
+		color: $colourTypeMid;
+		text-decoration: none;
+		font-size: 1em;
+		display: block;
+		padding: 5px 0;
+		width: 100%;
+
+	}
+}
+
+li .header-discover-submenu li {
+	
+	.is-discover-active & {
+
+	    @for $i from 1 through 5 {
+		    
+		    &:nth-child(#{$i}) {
+		        @include animation--fadedown($i/10);
+		    }
+	    }
+  	}
+}
+
+li .header-activities-submenu li {
+
+	.is-activities-active & {
+
+	    @for $i from 1 through 8 {
+		    
+		    &:nth-child(#{$i}) {
+		        @include animation--fadedown($i/10);
+		    }
+	    }
+  	}
+
+}
+
+li:last-child {
+	margin-right: 0;
 }
 
 .header-submenu {

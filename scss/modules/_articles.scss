@@ -10,6 +10,7 @@
 	height: auto;
 	width: 100%;
 	padding: 50px 0px;
+	background: $colourBgDark;
 }
 
 .article-hero-events-list {
@@ -20,6 +21,22 @@
 
 	.layout-span-three {
 		margin-right: 0px;
+	}
+
+	@include mq("small", "max-width") { 
+		 
+		.layout-span-three {
+
+			&:nth-child(3) {
+				display: none;
+			}
+			
+			&:nth-child(4) {
+				display: none;
+			}
+		}
+
+
 	}
 }
 
@@ -33,6 +50,12 @@
 		padding: 0;
 		margin-top: 10px;
 	}
+
+	@include mq("small", "max-width") {
+		padding: 21px 10px;
+		box-sizing: border-box;
+		height: 80px;
+	}
 }
 
 .article-home-information {
@@ -40,6 +63,11 @@
 	overflow: auto;
 	height: auto;
 	padding: 50px 0px;
+
+	@include mq("medium", "max-width") {
+		padding: 50px 15px;
+		box-sizing: border-box;
+	}
 }
 
 .article-home-shop {

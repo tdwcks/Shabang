@@ -14,6 +14,11 @@
 	&:hover .type-fake-button {
 		@include border-radius(10px);
 	}
+
+	@include mq("medium", "max-width") {
+		@include maintain-ratio(9.5 9.2);
+		margin: 12px 0px;
+	}
 }
 
 .element-box-portrait {
@@ -177,20 +182,25 @@
 	}
 
 	@include mq("extra-small", "max-width") {
-	   	@include maintain-ratio(9 9);
+	   	@include maintain-ratio(8.5 9);
 
-	   	.type-style-two {
-	   		display: none;
+	   	.type-style-one {
+	   		font-size: 1em;
+	   		margin-bottom: 0;
 	   	}
 
 	   	h3 {
-	   		font-size: 1.3em;
+	   		font-size: 1.5em;
 	   		width: 100%;
 	   	}
 
 	   	.element-secondary-actions {
 	    	width: 100%;
 	    	background: $colourDarken;
+
+	    	.type-style-one {
+	   			display: block;
+	   		}
 	    }
 
 	   	.type-fake-button {
@@ -265,7 +275,7 @@
 	}
 
 	@include mq("extra-small", "max-width") {
-	   	@include maintain-ratio(17 9);
+	   	@include maintain-ratio(16 9);
 	}
 }
 
@@ -294,6 +304,11 @@
 	&:hover {
 		background: $colourDarken;
 	}
+
+	@include mq("extra-small", "max-width") {
+	   	border-right: 0;
+	   	border-bottom: 1px solid $colourDarken;
+	}
 }
 
 .element-jukebox-bar {
@@ -302,6 +317,12 @@
 	height: 7px;
 	margin: 12px 25px 0px 75px;
 	background: $colourLines;
+}
+
+.element-jukebox-controls {
+	@include mq("small", "max-width") {
+		display: none;
+	}
 }
 
 .element-title-centre {

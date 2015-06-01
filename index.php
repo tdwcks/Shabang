@@ -81,7 +81,7 @@
 
                             <span class="type-style-one">Shop</span>
 
-                            <h3 class="type-title-style-three">Shabang Song Book Volume 2</h3>
+                            <h3 class="type-title-style-three">Shabang Song Book 2</h3>
 
                         </div> <!-- element-secondary-information -->
 
@@ -186,6 +186,8 @@
                 </div> <!-- layout-span-three -->
 
                 <a class="link-arrow-right">
+
+                    View All Upcoming Events
 
                 </a> <!-- link-arrow-right -->
 
@@ -413,7 +415,7 @@
 
                 <div class="layout-row">
 
-                    <div class="layout-span-four layout-shift-four">
+                    <div class="layout-title-center">
 
                         <div class="element-title-centre">
 
