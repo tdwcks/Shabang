@@ -43,25 +43,47 @@ header {
 			list-style-type: none;
 		}
 	}
+}
 
-	.header-navigation-internal {
-		margin-right: 25px;
+.header-navigation-external {
+	float: right;
 
-		float: right;
+	li {
+		margin-right: 35px;
+	}
 
-		li {
-			margin-right: 35px;
-		}
+	@include mq("medium", "max-width") {
+
+		display: none;
+
+	}
+}
+
+.header-navigation-internal {
+	margin-right: 15px;
+
+	float: right;
+
+	li {
+		margin-right: 35px;
+	}
+
+	@include mq("medium", "max-width") {
+
+    	li:last-child {
+    		margin-right: 0;
+    	}
 
 	}
 
-	.header-navigation-external {
-		float: right;
+	@include mq("small", "max-width") {
 
-		li {
-			margin-right: 45px;
-		}
+    	li:last-child {
+    		margin-right: 0;
+    	}
+
 	}
+
 }
 
 .header-submenu {

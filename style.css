@@ -1,3 +1,4 @@
+/* Theme Name: Shabang! Wordpress Description: Shabang! Inclusive Learning, Wordpress website theme. Author: Miln Ltd Author URI: miln.co Version: 1.0 */
 .colour-foreground-blue {
   color: #169ee4; }
 
@@ -1338,15 +1339,26 @@ header {
   .header-main-navigation ul li {
     float: left;
     list-style-type: none; }
-.header-main-navigation .header-navigation-internal {
-  margin-right: 25px;
+
+.header-navigation-external {
   float: right; }
-  .header-main-navigation .header-navigation-internal li {
+  .header-navigation-external li {
     margin-right: 35px; }
-.header-main-navigation .header-navigation-external {
+  @media (max-width: 1100px) {
+    .header-navigation-external {
+      display: none; } }
+
+.header-navigation-internal {
+  margin-right: 15px;
   float: right; }
-  .header-main-navigation .header-navigation-external li {
-    margin-right: 45px; }
+  .header-navigation-internal li {
+    margin-right: 35px; }
+  @media (max-width: 1100px) {
+    .header-navigation-internal li:last-child {
+      margin-right: 0; } }
+  @media (max-width: 835px) {
+    .header-navigation-internal li:last-child {
+      margin-right: 0; } }
 
 .header-submenu {
   width: 100%;
