@@ -215,15 +215,23 @@
 
 		<div class="layout-container">
 
-			<span class="type-small-print"> Illustrations by <a class="link-style-two" href="http://kathsartyblog.blogspot.co.uk" target="_blank">Kath Stewart</a></span>
+			<div class="layout-split-half">
+
+				<span class="type-small-print"> Illustrations by <a class="link-style-two" href="http://kathsartyblog.blogspot.co.uk" target="_blank">Kath Stewart</a></span>
             
-            <span class="type-small-print"> Films by <a class="link-style-two" href="http://www.mediapreview.net" target="_blank">MediaPreview</a></span>
+            	<span class="type-small-print"> Films by <a class="link-style-two" href="http://www.mediapreview.net" target="_blank">MediaPreview</a></span>
 	       	
-	       	<span class="type-small-print"> Website by <a class="link-style-two" href="http://www.miln.co" target="_blank">Miln</a></span>
+	       		<span class="type-small-print"> Website by <a class="link-style-two" href="http://www.miln.co" target="_blank">Miln</a></span>
     		
-    		<span class="type-copyright">Copyright &copy; 2014 Shabang Inclusive Learning. All Rights Reserved.</span>  
+    		</div> <!-- layout-split-half -->
+
+    		<div class="layout-split-half">
+
+    			<span class="type-copyright">Copyright &copy; 2014 Shabang Inclusive Learning. All Rights Reserved.</span>  
             
-            <a href="#" class="link-button-style-one link-float-right">To The Top</a>
+            	<a href="#" class="link-button-style-one colour-background-yellow link-float-right">To The Top</a>
+
+			</div> <!-- layout-split-half -->
 
 		</div> <!-- layout-container -->
 

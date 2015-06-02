@@ -23,9 +23,21 @@
 		margin-right: 0px;
 	}
 
+	@include mq("medium", "max-width") { 
+		 
+		.layout-span-three {
+			@include calc(width, "33.3% - 25px");
+			
+			&:nth-child(4) {
+				display: none;
+			}
+		}
+	}
+
 	@include mq("small", "max-width") { 
 		 
 		.layout-span-three {
+			@include calc(width, "50% - 38px");
 
 			&:nth-child(3) {
 				display: none;
@@ -35,8 +47,21 @@
 				display: none;
 			}
 		}
+	}
 
+	@include mq("extra-small", "max-width") { 
+		 
+		.layout-span-three {
+			width: 100%;
 
+			&:nth-child(3) {
+				display: none;
+			}
+			
+			&:nth-child(4) {
+				display: none;
+			}
+		}
 	}
 }
 
@@ -48,7 +73,9 @@
 
 	.type-small-print {
 		padding: 0;
-		margin-top: 10px;
+		margin-top: 7px;
+		display: block;
+		float: left;
 	}
 
 	@include mq("small", "max-width") {
@@ -67,6 +94,69 @@
 	@include mq("medium", "max-width") {
 		padding: 50px 15px;
 		box-sizing: border-box;
+
+		.layout-shift-two {
+			@include calc(margin-left, "16.6667% + 4px");
+		}
+
+		.layout-span-four p {
+			padding: 0;
+			margin-top: 0;
+		}
+	}
+
+	@include mq("small", "max-width") {
+
+		.layout-shift-one {
+			@include calc(margin-left, "8.33% + 2px");
+		}
+
+		.layout-span-three {
+			 @include calc(width, "33.3% - 16px");
+			 margin-right: 24px;
+		}
+
+		.layout-span-four {
+			 @include calc(width, "50% - 12px");
+			 margin-right: 0;
+		}
+
+		.layout-shift-two {
+			margin-left: 0;
+		}
+
+		.layout-span-four p {
+			padding: 0;
+			margin-top: 0;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		padding: 100px 15px;
+		box-sizing: border-box;
+
+		.layout-shift-one {
+			margin-left: 0;
+		}
+
+		.layout-span-three {
+			 width: 100%;
+			 margin-right: 0;
+		}
+
+		.layout-span-four {
+			 width: 100%;
+			 margin-right: 0;
+		}
+
+		.layout-shift-two {
+			margin-left: 0;
+		}
+
+		.layout-span-four p {
+			padding: 0;
+			margin-top: 40px;
+		}
 	}
 }
 
@@ -76,6 +166,25 @@
 	height: auto;
 	width: 100%;
 	padding: 50px 0px;
+
+	@include mq("medium", "max-width") {
+
+		.layout-span-four {
+			@include calc(width, "50% - 12px");
+
+			&:nth-child(2) {
+				margin-right: 0;
+			}
+		}
+
+	}
+
+	@include mq("extra-small", "max-width") {
+
+		.layout-span-four {
+			width: 100%;
+		}
+	}
 }
 
 .article-home-characters {

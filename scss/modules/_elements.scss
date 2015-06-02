@@ -47,18 +47,32 @@
 	@include maintain-ratio(11.2 9);
 	position: relative;
 	cursor: pointer;
+	display: block;
 
-	.element-featured-box-information {
-		margin: 0 25px;
-		top: 30px;
-		color: #fff;
-		text-transform: uppercase;
-		font-size: 1em;
-		letter-spacing: 1px;
-		clear: both;
-		float: left;
+	.element-featured-holder {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.element-featured-information {
+		padding: 10px 25px;
+		height: auto;
+		overflow: auto;
+	}
+
+	.image-container-golden {
+		position: absolute;
+		top: 0;
+	}
+
+	.element-featured-actions {
+		box-sizing: border-box;
+		padding: 15px 25px;
+		width: 100%;
 		position: relative;
-		@include calc(width, "100% - 50px");
+		overflow: auto;
+		height: auto;
 	}
 
 	&:hover .type-fake-button {
@@ -69,7 +83,7 @@
 	   	@include maintain-ratio(10 9);
 
 	   	h3 {
-	   		font-size: 1.3em;
+	   		font-size: 1.4em;
 	   	}
 
 	}
@@ -92,7 +106,7 @@
 	}
 
 	@include mq("extra-small", "max-width") {
-	   	@include maintain-ratio(10 9);
+	   	@include maintain-ratio(9 9);
 	   	margin-bottom: 25px;
 
 	   	.type-style-two {
@@ -236,6 +250,8 @@
 		}
 
 		h3 {
+			font-size: 1.2em;
+			line-height: 1.4em;
 			width: 100%;
 		}
 	}
@@ -313,10 +329,15 @@
 
 .element-jukebox-bar {
 	float: left;
-	width: 50%;
+	width: 40%;
 	height: 7px;
-	margin: 12px 25px 0px 75px;
+	margin: 14px 25px 0px 125px;
 	background: $colourLines;
+
+	@include mq("medium", "max-width") {
+	   	margin-left: 100px;
+	   	width: 25%;
+	}
 }
 
 .element-jukebox-controls {
@@ -342,11 +363,13 @@
 
 .element-box-actions {
 	box-sizing: border-box;
+	height: auto;
+	overflow: auto;
 	padding: 15px 25px;
 	background: $colourDarken;
+	width: 100%;
 	position: absolute;
 	bottom: 0;
-	width: 100%;
 
 	.type-paragraph {
 		padding: 0;

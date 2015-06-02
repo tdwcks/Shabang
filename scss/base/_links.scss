@@ -84,6 +84,7 @@ a {
 }
 
 .link-arrow-right {
+	text-indent: -9999px;
 	width: 71px;
 	float: left;
 	height: 124px;
@@ -98,20 +99,24 @@ a {
 		background-color: $colourDarken;
 	}
 
-	@include mq("small", "max-width") {
-		background-image: url(img/icon-arrow-right-small.svg);
-		background-position: right -40px top 17px;
-		background-size: 43% 43%;
+	@include mq("small", "max-width") { 
+
+		
+	}
+
+	@include mq("extra-small", "max-width") {
+		text-indent: 0;
+		background-image: none;
 		text-transform: uppercase;
 		color: #fff;
 		font-size: 0.95em;
 		letter-spacing: 1px;
+		text-align: center;
 		font-weight: 400;
 		width: 100%;
 		border-right: 0;
-		padding-top: 20px;
+		padding: 20px 10px 20px 10px;
 		height: 65px;
-		padding-left: 12px;
 		box-sizing: border-box;
 	}
 }

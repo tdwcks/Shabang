@@ -91,20 +91,6 @@
 	float: left;
 	@include calc(width, "25% - 18px");
 
-	@include mq("medium", "max-width") {
-	    
-	    @include calc(width, "50% - 12px");
-	    margin-right: 0;
-	}
-
-	@include mq("small", "max-width") {
-	    @include calc(width, "50% - 12px");
-
-	    &:nth-child(2) {
-	    	margin-right: 0;
-	    }
-	}
-
 	@include mq("small", "max-width") {
 	    @include calc(width, "50% - 12px");
 

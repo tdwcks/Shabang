@@ -48,21 +48,25 @@
 
                         </div> <!-- image-container-golden -->
 
-                        <div class="element-featured-box-information">
+                        <div class="element-featured-holder">
 
-                            <span class="type-style-one">Recent Story</span>
+                            <div class="element-featured-information colour-background-red">
 
-                            <span class="type-style-two">Posted 14th June</span>
+                                <span class="type-style-one">Recent Story</span>
+
+                                <span class="type-style-two">Posted 14th June</span>
+
+                            </div>
+
+                            <div class="element-featured-actions colour-background-dark-red">
+
+                                <h3 class="type-title-style-three">Brain Boosters Session Last Weekend With Bud! </h3>
+
+                                <span class="type-fake-button colour-background-red">Read Story</span>
+
+                            </div> <!-- element-box-actions -->
 
                         </div> <!-- element-box-information -->
-
-                        <div class="element-box-actions">
-
-                            <h3 class="type-title-style-three">Brain Boosters Weekend</h3>
-
-                            <span class="type-fake-button colour-background-red">Read Story</span>
-
-                        </div> <!-- element-box-actions -->
 
                     </a> <!-- element-hero-featured -->
 
@@ -89,7 +93,7 @@
 
                             <span class="type-style-one">£19.99</span>
 
-                            <span class="type-fake-button colour-background-blue">View</span>
+                            <span class="type-fake-button colour-background-blue">View Item</span>
 
                         </div>
 
@@ -113,7 +117,7 @@
 
                                 <span class="type-style-one">Recent Stories</span>
 
-                                <h3 class="type-title-style-three">Let's Fly Away Premier In Penistone</h3>
+                                <h3 class="type-title-style-three">Brain Boosters Session Last Weekend With Bud and Blossom! </h3>
 
                             </div> <!-- element-tertiary-information -->
 
@@ -247,7 +251,7 @@
 
                     <span id="js-jukebox-duration" class="type-small-print">0:30</span>
 
-                    <a id="js-jukebox-buy" class="link-button-style-one colour-background-green link-float-right">Pick Song</a>
+                    <a id="js-jukebox-buy" class="link-button-style-one colour-background-green link-float-right">Buy Song</a>
 
                 </div>
 
@@ -269,7 +273,7 @@
 
                 </div> <!-- layout-span-three -->
 
-                <div class="layout-span-four layout-shift-one layout-margin-one">
+                <div class="layout-span-four layout-shift-one">
 
                     <p class="type-paragraph-super colour-foreground-cream">
 
