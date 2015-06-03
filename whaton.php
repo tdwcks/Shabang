@@ -112,11 +112,11 @@
 
                     <div class="link-arrow link-arrow-right"></div>
 
-                </div>
+                </div> <!-- layout-container -->
 
-            </a>
+            </a> <!-- layout-container -->
 
-        </article> <!-- article-hero-events-list -->
+        </article> <!-- js-events-trigger -->
 
         <article class="article-events-sytem-expanded">
 
@@ -124,9 +124,40 @@
 
                 <div class="layout-span-three">
 
-                    ded
+                    <a id="js-event-options-trigger" class="link-style-one">Find Event</a>
 
-                </div>
+                    <h3 classs="type-header-type-one">Select Date</h3>
+
+                    <div class="element-calender-holder">
+
+
+
+                    </div>
+
+                    <ul class="element-event-type-holder">
+
+                        <li>
+
+                            <a class="link-button-style-one">Brain Boosters</a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="link-button-style-one">Yakety Yak</a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="link-button-style-one">Day Dreamers</a>
+
+                        </li>
+
+
+                    </ul>
+
+                </div> 
 
                 <div class="layout-shift-one layout-span-eight layout-column-right">
 
@@ -140,9 +171,9 @@
 
                         de
 
-                    </div>
+                    </div> <!-- layout-span-six -->
 
-                </div>
+                </div> <!-- layout-span-eight -->
 
             </div>  <!-- layout-container -->
 
