@@ -120,50 +120,104 @@
 
         <article class="article-events-sytem-expanded">
 
+            <a id="js-events-collapse-trigger" class="link-full-width">
+
+                <div class="layout-container">
+
+                    <div class="link-arrow"></div>
+
+                    <h3 class="type-title-style-two colour-foreground-white">Hide All Upcoming Events</h3>
+
+                    <div class="link-arrow link-arrow-right"></div>
+
+                </div> <!-- layout-container -->
+
+            </a> <!-- layout-container -->
+
             <div class="layout-container">
 
                 <div class="layout-span-three">
 
                     <a id="js-event-options-trigger" class="link-style-one">Find Event</a>
 
-                    <h3 classs="type-header-type-one">Select Date</h3>
+                    <h3 classs="type-title-style-two">Select Date</h3>
 
                     <div class="element-calender-holder">
 
 
-
                     </div>
+
+                    <h3 classs="type-title-style-two">Select Event Type</h3>
 
                     <ul class="element-event-type-holder">
 
                         <li>
 
-                            <a class="link-button-style-one">Brain Boosters</a>
+                            <a class="link-button-style-one colour-background-green">Show All Events</a>
 
                         </li>
 
                         <li>
 
-                            <a class="link-button-style-one">Yakety Yak</a>
+                            <a class="link-button-style-one colour-background-green">Other Events</a>
 
                         </li>
 
                         <li>
 
-                            <a class="link-button-style-one">Day Dreamers</a>
+                            <a class="link-button-style-one colour-background-green">Brain Boosters</a>
 
                         </li>
 
+                        <li>
 
-                    </ul>
+                            <a class="link-button-style-one colour-background-green">Yakety Yak</a>
 
-                </div> 
+                        </li>
+
+                        <li>
+
+                            <a class="link-button-style-one colour-background-green">Day Dreamers</a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="link-button-style-one colour-background-green">The Up Club</a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="link-button-style-one colour-background-green">Sensory Scapes</a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="link-button-style-one colour-background-green">Little Tiddlers</a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="link-button-style-one colour-background-green">Dream Catchers</a>
+
+                        </li>
+
+                    </ul> <!-- element-event-type-holder -->
+
+                </div> <!-- layout-span-three -->
 
                 <div class="layout-shift-one layout-span-eight layout-column-right">
 
                     <div class="layout-span-six">
 
-                        fr
+                        <div class="image-container-golden">
+
+                        </div> <!-- image-container-golden -->
+
+                        <h3 class="type-style-one">Brain Boosters</h3>
 
                     </div>
 

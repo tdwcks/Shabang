@@ -1593,6 +1593,9 @@ fieldset.form-buy-quantity {
     .article-longform-content .layout-span-six {
       width: 100%; } }
 
+.article-events-sytem-expanded .link-full-width {
+  margin: 0; }
+
 .article-map {
   height: auto;
   overflow: auto;

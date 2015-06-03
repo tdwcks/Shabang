@@ -17,7 +17,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/scss/application.css.css">
+        <link rel="stylesheet" href="style.css">
 
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -80,7 +80,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-orange">
+                                <p class="type-paragraph colour-foreground-white">
 
                                         - Teacher at SEN School
 
@@ -114,7 +114,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-green">
+                                <p class="type-paragraph colour-foreground-white">
 
                                         - Museum Officer, Kirklees
 
@@ -148,7 +148,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-blue">
+                                <p class="type-paragraph colour-foreground-white">
 
                                         - Parent, Kirklees
 
@@ -182,7 +182,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-orange">
+                                <p class="type-paragraph colour-foreground-white">
 
                                         - Parent of child with autism
 
@@ -216,7 +216,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-green">
+                                <p class="type-paragraph colour-foreground-white">
 
                                         - Teacher, Longley School Huddersfield
 
@@ -250,7 +250,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-blue">
+                                <p class="type-paragraph colour-foreground-white">
 
                                         - Teacher, Lydgate School, Huddersfield
 
@@ -284,7 +284,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-orange">
+                                <p class="type-paragraph colour-foreground-white">
 
                                         - Parent of child with Down Syndrome
 
@@ -318,7 +318,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-green">
+                                <p class="type-paragraph colour-foreground-white">
 
                                         - Parent
 
@@ -352,7 +352,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-blue">
+                                <p class="type-paragraph colour-foreground-white">
 
                                        - Teacher
 
@@ -386,7 +386,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-orange">
+                                <p class="type-paragraph colour-foreground-white">
 
                                        - Westport Adult Services
 
@@ -420,7 +420,7 @@
 
                             <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-green">
+                                <p class="type-paragraph colour-foreground-white">
 
                                        - Teacher, Longley School Huddersfield
 
