@@ -102,7 +102,7 @@
 
             </div> <!-- layout-container -->
 
-            <a class="link-full-width">
+            <a id="js-events-trigger" class="link-full-width">
 
                 <div class="layout-container">
 
@@ -117,6 +117,36 @@
             </a>
 
         </article> <!-- article-hero-events-list -->
+
+        <article class="article-events-sytem-expanded">
+
+            <div class="layout-container">
+
+                <div class="layout-span-three">
+
+                    ded
+
+                </div>
+
+                <div class="layout-shift-one layout-span-eight layout-column-right">
+
+                    <div class="layout-span-six">
+
+                        fr
+
+                    </div>
+
+                    <div class="layout-span-six layout-column-right">
+
+                        de
+
+                    </div>
+
+                </div>
+
+            </div>  <!-- layout-container -->
+
+        </div> <!-- article-events-sytem-expanded -->
 
         <article class="article-hero">
 
@@ -192,7 +222,8 @@
 
                             <h3 class="type-title-style-three">Shabang Song Book 2</h3>
 
-                        </div> <!-- element-secondary-information -->
+                        </div> <!-- element-secondary-informatio
+n -->
 
                         <div class="element-secondary-actions">
 

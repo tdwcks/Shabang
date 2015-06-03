@@ -429,11 +429,17 @@
 	width: 100%;
 	height: auto;
 	overflow: auto;
+	box-sizing: border-box;
+
+	@include mq("small", "max-width") {
+		padding-bottom: 25px;
+	}
 }
 
 .element-sidebar-detail {
 	border-top: 1px solid $colourLines;
 	padding: 20px 0;
+	box-sizing: border-box;
 
 	p {
 		padding-bottom: 0;
@@ -442,6 +448,26 @@
 
 	&:last-child {
 		border-bottom: 1px solid $colourLines;
+	}
+
+	@include mq("small", "max-width") {
+		
+	}
+
+	@include mq("extra-small", "max-width") {
+		width: 100%;
+		padding: 16px 0px;
+		min-height: 20px;
+		border-bottom: 0px;
+
+		p {
+			font-size: 1.2em;
+			margin-bottom: 0;
+		}
+
+		@last-child {
+			border-bottom: 1px solid $colourLines
+		}
 	}
 }
 

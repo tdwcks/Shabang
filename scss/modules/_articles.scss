@@ -313,6 +313,41 @@
 	h5 {
 		color: $colourBg;
 	}
+
+	@include mq("medium", "max-width") {
+		
+		.layout-span-six {
+			@include calc(width, "66.64% - 12px");
+		}
+	}
+
+	@include mq("small", "max-width") {
+
+		.layout-span-three {
+			@include calc(width, "33.3% - 16px");
+		}
+
+		.layout-span-six {
+			@include calc(width, "66.64% - 12px");
+			margin-right: 0;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+
+		.layout-container {
+			width: 90%;
+		}
+
+		.layout-span-three {
+			width: 100%;
+		}
+
+		.layout-span-six {
+			width: 100%;
+		}
+	}
+
 }
 
 .article-top-banner-lower {
@@ -325,6 +360,41 @@
 		padding: 0;
 		color: $colourBg;
 	}
+
+	@include mq("medium", "max-width") {
+		
+		.layout-span-six {
+			@include calc(width, "50% - 12px");
+		}
+	}
+
+	@include mq("small", "max-width") {
+
+		.layout-shift-three {
+			@include calc(margin-left, "33.3% + 9px");
+		}
+
+		.layout-span-six {
+			@include calc(width, "66.64% - 12px");
+			margin-right: 0;
+		}
+
+	}
+
+	@include mq("extra-small", "max-width") {
+
+		.layout-container {
+			width: 90%;
+		}
+
+		.layout-shift-three {
+			margin-left: 0;
+		}
+
+		.layout-span-six {
+			width: 100%;
+		}
+	}
 }
 
 .article-longform-content {
@@ -332,6 +402,42 @@
 	overflow:auto; 
 	width: 100%;
 	padding: 50px 0px;
+
+	@include mq("small", "max-width") {
+
+		.layout-span-two {
+			@include calc(width, "25% - 18px");
+		}
+
+		.layout-shift-one {
+			@include calc(margin-left, "8.33% + 2px");
+		}
+
+		.layout-span-six {
+			@include calc(width, "66.64% - 12px");
+			margin-right: 0;
+		}
+	}
+
+
+	@include mq("extra-small", "max-width") {
+
+		.layout-container {
+			width: 90%;
+		}
+
+		.layout-shift-one {
+			margin-left: 0;
+		}
+
+		.layout-span-two {
+			width: 100%;
+		}
+
+		.layout-span-six {
+			width: 100%;
+		}
+	}
 }
 
 .article-map {

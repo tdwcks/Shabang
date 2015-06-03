@@ -17,7 +17,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/scss/application.css.css">
+        <link rel="stylesheet" href="style.css">
 
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -129,7 +129,6 @@
                 </div> <!-- layout-span-six -->
 
                 <div class="layout-span-two layout-shift-one layout-column-right">
-
 
                     <h5 class="colour-foreground-green type-title-four">Next Sessions:</h5>
 
