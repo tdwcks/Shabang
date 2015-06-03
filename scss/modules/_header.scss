@@ -93,7 +93,7 @@ header {
 	float: right;
 
 	li {
-		margin-right: 35px;
+		margin-right: 40px;
 	}
 
 	@include mq("medium", "max-width") {
@@ -185,6 +185,10 @@ header {
 			background-position: center center;
 			float: right;
 			@include transition(all, 0.3s, ease-in-out);
+		}
+
+		&:last-child {
+			border-bottom: 0px;
 		}
 
 	}

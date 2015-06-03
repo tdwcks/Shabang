@@ -37,7 +37,7 @@
 }
 
 .colour-background-dark-yellow {
-	background: darken($colourYellow, 3%);
+	background: darken($colourYellow, 10%);
 }
 
 .colour-foreground-orange {
@@ -49,7 +49,7 @@
 }
 
 .colour-background-dark-orange {
-	background: darken($colourOrange, 5%);
+	background: $colourDarkOrange;
 }
 
 .colour-foreground-red {

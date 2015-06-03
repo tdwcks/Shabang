@@ -36,6 +36,32 @@
    }
 }
 
+@include keyframes(arrow-animation) {
+  0% {
+    @include transform(translateY(0));
+  }
+
+  35% {
+    @include transform(translateY(0));
+    opacity: 0.3;
+  }
+
+  60% {
+    @include transform(translateY(30px));
+    opacity: 0.3;
+  }
+
+  70% {
+    @include transform(translateY(30px));
+    opacity: 0.3;
+  }
+
+  100% {
+     @include transform(translateY(30px));
+     opacity: 0;
+  }
+}
+
 @include keyframes(fadeIn) {
   from {
     @include transform(translateY(20px));

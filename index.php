@@ -410,7 +410,6 @@
         <article class="article-home-characters colour-background-green">
 
 
-
         </article> <!-- article-home-characters -->
 
         <article class="article-social-wall">
@@ -427,7 +426,7 @@
 
                             <p class="type-paragraph-centered">
 
-                                Find out what people are saying about Shabang! &amp; get involved in the conversation.
+                                Find out what people are saying about Shabang! and get involved in the conversation.
 
                             </p> <!-- type-paragraph-centered -->
 

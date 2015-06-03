@@ -9,8 +9,13 @@
 	overflow: auto;
 	height: auto;
 	width: 100%;
-	padding: 50px 0px;
+	padding: 50px 0px 25px 0;
 	background: $colourBgDark;
+
+	@include mq("extra-small", "max-width") { 
+		 
+		padding: 25px 0;
+	}
 }
 
 .article-hero-events-list {
@@ -19,15 +24,20 @@
 	height: auto;
 	overflow: auto;
 
-	.layout-span-three {
+	.layout-span-four {
 		margin-right: 0px;
+		width: 33.3%;
 	}
 
 	@include mq("medium", "max-width") { 
 		 
-		.layout-span-three {
-			@include calc(width, "33.3% - 25px");
-			
+		.layout-span-four {
+			width: 50%;
+
+			&:nth-child(3) {
+				display: none;
+			}
+
 			&:nth-child(4) {
 				display: none;
 			}
@@ -36,8 +46,8 @@
 
 	@include mq("small", "max-width") { 
 		 
-		.layout-span-three {
-			@include calc(width, "50% - 38px");
+		.layout-span-four {
+			width: 50%;
 
 			&:nth-child(3) {
 				display: none;
@@ -51,8 +61,12 @@
 
 	@include mq("extra-small", "max-width") { 
 		 
-		.layout-span-three {
+		.layout-span-four {
 			width: 100%;
+
+			&:nth-child(2) {
+				display: none;
+			}
 
 			&:nth-child(3) {
 				display: none;
@@ -132,7 +146,7 @@
 	}
 
 	@include mq("extra-small", "max-width") {
-		padding: 100px 15px;
+		padding: 50px 15px;
 		box-sizing: border-box;
 
 		.layout-shift-one {
@@ -270,6 +284,20 @@
 	padding: 50px 0px;
 	overflow: auto;
 	height: auto;
+}
+
+.article-story-archive {
+	padding: 50px 0px;
+	overflow: auto;
+	height: auto;
+
+	.layout-span-four:nth-child(odd) {
+		margin-right: 0;
+	}
+
+	.element-sidebar-detail {
+		padding: 10px 0;
+	}
 }
 
 .article-top-banner {

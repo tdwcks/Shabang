@@ -83,41 +83,33 @@ a {
 	}
 }
 
-.link-arrow-right {
-	text-indent: -9999px;
-	width: 71px;
-	float: left;
-	height: 124px;
-	border-right: 1px solid $colourDarken;
+.link-full-width {
+	width: 100%;
+	padding: 23px 0 15px 0;
+	display: block;
+	background: $colourDarken;
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 10px;
+	clear: both;
 	cursor: pointer;
-	background-image: url(img/icon-arrow-right.svg);
-	background-repeat: no-repeat;
-	background-size: 30% 30%;
-	background-position: center center;
+	position: relative;
 
-	&:hover {
-		background-color: $colourDarken;
-	}
+	.link-arrow {
+		opacity: 0.4;
+		position: absolute;
+		background-image: url(img/icon-arrow-down.svg);
+		background-repeat: no-repeat;
+		background-size: 80% 80%;
+		background-position: center center;
+		top: -20px;
+		height: 20px;
+		width: 20px;
+		@include animation(arrow-animation 1.5s forwards infinite);
 
-	@include mq("small", "max-width") { 
-
-		
-	}
-
-	@include mq("extra-small", "max-width") {
-		text-indent: 0;
-		background-image: none;
-		text-transform: uppercase;
-		color: #fff;
-		font-size: 0.95em;
-		letter-spacing: 1px;
-		text-align: center;
-		font-weight: 400;
-		width: 100%;
-		border-right: 0;
-		padding: 20px 10px 20px 10px;
-		height: 65px;
-		box-sizing: border-box;
+		&.link-arrow-right {
+			right: 0;
+		}
 	}
 }
 
@@ -138,6 +130,19 @@ a {
 	font-size: 2em;
 	cursor: pointer;
 	float: left;
+}
+
+.link-style-three {
+	color: $colourTypeMid;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+
+	&:hover {
+		color: $colourBlue;
+	}
 }
 
 .link-drop-down-container {
