@@ -141,63 +141,79 @@
 
             <div class="layout-container">
 
-                <div class="layout-span-three">
+                <div class="layout-span-four">
 
                     <a class="element-hero-event">
 
-                        <h3 class="type-title-style-two colour-foreground-white">Brain Boosters</h3>
+                        <div class="element-image-holder-event">
 
-                        <h5 class="type-title-four colour-foreground-white">Monday 21st June 2015</br> 10:00 - 11:00</h5>
+                            <div class="image-container-circle">
+
+                            </div> <!-- image-container-circle -->
+
+                        </div> <!-- element-image-holder-event -->
+
+                        <h3 class="type-title-style-two colour-foreground-white">Let's Fly Away Premier</h3>
+
+                        <h5 class="type-title-four colour-foreground-white">Monday 21st June</br> 10:00 - 11:00</h5>
 
                     </a>  <!-- element-hero-event -->
 
                 </div> <!-- layout-span-three -->
 
-                <div class="layout-span-three">
+                <div class="layout-span-four">
 
                     <a class="element-hero-event">
 
+                        <div class="element-image-holder-event">
+
+                            <div class="image-container-circle">
+
+                            </div> <!-- image-container-circle -->
+
+                        </div> <!-- element-image-holder-event -->
+
                         <h3 class="type-title-style-two colour-foreground-white">Brain Boosters</h3>
 
-                        <h5 class="type-title-four colour-foreground-white">Monday 21st June 2015</br> 10:00 - 11:00</h5>
+                        <h5 class="type-title-four colour-foreground-white">Monday 21st June</br> 10:00 - 11:00</h5>
 
                     </a>  <!-- element-hero-event -->
 
                 </div> <!-- layout-span-three -->
 
-                <div class="layout-span-three">
+                <div class="layout-span-four">
 
                     <a class="element-hero-event">
 
+                        <div class="element-image-holder-event">
+
+                            <div class="image-container-circle">
+
+                            </div> <!-- image-container-circle -->
+
+                        </div> <!-- element-image-holder-event -->
+
                         <h3 class="type-title-style-two colour-foreground-white">Brain Boosters</h3>
 
-                        <h5 class="type-title-four colour-foreground-white">Monday 21st June 2015</br> 10:00 - 11:00</h5>
+                        <h5 class="type-title-four colour-foreground-white">Monday 21st June</br> 10:00 - 11:00</h5>
 
                     </a>  <!-- element-hero-event -->
 
                 </div> <!-- layout-span-three -->
-
-                <div class="layout-span-three">
-
-                    <a class="element-hero-event">
-
-                        <h3 class="type-title-style-two colour-foreground-white">Brain Boosters</h3>
-
-                        <h5 class="type-title-four colour-foreground-white">Monday 21st June 2015</br> 10:00 - 11:00</h5>
-
-                    </a>  <!-- element-hero-event -->
-
-                </div> <!-- layout-span-three -->
-
-                <a class="link-arrow-right">
-
-                    View All Upcoming Events
-
-                </a> <!-- link-arrow-right -->
 
             </div> <!-- layout-container -->
 
-        </article> <!-- article-hero -->
+            <a class="link-full-width">
+
+                <div class="layout-container">
+
+                    <h3 class="type-title-style-two colour-foreground-white">View All Upcoming Events</h3>
+
+                </div>
+
+            </a>
+
+        </article> <!-- article-hero-events-list -->
 
         <article class="article-audio-player">
 
