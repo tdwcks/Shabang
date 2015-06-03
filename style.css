@@ -1660,6 +1660,11 @@ fieldset.form-buy-quantity {
     width: 100%;
     height: auto; }
 
+img.image-post-content {
+  width: 100%;
+  max-width: 100%;
+  height: auto; }
+
 .image-container-secondary {
   overflow: hidden;
   display: block;
@@ -2635,7 +2640,7 @@ li:last-child {
   position: relative;
   margin-bottom: 25px; }
   .element-auto-container .element-auto-information {
-    padding: 10px 25px;
+    padding: 10px 0px;
     box-sizing: border-box;
     display: block;
     width: 100%;
@@ -2645,11 +2650,10 @@ li:last-child {
       width: 100%; }
   .element-auto-container .element-auto-actions {
     width: 100%;
-    padding: 10px 25px;
+    padding: 10px 0px;
     height: auto;
     overflow: auto;
-    box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.2); }
+    box-sizing: border-box; }
     .element-auto-container .element-auto-actions .type-style-three {
       float: left;
       padding-top: 7px;

@@ -219,11 +219,51 @@
 
                         <h3 class="type-style-one">Brain Boosters</h3>
 
-                    </div>
+                        <p>Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
+
+                        <span class="type-style-one">Monday 21st June 10:00 - 11:00</span>
+
+                    </div> <!-- layout-span-six -->
 
                     <div class="layout-span-six layout-column-right">
 
-                        de
+                        <div class="image-container-golden">
+
+                        </div> <!-- image-container-golden -->
+
+                        <h3 class="type-style-one">Brain Boosters</h3>
+
+                        <p>Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
+
+                        <span class="type-style-one">Monday 21st June 10:00 - 11:00</span>
+
+                    </div> <!-- layout-span-six -->
+
+                    <div class="layout-span-six">
+
+                        <div class="image-container-golden">
+
+                        </div> <!-- image-container-golden -->
+
+                        <h3 class="type-style-one">Brain Boosters</h3>
+
+                        <p>Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
+
+                        <span class="type-style-one">Monday 21st June 10:00 - 11:00</span>
+
+                    </div> <!-- layout-span-six -->
+
+                    <div class="layout-span-six layout-column-right">
+
+                        <div class="image-container-golden">
+
+                        </div> <!-- image-container-golden -->
+
+                        <h3 class="type-style-one">Brain Boosters</h3>
+
+                        <p>Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
+
+                        <span class="type-style-one">Monday 21st June 10:00 - 11:00</span>
 
                     </div> <!-- layout-span-six -->
 
@@ -330,7 +370,7 @@ n -->
 
                 <div class="layout-span-three">
 
-                    <h3 class="type-title-three colour-foreground-blue">Stories From The Archive</h3>
+                    <h3 class="type-title-three">Stories From The Archive</h3>
 
                     <div class="element-sidebar-details">
 
@@ -360,7 +400,7 @@ n -->
 
                     <div class="layout-span-six">
 
-                        <a class="element-auto-container colour-background-red">
+                        <a class="element-auto-container">
 
                             <div class="image-container-golden">
 
@@ -386,7 +426,7 @@ n -->
 
                     <div class="layout-span-six layout-column-right">
 
-                        <a class="element-auto-container colour-background-blue">
+                        <a class="element-auto-container">
 
                             <div class="image-container-golden">
 
@@ -412,7 +452,7 @@ n -->
 
                     <div class="layout-span-six">
 
-                        <a class="element-auto-container colour-background-green">
+                        <a class="element-auto-container">
 
                             <div class="image-container-golden">
 
@@ -438,7 +478,7 @@ n -->
 
                     <div class="layout-span-six layout-column-right">
 
-                        <a class="element-auto-container colour-background-orange">
+                        <a class="element-auto-container">
 
                             <div class="image-container-golden">
 

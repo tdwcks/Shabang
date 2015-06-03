@@ -492,7 +492,7 @@
 	margin-bottom: 25px;
 
 	.element-auto-information {
-		padding: 10px 25px;
+		padding: 10px 0px;
 		box-sizing: border-box;
 		display: block;
 		width: 100%;
@@ -506,11 +506,10 @@
 
 	.element-auto-actions {
 		width: 100%;
-		padding: 10px 25px;
+		padding: 10px 0px;
 		height: auto;
 		overflow: auto;
 		box-sizing: border-box;
-		background: $colourDarken;
 
 		.type-style-three {
 			float: left;
