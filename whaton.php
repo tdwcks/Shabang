@@ -120,247 +120,282 @@
 
         <article class="article-events-sytem-expanded">
 
-            <a id="js-events-collapse-trigger" class="link-full-width">
+          <article class="article-hero-filter colour-background-dark-orange">
 
-                <div class="layout-container">
+              <a id="js-events-collapse-trigger" class="link-full-width">
 
-                    <div class="link-arrow"></div>
+                  <div class="layout-container">
 
-                    <h3 class="type-title-style-two colour-foreground-white">Hide All Upcoming Events</h3>
+                      <div class="link-arrow"></div>
 
-                    <div class="link-arrow link-arrow-right"></div>
+                      <h3 class="type-title-style-two colour-foreground-white">Hide All Upcoming Events</h3>
 
-                </div> <!-- layout-container -->
+                      <div class="link-arrow link-arrow-right"></div>
 
-            </a> <!-- layout-container -->
+                  </div> <!-- layout-container -->
+
+              </a> <!-- js-events-collapse-trigger -->
+
+              <div class="layout-container">
+
+                <h3 class="type-style-three">Filter Events</h3>
+
+                <div class="element-filter-options">
+
+                  <div class="link-drop-down-container">
+
+                      <span class="type-style-three">Pick A Tune</span>
+
+                      <ul class="link-drop-down-items">
+
+                          <li class="link-drop-down-item">Bud and Blossom</li>
+
+                          <li class="link-drop-down-item">Bud and Blossom</li>
+
+                           <li class="link-drop-down-item">Bud and Blossom</li>
+
+                          <li class="link-drop-down-item">Bud and Blossom</li>
+
+                      </ul> <!-- link-drop-down-items -->
+
+                  </div> <!-- link-drop-down-container -->
+
+                  <div class="link-drop-down-container">
+
+                      <span class="type-style-three">Pick A Tune</span>
+
+                      <ul class="link-drop-down-items">
+
+                          <li class="link-drop-down-item">Bud and Blossom</li>
+
+                          <li class="link-drop-down-item">Bud and Blossom</li>
+
+                           <li class="link-drop-down-item">Bud and Blossom</li>
+
+                          <li class="link-drop-down-item">Bud and Blossom</li>
+
+                      </ul> <!-- link-drop-down-items -->
+
+                  </div> <!-- link-drop-down-container -->
+
+                </div> <!-- element-filter-options -->
+
+              </div> <!-- layout-container -->
+
+            </article> <!-- js-events-collapse-trigger -->
 
             <div class="layout-container">
 
-                <div class="layout-span-three">
+              <div class="layout-span-four">
 
-                    <a id="js-event-options-trigger" class="link-style-one">Find Event</a>
+                <a class="element-what-on-event">
 
-                    <h3 classs="type-title-style-two">Select Date</h3>
+                    <div class="image-container-golden">
 
-                    <div class="element-calender-holder">
+                    </div> <!-- image-container-golden -->
 
+                    <h3 class="type-style-one">Brain Boosters</h3>
 
-                    </div>
+                    <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                    <h3 classs="type-title-style-two">Select Event Type</h3>
+                    <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                    <ul class="element-event-type-holder">
+                </a> <!-- element-what-on-event -->
 
-                        <li>
+              </div> <!-- layout-span-four -->
 
-                            <a class="link-button-style-one colour-background-green">Show All Events</a>
+              <div class="layout-span-four">
 
-                        </li>
+                <a class="element-what-on-event">
 
-                        <li>
+                    <div class="image-container-golden">
 
-                            <a class="link-button-style-one colour-background-green">Other Events</a>
+                    </div> <!-- image-container-golden -->
 
-                        </li>
+                    <h3 class="type-style-one">Brain Boosters</h3>
 
-                        <li>
+                    <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                            <a class="link-button-style-one colour-background-green">Brain Boosters</a>
+                    <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                        </li>
+                </a> <!-- element-what-on-event -->
 
-                        <li>
+              </div> <!-- layout-span-four -->
 
-                            <a class="link-button-style-one colour-background-green">Yakety Yak</a>
+              <div class="layout-span-four layout-column-right">
 
-                        </li>
+                <a class="element-what-on-event">
 
-                        <li>
+                    <div class="image-container-golden">
 
-                            <a class="link-button-style-one colour-background-green">Day Dreamers</a>
+                    </div> <!-- image-container-golden -->
 
-                        </li>
+                    <h3 class="type-style-one">Brain Boosters</h3>
 
-                        <li>
+                    <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                            <a class="link-button-style-one colour-background-green">The Up Club</a>
+                    <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                        </li>
+                </a> <!-- element-what-on-event -->
 
-                        <li>
+              </div> <!-- layout-span-four -->
 
-                            <a class="link-button-style-one colour-background-green">Sensory Scapes</a>
+              <div class="layout-span-four">
 
-                        </li>
+                <a class="element-what-on-event">
 
-                        <li>
+                    <div class="image-container-golden">
 
-                            <a class="link-button-style-one colour-background-green">Little Tiddlers</a>
+                    </div> <!-- image-container-golden -->
 
-                        </li>
+                    <h3 class="type-style-one">Brain Boosters</h3>
 
-                        <li>
+                    <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                            <a class="link-button-style-one colour-background-green">Dream Catchers</a>
+                    <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                        </li>
+                </a> <!-- element-what-on-event -->
 
-                    </ul> <!-- element-event-type-holder -->
+              </div> <!-- layout-span-four -->
 
-                </div> <!-- layout-span-three -->
+              <div class="layout-span-four">
 
-                <div class="layout-shift-one layout-span-eight layout-column-right">
+                <a class="element-what-on-event">
 
-                    <div class="layout-span-six">
+                    <div class="image-container-golden">
 
-                        <div class="image-container-golden">
+                    </div> <!-- image-container-golden -->
 
-                        </div> <!-- image-container-golden -->
+                    <h3 class="type-style-one">Brain Boosters</h3>
 
-                        <h3 class="type-style-one">Brain Boosters</h3>
+                    <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                        <p>Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
+                    <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                        <span class="type-style-one">Monday 21st June 10:00 - 11:00</span>
+                </a> <!-- element-what-on-event -->
 
-                    </div> <!-- layout-span-six -->
+              </div> <!-- layout-span-four -->
 
-                    <div class="layout-span-six layout-column-right">
+              <div class="layout-span-four layout-column-right">
 
-                        <div class="image-container-golden">
+                <a class="element-what-on-event">
 
-                        </div> <!-- image-container-golden -->
+                    <div class="image-container-golden">
 
-                        <h3 class="type-style-one">Brain Boosters</h3>
+                    </div> <!-- image-container-golden -->
 
-                        <p>Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
+                    <h3 class="type-style-one">Brain Boosters</h3>
 
-                        <span class="type-style-one">Monday 21st June 10:00 - 11:00</span>
+                    <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                    </div> <!-- layout-span-six -->
+                    <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                    <div class="layout-span-six">
+                </a> <!-- element-what-on-event -->
 
-                        <div class="image-container-golden">
+              </div> <!-- layout-span-four -->
 
-                        </div> <!-- image-container-golden -->
+            </div> <!-- layout-container -->
 
-                        <h3 class="type-style-one">Brain Boosters</h3>
-
-                        <p>Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
-
-                        <span class="type-style-one">Monday 21st June 10:00 - 11:00</span>
-
-                    </div> <!-- layout-span-six -->
-
-                    <div class="layout-span-six layout-column-right">
-
-                        <div class="image-container-golden">
-
-                        </div> <!-- image-container-golden -->
-
-                        <h3 class="type-style-one">Brain Boosters</h3>
-
-                        <p>Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
-
-                        <span class="type-style-one">Monday 21st June 10:00 - 11:00</span>
-
-                    </div> <!-- layout-span-six -->
-
-                </div> <!-- layout-span-eight -->
-
-            </div>  <!-- layout-container -->
-
-        </div> <!-- article-events-sytem-expanded -->
+        </article> <!-- article-hero-filter -->
 
         <article class="article-hero">
 
-            <div class="layout-container">
+          <div class="layout-container">
 
-                <div class="layout-span-six">
+              <div class="layout-span-six">
 
-                    <a class="element-hero-featured colour-background-green">
+                  <div class="element-hero-featured colour-background-red">
 
-                        <div class="image-container-golden">
+                      <div class="image-container-golden">
 
-                        </div> <!-- image-container-golden -->
+                      </div> <!-- image-container-golden -->
 
-                        <div class="element-featured-holder">
+                      <div class="element-featured-holder colour-background-red">
 
-                            <div class="element-featured-information colour-background-green">
-
-                                <span class="type-style-one">Recent Story</span>
-
-                                <span class="type-style-two">Posted 14th June</span>
-
-                            </div>
-
-                            <div class="element-featured-actions colour-background-dark-green">
-
-                                <h3 class="type-title-style-three">Brain Boosters Session Last Weekend With Bud! </h3>
-
-                                <span class="type-fake-button colour-background-green">Read Story</span>
-
-                            </div> <!-- element-box-actions -->
-
-                        </div> <!-- element-box-information -->
-
-                    </a> <!-- element-hero-featured -->
-
-                </div> <!-- layout-span-six -->
-
-                <div class="layout-span-six layout-column-right">
-
-                    <a class="element-hero-secondary colour-background-red">
-
-                        <div class="image-container-secondary">
-
-                            
-                        </div> <!-- image-container-secondary -->
-
-                        <div class="element-secondary-information">
+                          <div class="element-featured-actions">
 
                             <span class="type-style-one">Recent Story</span>
 
-                            <h3 class="type-title-style-three">Let's Fly Away Premier</h3>
+                            <span class="type-style-two">Posted 14th June</span>
 
-                        </div> <!-- element-secondary-information -->
+                          </div> <!-- element-featured-actions -->
 
-                        <div class="element-secondary-actions">
+                          <div class="element-featured-information">
 
-                            <span class="type-style-three">Posted 8th June</span>
+                            <h3 class="type-title-style-three">Brain Booster Capers</h3>
 
-                        </div>
+                            <span class="type-fake-button colour-background-dark-red">View Item</span>
 
-                    </a> <!-- element-hero-secondary -->
+                          </div> <!-- element-featured-information -->
 
-                    <a class="element-hero-secondary colour-background-blue">
+                      </div> <!-- element-featured-holder -->
 
-                        <div class="image-container-secondary">
+                  </div> <!-- element-hero-featured -->
 
-                            
-                        </div> <!-- image-container-secondary -->
+              </div> <!-- layout-span-six -->
 
-                        <div class="element-secondary-information">
+              <div class="layout-span-six layout-column-right">
 
-                            <span class="type-style-one">Recent Story</span>
+                  <a class="element-hero-secondary colour-background-blue">
 
-                            <h3 class="type-title-style-three">Shabang Song Book 2</h3>
+                      <div class="image-container-secondary">
 
-                        </div> <!-- element-secondary-informatio
-n -->
 
-                        <div class="element-secondary-actions">
+                      </div> <!-- image-container-secondary -->
 
-                            <span class="type-style-three">Posted 8th June</span>
+                      <div class="element-secondary-information">
 
-                        </div>
+                          <span class="type-style-one">Shop</span>
 
-                    </a> <!-- element-hero-secondary -->
+                          <h3 class="type-title-style-three">Shabang Song Book 2</h3>
 
-                </div> <!-- layout-span-six -->
+                      </div> <!-- element-secondary-information -->
 
-            </div> <!-- layout-container -->
+                      <div class="element-secondary-actions">
+
+                          <span class="type-style-one">£19.99</span>
+
+                          <span class="type-fake-button colour-background-blue">View Item</span>
+
+                      </div>
+
+                  </a> <!-- element-hero-secondary -->
+
+                  <div class="layout-split-half">
+
+                      <a class="element-hero-tertiary colour-background-orange">
+
+                          <span class="type-fake-button-two colour-background-yellow">Watch Video</span>
+
+                      </a> <!-- element-hero-tertiary -->
+
+                  </div> <!-- layout-split-half -->
+
+                  <div class="layout-split-half">
+
+                      <a class="element-hero-tertiary element-second-story colour-background-green">
+
+                          <div class="element-tertiary-information">
+
+                              <span class="type-style-one">Recent Stories</span>
+
+                              <h3 class="type-title-style-three">Brain Boosters Session Last Weekend With Bud</h3>
+
+                          </div> <!-- element-tertiary-information -->
+
+                          <div class="element-tertiary-actions">
+
+                              <span class="type-fake-button colour-background-green">Read Story</span>
+
+                          </div> <!-- element-tertiary-information -->
+
+                      </a> <!-- element-hero-tertiary -->
+
+                  </div> <!-- layout-split-half -->
+
+              </div> <!-- layout-span-six -->
+
+          </div> <!-- layout-container -->
 
         </article> <!-- article-hero -->
 
@@ -400,105 +435,73 @@ n -->
 
                     <div class="layout-span-six">
 
-                        <a class="element-auto-container">
+                        <a class="element-what-on-event">
 
                             <div class="image-container-golden">
 
                             </div> <!-- image-container-golden -->
 
-                            <div class="element-auto-information">
+                            <h3 class="type-style-one">Brain Boosters</h3>
 
-                                <h3 class="type-title-style-three">Dream Catchers is the best thing ever don't you agree</h3>
+                            <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                            </div>
+                            <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                            <div class="element-auto-actions">
-
-                                 <span class="type-style-three">Posted 8th June</span>
-
-                                <span class="type-fake-button colour-background-red">Read Story</span>
-
-                            </div>
-
-                        </a> <!-- element-auto-container -->
+                        </a>
 
                     </div> <!-- layout-span-six -->
 
                     <div class="layout-span-six layout-column-right">
 
-                        <a class="element-auto-container">
+                        <a class="element-what-on-event">
 
                             <div class="image-container-golden">
 
                             </div> <!-- image-container-golden -->
 
-                            <div class="element-auto-information">
+                            <h3 class="type-style-one">Brain Boosters</h3>
 
-                                <h3 class="type-title-style-three">Dream Catchers is the best thing ever don't you agree</h3>
+                            <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                            </div>
+                            <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                            <div class="element-auto-actions">
-
-                                 <span class="type-style-three">Posted 8th June</span>
-
-                                <span class="type-fake-button colour-background-blue">Read Story</span>
-
-                            </div>
-
-                        </a> <!-- element-auto-container -->
+                        </a>
 
                     </div> <!-- layout-span-six -->
 
                     <div class="layout-span-six">
 
-                        <a class="element-auto-container">
+                        <a class="element-what-on-event">
 
                             <div class="image-container-golden">
 
                             </div> <!-- image-container-golden -->
 
-                            <div class="element-auto-information">
+                            <h3 class="type-style-one">Brain Boosters</h3>
 
-                                <h3 class="type-title-style-three">Dream Catchers is the best thing ever don't you agree</h3>
+                            <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                            </div>
+                            <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                            <div class="element-auto-actions">
-
-                                 <span class="type-style-three">Posted 8th June</span>
-
-                                <span class="type-fake-button colour-background-green">Read Story</span>
-
-                            </div>
-
-                        </a> <!-- element-auto-container -->
+                        </a>
 
                     </div> <!-- layout-span-six -->
 
                     <div class="layout-span-six layout-column-right">
 
-                        <a class="element-auto-container">
+                        <a class="element-what-on-event">
 
                             <div class="image-container-golden">
 
                             </div> <!-- image-container-golden -->
 
-                            <div class="element-auto-information">
+                            <h3 class="type-style-one">Brain Boosters</h3>
 
-                                <h3 class="type-title-style-three">Dream Catchers is the best thing ever don't you agree</h3>
+                            <span class="type-style-five">Monday 21st June 10:00 - 11:00</span>
 
-                            </div>
+                            <p class="type-paragraph-default">Brain Boosters is a short course for parents and carers which takes place twice a year at The Watershed.</p>
 
-                            <div class="element-auto-actions">
-
-                                 <span class="type-style-three">Posted 8th June</span>
-
-                                <span class="type-fake-button colour-background-orange">Read Story</span>
-
-                            </div>
-
-                        </a> <!-- element-auto-container -->
+                        </a>
 
                     </div> <!-- layout-span-six -->
 

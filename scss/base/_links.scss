@@ -94,6 +94,7 @@ a {
 	clear: both;
 	cursor: pointer;
 	position: relative;
+	margin-bottom: 0px;
 
 	.link-arrow {
 		opacity: 0.4;
@@ -114,7 +115,7 @@ a {
 }
 
 .link-icon-style-one {
-	
+
 	.fa {
 		color: $colourTypeMid;
 		@include transition(all, 0.3s, ease-in-out);

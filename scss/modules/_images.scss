@@ -40,12 +40,16 @@ img.image-post-content {
 	float: left;
 
 	@include mq("medium", "max-width") {
-	    display: none;
+		@include calc(width, "43% + 12px");
+	}
+
+	@include mq("small", "max-width") {
+		display: none;
 	}
 
 	@include mq("extra-small", "max-width") {
 	    display: block;
 	    width: 100%;
-	    height: 150px;
+			height: 225px;
 	}
 }
