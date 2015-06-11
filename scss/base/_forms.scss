@@ -29,6 +29,12 @@ fieldset {
 	padding: 0;
 	float: left;
 
+	.type-style-three {
+		padding: 10px 0;
+		float: right;
+		display: block;
+	}
+
 	&.form-fieldset-half {
 		@include calc(width, "50% - 12px");
 		margin-right: 20px;
@@ -37,6 +43,10 @@ fieldset {
 
 		&:nth-child(even) {
 			margin-right: 0;
+		}
+
+		@include mq("extra-small", "max-width") {
+			width: 100%;
 		}
 	}
 
@@ -68,6 +78,7 @@ input {
 	@include border-radius(3px);
 	font-weight: 300; 
 	margin: 0;
+	 -webkit-appearance: none;
 
 	&:focus {
 		background: $colourYellow;

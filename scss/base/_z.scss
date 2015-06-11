@@ -18,6 +18,11 @@ header {
 }
 
 .link-drop-down-container {
-	z-index:20;
+	z-index:5;
 	position: relative;
+
+	&:nth-child(2) {
+		z-index:2;
+		position: relative;
+	}
 }

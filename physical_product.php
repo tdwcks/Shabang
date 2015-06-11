@@ -17,7 +17,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/scss/application.css.css">
+        <link rel="stylesheet" href="style.css">
 
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -36,27 +36,7 @@
 
         <?php include('includes/header.php'); ?>
 
-        <article class="article-shop-menu">
-
-            <div class="layout-container">
-
-                <a class="link-icon-large"><i class="fa fa-angle-left"></i>Back To Shop</a>
-
-                <div class="element-product-switcher">
-
-                    <a class="link-icon-large link-icon-left"><i class="fa fa-angle-left"></i>Prev</a>
-
-                    <a class="link-icon-large link-icon-left"><i class="fa fa-angle-left"></i>Next</a>
-
-                </div> <!-- element-product-switcher -->
-
-                <div class="element-shop-top-actions">
-
-                </div> <!-- element-shop-top-actions -->
-
-            </div> <!-- layout-container -->
-
-        </article> <!-- article-shop-menu -->
+        <?php include('includes/shop_header.php'); ?>
 
         <article class="article-shop-physical-product">
 
@@ -67,7 +47,6 @@
                     <div class="image-container-golden">
 
                         
-
                     </div> <!-- image-container-golden -->
 
                 </div> <!-- layout-span-eight -->

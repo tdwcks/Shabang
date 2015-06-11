@@ -87,20 +87,35 @@
 
 	   	h3 {
 	   		font-size: 1.4em;
+				width: 100%;
 	   	}
 
 	}
 
 	@include mq("small", "max-width") {
-	   	@include maintain-ratio(11 9);
+	   	padding-bottom: 0;
+	   	height: auto;
+	   	overflow: auto;
+	   	margin-bottom: 24px;
 
 	   	h3 {
 	   		font-size: 1.3em;
 	   		width: 100%;
 	   	}
 
+	   	.image-container-golden {
+	   		position: relative;
+	   	}
+
+	   	.element-featured-holder {
+	   		position: relative;
+	   		width: 100%;
+	   		clear: both;
+	   	}
+
 	   	.element-featured-box-information {
 	   		top: 15px;
+	   		position: relative;
 	   	}
 
 	   	.type-fake-button {
@@ -109,8 +124,6 @@
 	}
 
 	@include mq("extra-small", "max-width") {
-	   	@include maintain-ratio(12.5 9);
-	   	margin-bottom: 25px;
 
 	   	.type-style-two {
 	   		display: none;
@@ -537,12 +550,153 @@
 	}
 }
 
-.element-contact-information {
+.element-welcome-message {
+	float: left;
+	width: 60%;
+
+	@include mq("medium", "max-width") {
+		width: 250px;
+		
+		h2 {
+			margin: 0;
+			margin-top: -5px;
+			line-height: 1.6em;
+			font-size: 0.9em;
+		}	
+	}
+
+	@include mq("extra-small", "max-width") {
+		display: none;
+	}
+}
+
+.element-shop-top-actions {
+	width: 330px;
+	float: right;
+
+	@include mq("extra-small", "max-width") {
+		width: 100%;
+		float: left;
+	}
+}
+
+.element-product-switcher {
+	display: none;
+}
+
+.element-track {
 	width: 100%;
-	padding: 50px 0;
-	@include maintain-ratio(16 9);
-	margin-bottom: 50px;
+	padding: 18px 15px 10px 15px;
+	height: auto;
+	overflow: auto;
 	background: $colourBlue;
+	display: block;
+	box-sizing: border-box;
+
+	&:nth-child(even) {
+		background: $colourDarkBlue;
+	}
+
+	i {
+		float: left;
+		width: 10%;
+		color: $colourBg;
+	}
+
+	h5 {
+		width: 50%;
+		float: left;
+	}
+
+	.type-style-six {
+		
+	}
+}
+
+.element-half-product {
+	position: relative;
+	@include maintain-ratio(24 9);
+	margin-bottom: 24px;
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+
+	.element-half-information {
+		padding: 15px;
+		width: 62%;
+		box-sizing: border-box;
+		float: left;
+	}
+
+	&:hover .type-fake-button {
+		@include border-radius(10px);
+
+	}
+
+	@include mq("small", "max-width") {
+		@include maintain-ratio(53 9);
+		@include calc(width, "50% - 12px");
+		margin-right: 24px;
+		float: left;
+
+		h3 {
+			padding: 30px 0 5px 0;
+		}
+
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		@include maintain-ratio(24 9);
+		width: 100%;
+		margin-right: 0px;
+		float: left;
+
+		h3 {
+			padding: 27px 0 0px 0;
+		}
+
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+	}
+}
+
+.element-top-tracks {
+	@include maintain-ratio(11.1 9);
+	width: 100%;
+	background: $colourBlue;
+	overflow: hidden;
+	float: left;
+
+	@include mq("small", "max-width") {
+		padding-bottom: 0;
+		height: auto;
+		overflow: auto;
+		background: none;
+		margin-bottom: 24px;
+	}
+}
+
+.element-full-product {
+	@include maintain-ratio(11.1 9);
+	margin-bottom: 24px;
+
+	h3 {
+		width: 100%;
+	}
+
+	.type-fake-button {
+		display: none;
+	}
+
+	@include mq("small", "max-width") {
+	   	padding-bottom: 0;
+	   	height: auto;
+	   	overflow: auto;
+	}
 }
 
 .element-buy-actions {
@@ -552,3 +706,14 @@
 	padding: 20px 0;
 	border-bottom: 1px solid $colourLines;
 }
+
+.element-contact-information {
+	width: 100%;
+	padding: 50px 0;
+	@include maintain-ratio(16 9);
+	margin-bottom: 50px;
+	background: $colourBlue;
+}
+
+
+

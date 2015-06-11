@@ -30,6 +30,12 @@ img.image-post-content {
 	height: auto;
 }
 
+.image-album-square {
+	width: 33%;
+	@include maintain-ratio(1 1);
+	background: $colourDarken;
+}
+
 .image-container-secondary {
 	overflow: hidden;
 	display: block;

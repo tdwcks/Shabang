@@ -180,8 +180,111 @@
 
 .article-hero-filter {
 	width: 100%;
-	height: 170px;
+	height: 160px;
 	margin-bottom: 50px;
+
+	.link-drop-down-container {
+		margin-top: 30px;
+
+		span {
+			background: $colourOrange;
+			float: right;
+		}
+
+		&:after {
+			background-color: $colourOrange;
+			border-left: 1px solid $colourDarkOrange;
+		}
+
+		.link-drop-down-items {
+			width: 100%;
+			background: $colourOrange;
+
+			li:nth-child(odd) {
+				background: $colourDarkOrange;
+			}
+		}
+	}
+
+	@include mq("large", "max-width") {
+
+		.element-filter-options {
+			width: 620px;
+			margin: 0 auto;
+			display: block;
+		}
+	}
+
+	@include mq("small", "max-width") {
+
+		.element-filter-options {
+			width: 100%;
+		}
+
+		.link-drop-down-container {
+				width: 160px;
+
+				li {
+					width: 160px;
+				}
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+
+		height: 270px;
+
+
+		h3 {
+				float: none;
+				width: 100%;
+		}
+
+		.link-drop-down-container {
+			@include calc(width, "100% - 38px");
+			position: relative;
+			float: left;
+			padding: 0;
+			margin: 10px 50px 0 0;
+
+			li {
+			width: 100%;
+			}
+		}
+	}
+}
+
+.article-filter-shop {
+	height: 100px;
+
+	h3 {
+		width: 200px;
+	}
+
+	.link-drop-down-container {
+
+		span {
+			background: $colourBlue;
+		}
+
+		&:after {
+			background-color: $colourBlue;
+			border-left: 1px solid $colourDarkBlue;
+		}
+
+		.link-drop-down-items {
+			background: $colourBlue;
+
+			li:nth-child(odd) {
+				background: $colourDarkBlue;
+			}
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		height: 220px;
+		padding: 7px 0;
+	}
 }
 
 .article-home-shop {
@@ -200,7 +303,6 @@
 				margin-right: 0;
 			}
 		}
-
 	}
 
 	@include mq("extra-small", "max-width") {
@@ -459,6 +561,27 @@
 	.link-full-width {
 		margin: 0;
 	}
+
+	@include mq("small", "max-width") {
+
+		.layout-span-four {
+			@include calc(width, "50% - 12px");
+			margin-right: 24px;
+
+			&:nth-child(even) {
+				margin-right: 0;
+			}
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+
+		.layout-span-four {
+			width: 100%;
+			margin-right: 0px;
+
+		}
+	}
 }
 
 .article-map {
@@ -499,8 +622,88 @@
 }
 
 .article-shop-menu {
+	position: relative;
 	width: 100%;
 	padding: 25px 0;
-	height: 30px;
-	background: $colourOrange;
+	height: auto;
+	overflow: auto;
+	background: $colourGreen;
+	border-top: 3px solid $colourDarken;
+
+	.link-button-style-one {
+		margin-top: 0px;
+		display: block;
+		width: 52px;
+	}
+}
+
+.article-shop-login {
+	border-top: 3px solid $colourDarken;
+	height: auto;
+	background: $colourDarkGreen;
+	overflow: auto;
+	padding: 25px 0px;
+
+	label {
+		color: $colourBg;
+	}
+
+	input {
+		background: $colourGreen;
+		border: 1px solid $colourDarkGreen;
+
+		&:focus {
+			border: 1px solid $colourDarkGreen;
+		}
+	}
+
+	@include mq("medium", "max-width") {
+
+		.layout-span-eight {
+			width: 100%;
+			margin-right: 0;
+		}
+	}
+}
+
+.article-shop-window {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding: 25px 0;
+
+	.layout-span-four {
+
+		&:nth-child(3n + 3) {
+			margin-right: 0;
+		}
+	
+	}	
+
+	@include mq("medium", "max-width") {
+
+		.layout-span-four {
+			@include calc(width, "50% - 12px");
+
+			&:nth-child(even) {
+				margin-right: 0px;
+			}
+
+			&:nth-child(3) {
+				margin-right: 24px;
+			}
+
+			&:nth-child(9) {
+				margin-right: 24px;
+			}
+		}
+	}
+
+	@include mq("small", "max-width") {
+
+		.layout-span-four {
+			width: 100%;
+
+		}
+	}
 }

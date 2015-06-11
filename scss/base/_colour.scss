@@ -13,7 +13,7 @@
 }
 
 .colour-background-dark-blue {
-	background: darken($colourBlue, 3%);
+	background: darken($colourBlue, 10%);
 }
 
 .colour-foreground-green {
@@ -25,7 +25,7 @@
 }
 
 .colour-background-dark-green {
-	background: darken($colourGreen, 3%);
+	background: $colourDarkGreen;
 }
 
 .colour-foreground-yellow {
@@ -74,4 +74,8 @@
 
 .colour-foreground-white {
 	color: #fff;
+}
+
+.colour-foreground-type {
+	color: $colourTypeDark;
 }

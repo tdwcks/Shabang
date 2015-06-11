@@ -34,6 +34,15 @@ h2 {
     font-weight: 300;
     margin-bottom: 0.3em;
 
+    &.type-style-one {
+      color: #fff;
+      font-size: 1em;
+      margin-top: 5px;
+      letter-spacing: 1px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
     &.type-title-style-one {
       text-align: center;
     }
@@ -57,6 +66,32 @@ h3 {
       font-weight: 300;
       padding: 20px 0 10px 0;
       margin-bottom: 0px;
+    }
+
+    &.type-style-two {
+      display: block;
+      padding: 28px 0 13px 0;
+      text-transform: uppercase;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+      color: $colourBg;
+    }
+
+    &.type-style-three {
+      width: 150px;
+      float: left;
+      color: $colourBg;
+      text-transform: uppercase;
+      margin-top: 39px;
+      display: block;
+      font-size: 1em;
+      letter-spacing: 1px;
+      font-weight: 400;
+    }
+
+    &.type-style-five {
+      color: $colourTypeDark;
+      text-transform: uppercase;
     }
 
     &.type-title-style-one {
@@ -157,6 +192,12 @@ h5 {
       letter-spacing: 1px;
       text-align: center;
       color: #fff;
+    }
+
+    &.type-style-one {
+      color: $colourBg;
+      font-weight: 300;
+      font-size: 1em;
     }
 }
 
@@ -275,6 +316,7 @@ span {
   &.type-style-one {
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 0.9em;
     font-weight: 400;
     color: #fff;
     width: 50%;
@@ -308,6 +350,20 @@ span {
     font-size: 1.125em;
     line-height: 1.5em;
     margin-bottom: 10px;
+  }
+
+  &.type-style-six {
+    display: block;
+    @include border-radius(3px);
+    border: 1px solid $colourBgDark;
+    width: 50px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 2px 0 0 0;
+    margin-top: 5px;
+
   }
 
   &.type-fake-button {
@@ -358,4 +414,3 @@ span {
   }
 
 }
-
