@@ -133,6 +133,26 @@ a {
 	}
 }
 
+.link-full-width-two {
+	border-top: 3px solid $colourDarkBlue;
+	background: $colourBlue;
+	text-align: center;
+	height: auto;
+	overflow: auto;
+	font-size: 0.95em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #fff;
+	width: 100%;
+	display: block;
+	letter-spacing: 1px;
+	padding: 20px 0;
+
+	@include mq("small", "min-width") {
+		display: none;
+	}
+}
+
 .link-icon-style-one {
 
 	.fa {

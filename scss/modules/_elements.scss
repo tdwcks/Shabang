@@ -420,9 +420,26 @@
 }
 
 .element-question {
+	position: relative;
 
 	.type-title-style-two {
 		width: 100%;
+	}
+
+	&:after {
+		position: absolute;
+		top: 0px;
+		right: 0;
+		content: "";
+		display: block;
+		width: 30px;
+		height: 30px;
+		background-image: url(img/icon-arrow-green.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		float: right;
+		@include transition(all, 0.3s, ease-in-out);
 	}
 }
 
@@ -489,10 +506,6 @@
 	h5 {
 		padding-top: 20px;
 	}
-
-	&:last-child {
-		border-bottom: 1px solid $colourLines;
-	}
 }
 
 .element-event-type-holder {
@@ -503,6 +516,28 @@
 		list-style-type: none;
 	}
 
+}
+
+.element-character-link {
+	display: block;
+	height: 107px;
+	overflow: hidden;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin-bottom: 24px;
+
+	.element-character-information {
+		box-sizing: border-box;
+		padding: 12px 35px;
+		width: 62%;
+		float: left;
+	}
+}
+
+.element-character-comic {
+	@include mq("extra-small", "max-width") {
+		display: none;
+	}
 }
 
 .element-auto-container {

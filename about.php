@@ -125,9 +125,11 @@
 
         <article class="article-faq">
 
-            <div class="layout-container">
+            <div class="layout-container-inner">
 
-                    <div class="layout-span-four layout-shift-four">
+                <div class="layout-row">
+
+                    <div class="layout-title-center">
 
                         <div class="element-title-centre">
 
@@ -139,19 +141,24 @@
 
                             </p> <!-- type-paragraph-centered -->
 
+                            <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green link-centred">Contact</a>
+
                         </div> <!-- element-title-centre -->
 
                     </div> <!-- layout-span-four -->
 
+                </div> <!-- layout-row -->
+
                     <div class="layout-row">
 
-                        <div class="layout-span-four layout-shift-two">
+                        <div class="layout-span-six">
 
                             <div class="element-question-answer">
 
                                 <div class="element-question">
 
                                     <h5 class="type-title-style-two">How much do Shabang events cost?</h5>
+
 
                                 </div> <!-- element-question -->
 
@@ -213,7 +220,7 @@
 
                         </div> <!-- layout-span-three -->
 
-                        <div class="layout-span-four">
+                        <div class="layout-span-six layout-column-right">
 
                             <div class="element-question-answer">
 

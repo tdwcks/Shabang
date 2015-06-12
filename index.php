@@ -323,7 +323,7 @@
 
                             </p> <!-- type-paragraph-centered -->
 
-                            <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green link-centred">Go Shopping</a>
+                            <span id="js-discover-arrow" class="header-arrow"></span>
 
                         </div> <!-- element-title-centre -->
 

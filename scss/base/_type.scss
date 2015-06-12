@@ -255,10 +255,17 @@ p {
 
   &.type-paragraph-mid {
     font-size: 1.1em;
-    line-height: 1.8em;
+    line-height: 1.6em;
     clear: left;
     display: block;
     color: $colourTypeDark;
+
+    @include mq("extra-small", "max-width") {
+
+      font-size: 1.3em;
+      line-height: 1.5em;
+    
+    }
   }
 
   &.type-paragraph-regular {
@@ -268,6 +275,14 @@ p {
     clear: left;
     display: block;
     color: $colourTypeDark;
+  }
+
+  &.type-paragraph-one {
+    font-size: 1.25em;
+    margin-top: 0;
+    padding: 10px 0px;
+    clear: left;
+    display: block;
   }
 
   &.type-paragraph-small {

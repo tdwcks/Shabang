@@ -263,10 +263,14 @@ p {
     padding-bottom: 20px; }
   p.type-paragraph-mid {
     font-size: 1.1em;
-    line-height: 1.8em;
+    line-height: 1.6em;
     clear: left;
     display: block;
     color: #4A4A4A; }
+    @media (max-width: 700px) {
+      p.type-paragraph-mid {
+        font-size: 1.3em;
+        line-height: 1.5em; } }
   p.type-paragraph-regular {
     font-size: 1.25em;
     margin-top: 0;
@@ -274,6 +278,12 @@ p {
     clear: left;
     display: block;
     color: #4A4A4A; }
+  p.type-paragraph-one {
+    font-size: 1.25em;
+    margin-top: 0;
+    padding: 10px 0px;
+    clear: left;
+    display: block; }
   p.type-paragraph-small {
     font-size: 0.9em;
     clear: left;
@@ -487,6 +497,9 @@ iframe {
   margin: 0 auto;
   width: 80%;
   max-width: 1100px; }
+  @media (max-width: 835px) {
+    .layout-container-inner {
+      width: 90%; } }
 
 .layout-row {
   clear: both;
@@ -761,6 +774,24 @@ a {
     animation: arrow-animation 1.5s forwards infinite; }
     .link-full-width .link-arrow.link-arrow-right {
       right: 0; }
+
+.link-full-width-two {
+  border-top: 3px solid #127eb5;
+  background: #169ee4;
+  text-align: center;
+  height: auto;
+  overflow: auto;
+  font-size: 0.95em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  display: block;
+  letter-spacing: 1px;
+  padding: 20px 0; }
+  @media (min-width: 835px) {
+    .link-full-width-two {
+      display: none; } }
 
 .link-icon-style-one .fa {
   color: #7c7d7b;
@@ -1688,12 +1719,55 @@ fieldset.form-buy-quantity {
   overflow: auto;
   height: auto;
   padding: 50px 0px; }
+  @media (max-width: 1100px) {
+    .article-about-information .type-paragraph-large {
+      font-size: 1.5em; }
+    .article-about-information .layout-span-four:first-child {
+      width: 100%; }
+    .article-about-information .layout-span-four:nth-child(2) {
+      width: -moz-calc(50% - 12px);
+      width: -webkit-calc(50% - 12px);
+      width: calc(50% - 12px); }
+    .article-about-information .layout-span-four:nth-child(3) {
+      width: -moz-calc(50% - 12px);
+      width: -webkit-calc(50% - 12px);
+      width: calc(50% - 12px); } }
+  @media (max-width: 835px) {
+    .article-about-information p {
+      padding: 0; }
+    .article-about-information .type-paragraph-large {
+      padding: 15px 0;
+      margin: 0; }
+    .article-about-information .type-paragraph-mid {
+      padding: 15px 0;
+      margin: 0; }
+    .article-about-information .layout-span-four:first-child {
+      width: 100%; }
+    .article-about-information .layout-span-four:nth-child(2) {
+      width: 100%; }
+    .article-about-information .layout-span-four:nth-child(3) {
+      width: 100%; }
+    .article-about-information .layout-container-inner {
+      width: 90%; } }
+  @media (max-width: 700px) {
+    .article-about-information p {
+      padding: 0; }
+    .article-about-information .type-paragraph-large {
+      padding: 10px 0;
+      margin: 0; }
+    .article-about-information .layout-span-four:first-child {
+      width: 100%; }
+    .article-about-information .layout-span-four:nth-child(2) {
+      width: 100%; }
+    .article-about-information .layout-span-four:nth-child(3) {
+      width: 100%; } }
 
 .article-about-more {
+  border-top: 3px solid #127eb5;
   width: 100%;
   overflow: auto;
   height: auto;
-  padding: 50px 0px;
+  padding: 25px 0px;
   background: #169ee4; }
   .article-about-more .type-title-style-one {
     color: #f8fbf4;
@@ -1701,8 +1775,6 @@ fieldset.form-buy-quantity {
   .article-about-more .type-paragraph-large {
     float: left; }
   .article-about-more .type-paragraph-mid {
-    margin-top: 40px;
-    font-size: 1.05em;
     color: #f8fbf4; }
 
 .article-faq {
@@ -1711,10 +1783,53 @@ fieldset.form-buy-quantity {
   height: auto;
   padding: 50px 0px; }
 
-.article-characters-picker {
+.article-character-picker {
   width: 100%;
-  height: 300px;
+  height: auto;
+  overflow: auto;
+  padding: 50px 0 25px 0;
   background: #eef1e9; }
+  .article-character-picker .layout-span-three:nth-child(4) {
+    margin-right: 0; }
+  .article-character-picker .layout-span-three:nth-child(8) {
+    margin-right: 0; }
+  @media (max-width: 1100px) {
+    .article-character-picker .layout-span-three {
+      width: -moz-calc(33.3% - 16px);
+      width: -webkit-calc(33.3% - 16px);
+      width: calc(33.3% - 16px); }
+    .article-character-picker .layout-span-three:nth-child(3) {
+      margin-right: 0px; }
+    .article-character-picker .layout-span-three:nth-child(4) {
+      margin-right: 24px; }
+    .article-character-picker .layout-span-three:nth-child(6) {
+      margin-right: 0px; }
+    .article-character-picker .layout-span-three:nth-child(8) {
+      margin-right: 24px; } }
+  @media (max-width: 835px) {
+    .article-character-picker .layout-span-three {
+      width: -moz-calc(50% - 12px);
+      width: -webkit-calc(50% - 12px);
+      width: calc(50% - 12px); }
+    .article-character-picker .layout-span-three:nth-child(3) {
+      margin-right: 24px; }
+    .article-character-picker .layout-span-three:nth-child(4) {
+      margin-right: 0px; }
+    .article-character-picker .layout-span-three:nth-child(6) {
+      margin-right: 0px; }
+    .article-character-picker .layout-span-three:nth-child(8) {
+      margin-right: 0px; } }
+  @media (max-width: 700px) {
+    .article-character-picker .layout-span-three {
+      width: 100%; }
+    .article-character-picker .layout-span-three:nth-child(3) {
+      margin-right: 0px; }
+    .article-character-picker .layout-span-three:nth-child(4) {
+      margin-right: 0px; }
+    .article-character-picker .layout-span-three:nth-child(6) {
+      margin-right: 0px; }
+    .article-character-picker .layout-span-three:nth-child(8) {
+      margin-right: 0px; } }
 
 .article-characters-content {
   position: relative;
@@ -1983,6 +2098,14 @@ fieldset.form-buy-quantity {
   overflow: hidden;
   background: rgba(0, 0, 0, 0.2); }
 
+.image-container-square {
+  width: 100%;
+  width: 100%;
+  height: 0;
+  padding-bottom: 120%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2); }
+
 .image-container-golden {
   width: 100%;
   width: 100%;
@@ -2028,6 +2151,15 @@ img.image-post-content {
       display: block;
       width: 100%;
       height: 225px; } }
+
+.image-container-comic {
+  width: 100%;
+  width: 100%;
+  height: 0;
+  padding-bottom: 141.9%;
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  cursor: pointer; }
 
 footer {
   border-top: 1px solid #dadada;
@@ -2934,8 +3066,28 @@ li:last-child {
   .element-question-answer:last-child {
     border-bottom: 1px solid #dadada; }
 
-.element-question .type-title-style-two {
-  width: 100%; }
+.element-question {
+  position: relative; }
+  .element-question .type-title-style-two {
+    width: 100%; }
+  .element-question:after {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(img/icon-arrow-green.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    float: right;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
 
 .element-answer {
   display: none; }
@@ -2979,14 +3131,29 @@ li:last-child {
 
 .element-activities-event h5 {
   padding-top: 20px; }
-.element-activities-event:last-child {
-  border-bottom: 1px solid #dadada; }
 
 .element-event-type-holder {
   padding: 0; }
   .element-event-type-holder li {
     padding: 10px 0;
     list-style-type: none; }
+
+.element-character-link {
+  display: block;
+  height: 107px;
+  overflow: hidden;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 24px; }
+  .element-character-link .element-character-information {
+    box-sizing: border-box;
+    padding: 12px 35px;
+    width: 62%;
+    float: left; }
+
+@media (max-width: 700px) {
+  .element-character-comic {
+    display: none; } }
 
 .element-auto-container {
   width: 100%;

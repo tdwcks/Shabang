@@ -18,6 +18,10 @@
 	margin: 0 auto;
 	width: 80%;
 	max-width: 1100px;
+
+	@include mq("small", "max-width") {
+		width: 90%;
+	}
 }
 
 .layout-row {
