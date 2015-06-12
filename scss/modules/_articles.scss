@@ -739,3 +739,17 @@
 		}
 	}
 }
+
+.article-music-product {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding: 50px 0;
+	border-top: 3px solid $colourDarken;
+
+	@include mq("medium", "max-width") {
+		.layout-container-inner {
+			width: 95%;
+		}
+	}
+}

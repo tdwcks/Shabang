@@ -38,7 +38,7 @@
 
         <?php include('includes/shop_header_product.php'); ?>
 
-        <article class="article-music-product">
+        <article class="article-music-product colour-background-blue">
 
             <div class="layout-container-inner">
 
@@ -51,25 +51,35 @@
 
                 </div> <!-- layout-span-four -->
 
+                <div class="layout-span-eight layout-column-right">
+
+                    <div class="element-shop-music-top">
+
+                        <h3 class="type-style-one colour-foreground-cream">Bud &amp; Blossom Tunes</h3>
+
+                        <h5 class="type-title-four colour-foreground-cream">Kim Reuter and Russ Elias</h5>
+
+                    </div> <!-- element-shop-music-title -->
+
+                    <div class="element-shop-music-top">
+
+                        <span class="type-style-six">£7.99</span>
+
+                        <a class="link-button-style-one colour-background-darken">Buy Album</a>
+
+                    </div> <!-- element-shop-music-actions -->
+
+                </div> <!-- layout-span-eight -->
+
                  <div class="layout-span-four">
-
-                    <div class="element-shop-music-title">
-
-                        <h3 class="type-title-one">Bud &amp; Blossom Tunes</h3>
-
-                        <h5 class="type-style-four">Kim Reuter and Russ Elias</h5>
-
-                    </div> </div> <!-- element-shop-music-title -->
 
                     <ul class="element-song-list">
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">1.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -77,11 +87,9 @@
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">2.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -89,11 +97,9 @@
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">3.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -101,11 +107,9 @@
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">4.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -113,11 +117,9 @@
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">5.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -129,25 +131,13 @@
 
                  <div class="layout-span-four layout-column-right">
 
-                    <div class="element-shop-music-actions">
-
-                        <h3 class="type-title-one">Bud &amp; Blossom Tunes</h3>
-
-                        <span class="type-style-six">£7.99</span>
-
-                        <a class="link-button-style-one">Buy Album</a>
-
-                    </div> <!-- element-shop-music-actions -->
-
                     <ul class="element-song-list">
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">1.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -155,11 +145,9 @@
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">2.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -167,11 +155,9 @@
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">3.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -179,11 +165,9 @@
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">4.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
@@ -191,11 +175,9 @@
 
                         <li>
 
-                            <i class="fa fa-play"></i>
+                            <i class="fa fa-play colour-foreground-cream"></i>
 
-                            <span class="type-style-four">5.</span>
-
-                            <h5 class="type-title-one">Happy Song</h5>
+                            <h5 class="type-title-style-one colour-foreground-cream">Happy Song</h5>
 
                             <a class="link-button-style-two" href="">Buy £1.10</a>
                         
