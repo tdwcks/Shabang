@@ -17,7 +17,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/scss/application.css.css">
+        <link rel="stylesheet" href="style.css">
 
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -70,7 +70,7 @@
 
         </article> <!-- article-about-information -->
 
-        <article class="article-about-more">
+        <article class="article-about-more article-watershed-more">
 
             <div class="layout-container-inner">
 
@@ -88,7 +88,7 @@
 
                     <div class="layout-span-four">
 
-                        <h5 class="type-title-style-three">Activity Studio</h5>
+                        <h5 class="type-title-style-one colour-foreground-cream">Activity Studio</h5>
 
                         <p class="type-paragraph-mid">We deliver most of our work here, It is a spacious room perfect for delivering our work, with a wooden floor and balcony overlooking the river Colne. </p>
 
@@ -106,7 +106,7 @@
 
                     <div class="layout-span-four layout-column-right">
 
-                        <h5 class="type-title-style-three">Soft Room</h5>
+                        <h5 class="type-title-style-one type-title-style-three">Soft Room</h5>
 
                         <p class="type-paragraph-mid">This is our multi-sensory environment filled with exciting things for children with or without additional needs to touch, smell, taste, listen and look at.</p>
 
@@ -128,7 +128,7 @@
 
                     <div class="layout-span-four">
 
-                        <h5 class="type-title-style-three">Wheelchair Access</h5>
+                        <h5 class="type-title-style-one type-title-style-three">Wheelchair Access</h5>
 
                         <p class="type-paragraph-mid">Wide doors, pavement level access to most public spaces and an access lift to other floors makes The Watershed accesible for wheelchair users.</p>
 
@@ -146,7 +146,7 @@
 
                     <div class="layout-span-four layout-column-right">
 
-                        <h5 class="type-title-style-three">The Bobbin</h5>
+                        <h5 class="type-title-style-one type-title-style-three">The Bobbin</h5>
 
                         <p class="type-paragraph-mid">This is our large, workshop and meeting space at the heart of The Watershed perfect for chilling out with friends.</p>
 

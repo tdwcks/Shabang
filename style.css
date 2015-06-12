@@ -1770,9 +1770,11 @@ fieldset.form-buy-quantity {
   height: auto;
   padding: 50px 0px;
   background: #169ee4; }
+  .article-about-more .image-container-circle {
+    margin: 0; }
   .article-about-more .type-title-style-one {
     color: #f8fbf4;
-    margin-top: 0px;
+    margin-top: 0;
     padding: 0; }
   .article-about-more .type-paragraph-large {
     float: left; }
@@ -1792,6 +1794,39 @@ fieldset.form-buy-quantity {
       width: 100%; }
     .article-about-more .layout-shift-one {
       margin-left: 0; } }
+
+.article-watershed-more {
+  padding-bottom: 0px; }
+  .article-watershed-more .type-paragraph-mid {
+    padding-bottom: 50px; }
+  @media (max-width: 835px) {
+    .article-watershed-more .layout-span-two {
+      width: -moz-calc(30% - 12px);
+      width: -webkit-calc(30% - 12px);
+      width: calc(30% - 12px);
+      float: left;
+      margin-right: 24px; }
+    .article-watershed-more .layout-span-four {
+      width: -moz-calc(70% - 12px);
+      width: -webkit-calc(70% - 12px);
+      width: calc(70% - 12px);
+      margin-top: 45px;
+      float: left;
+      margin-right: 0; } }
+  @media (max-width: 700px) {
+    .article-watershed-more .type-paragraph-mid {
+      padding-bottom: 25px; }
+    .article-watershed-more .layout-span-two {
+      width: -moz-calc(50% - 12px);
+      width: -webkit-calc(50% - 12px);
+      width: calc(50% - 12px);
+      float: left;
+      margin-right: 24px;
+      margin-bottom: 30px; }
+    .article-watershed-more .layout-span-four {
+      margin: 0;
+      width: 100%;
+      float: left; } }
 
 .article-faq {
   width: 100%;

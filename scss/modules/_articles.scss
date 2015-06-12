@@ -424,9 +424,13 @@
 	padding: 50px 0px;
 	background: $colourBlue;
 
+	.image-container-circle {
+		margin: 0;
+	}
+
 	.type-title-style-one {
 		color: $colourBg;
-		margin-top: 0px;
+		margin-top: 0;
 		padding: 0;
 	}
 
@@ -465,6 +469,57 @@
 			margin-left: 0;
 		}
 	}
+}
+
+.article-watershed-more {
+
+	padding-bottom: 0px;
+
+	.type-paragraph-mid {
+		padding-bottom: 50px;
+	}
+
+	@include mq("small", "max-width") {
+			
+		.layout-span-two {
+			@include calc(width, "30% - 12px");	
+			float: left;
+			margin-right: 24px;
+		}
+
+		.layout-span-four {
+			@include calc(width, "70% - 12px");
+			margin-top: 45px;
+			float: left;
+			margin-right: 0;
+
+		}
+
+	}
+
+	@include mq("extra-small", "max-width") {
+
+		.type-paragraph-mid {
+			padding-bottom: 25px;
+		}
+			
+		.layout-span-two {
+			@include calc(width, "50% - 12px");
+			float: left;
+			margin-right: 24px;
+			margin-bottom: 30px;
+		}
+
+		.layout-span-four {
+			margin: 0;
+			width: 100%;
+			float: left;
+
+		}
+
+	}
+
+
 }
 
 .article-faq {
