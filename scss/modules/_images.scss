@@ -31,7 +31,6 @@ img.image-post-content {
 }
 
 .image-album-square {
-	width: 33%;
 	@include maintain-ratio(1 1);
 	background: $colourDarken;
 }

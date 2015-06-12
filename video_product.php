@@ -58,9 +58,9 @@
 
                 <div class="layout-span-four layout-column-right">
 
-                    <span class="type-style-four">Physical Product</span>
+                    <span class="type-style-four">Download</span>
 
-                    <h3 class="type-style-one colour-foreground-blue">Shabang! Song Book</h3>
+                    <h3 class="type-style-one colour-foreground-blue">All At Sea: DVD</h3>
 
                     <span class="type-style-four">£19.99</span>
 
@@ -69,14 +69,6 @@
                     <div class="element-buy-actions">
 
                         <form id="buy-quantity" method="post">
-
-                            <fieldset class="form-buy-quantity">
-                                    
-                                <label>Quantity:</label>
-                                
-                                <input id="js-quantity" name="Quantity" type="text" value="1" />
-                                
-                            </fieldset>
 
                         <input id="submit" name="Add To Basket" type="shop" value="Add To Basket" />
 

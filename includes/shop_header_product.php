@@ -2,11 +2,15 @@
 
     <div class="layout-container">
 
-        <div class="element-welcome-message">
+        <div class="element-switcher">
 
-            <h2 class="type-style-one">Welcome To our Shop. Log In To View Previous Purchases.</h2>
+            <a class="link-icon-large link-icon-left"><i class="fa fa-angle-left"></i><span class="link-arrow-label">Back To Shop</span></a>
 
-        </div> <!-- element-welcome-message -->
+            <a class="link-icon-large link-icon-left"><i class="fa fa-angle-left"></i><span class="link-arrow-label">Prev</span></a>
+
+            <a class="link-icon-large link-icon-right"><span class="link-arrow-label">Next</span><i class="fa fa-angle-right"></i></a>
+
+        </div> <!-- element-product-switcher -->
 
         <div class="element-shop-top-actions">
 
