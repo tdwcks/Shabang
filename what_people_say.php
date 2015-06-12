@@ -36,407 +36,383 @@
 
         <?php include('includes/header.php'); ?>
 
-        <div class="article-feedback-funders">
+        <article class="article-feedback-funders">
 
             <div class="layout-container">
 
-            <div class="layout-span-four layout-shift-four">
+                <div class="layout-row">
 
-                <div class="element-title-centre">
+                    <div class="layout-title-center">
 
-                    <h2 class="type-title-style-one colour-foreground-green">What People Say</h2>
+                        <h2 class="type-title-style-one colour-foreground-green">What People Say</h2>
 
-                    <p class="type-paragraph-centered">
+                        <p class="type-paragraph-centered">
 
-                        Discover what children, teachers, parents and carers say about Shabang!
+                            Discover what children, teachers, parents and carers say about Shabang!
 
-                    </p> <!-- type-paragraph-centered -->
+                        </p> <!-- type-paragraph-centered -->
 
-                </div> <!-- element-title-centre -->
+                    </div> <!-- layout-title-center -->
 
-            </div> <!-- layout-span-four -->
+                </div> <!-- layout-row -->
 
-            <div class="layout-row">
+                <div class="layout-row">
 
-                    <div class="layout-span-three">
+                        <div class="layout-span-three">
 
-                        <div class="colour-background-orange element-box-portrait">
+                            <div class="colour-background-blue element-box-portrait">
 
-                            <div class="image-container-golden">
+                                <div class="image-container-golden">
 
-                                
+                                    
 
-                            </div> <!-- image-container-golden -->
+                                </div> <!-- image-container-golden -->
 
-                            <div class="element-box-information">
+                                <div class="element-box-information">
 
-                                <p class="type-paragraph-left">
+                                    <p class="type-paragraph-left">
 
-                                        “Shabang! provide the most uplifting and creative activities for our pupils both during and outside school hours”
+                                            “Shabang! provide the most uplifting and creative activities for our pupils both during and outside school hours”
 
-                                </p> <!-- type-paragraph-small -->
+                                    </p> <!-- type-paragraph-small -->
 
-                            </div> <!-- element-box-information -->
+                                </div> <!-- element-box-information -->
 
-                            <div class="element-box-actions">
+                                <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-white">
+                                    <p class="type-paragraph colour-foreground-white">
 
-                                        - Teacher at SEN School
+                                            - Teacher at SEN School
 
-                                </p> <!-- type-paragraph-small -->
+                                    </p> <!-- type-paragraph-small -->
 
-                            </div> <!-- element-box-actions -->
+                                </div> <!-- element-box-actions -->
 
-                        </div> <!-- element-feedback-box -->
+                            </div> <!-- element-feedback-box -->
 
-                    </div> <!-- layout-span-three -->
+                            <div class="colour-background-orange element-box-portrait">
 
-                    <div class="layout-span-three">
+                                <div class="image-container-golden">
 
-                        <div class="colour-background-green element-box-portrait">
+                                    
 
-                            <div class="image-container-golden">
+                                </div> <!-- image-container-golden -->
 
-                                
+                                <div class="element-box-information">
 
-                            </div> <!-- image-container-golden -->
+                                    <p class="type-paragraph-left">
 
-                            <div class="element-box-information">
+                                            "The sessions were a balance of fun, music, creativity and accomplishment."
 
-                                <p class="type-paragraph-left">
+                                    </p> <!-- type-paragraph-small -->
 
-                                        "The sessions were a balance of fun, music, creativity and accomplishment."
+                                </div> <!-- element-box-information -->
 
-                                </p> <!-- type-paragraph-small -->
+                                <div class="element-box-actions">
 
-                            </div> <!-- element-box-information -->
+                                    <p class="type-paragraph colour-foreground-white">
 
-                            <div class="element-box-actions">
+                                            - Museum Officer, Kirklees
 
-                                <p class="type-paragraph colour-foreground-white">
+                                    </p> <!-- type-paragraph-small -->
 
-                                        - Museum Officer, Kirklees
+                                </div> <!-- element-box-actions -->
 
-                                </p> <!-- type-paragraph-small -->
+                            </div> <!-- element-feedback-box -->
 
-                            </div> <!-- element-box-actions -->
+                            <div class="colour-background-red element-box-portrait">
 
-                        </div> <!-- element-feedback-box -->
+                                <div class="image-container-golden">
 
-                    </div> <!-- layout-span-three -->
+                                    
 
-                    <div class="layout-span-three">
+                                </div> <!-- image-container-golden -->
 
-                        <div class="colour-background-blue element-box-portrait">
+                                <div class="element-box-information">
 
-                            <div class="image-container-golden">
+                                    <p class="type-paragraph-left">
 
-                                
+                                            "The best part of the week."
 
-                            </div> <!-- image-container-golden -->
+                                    </p> <!-- type-paragraph-small -->
 
-                            <div class="element-box-information">
+                                </div> <!-- element-box-information -->
 
-                                <p class="type-paragraph-left">
+                                <div class="element-box-actions">
 
-                                        "The best part of the week."
+                                    <p class="type-paragraph colour-foreground-white">
 
-                                </p> <!-- type-paragraph-small -->
+                                            - Parent, Kirklees
 
-                            </div> <!-- element-box-information -->
+                                    </p> <!-- type-paragraph-small -->
 
-                            <div class="element-box-actions">
+                                </div> <!-- element-box-actions -->
 
-                                <p class="type-paragraph colour-foreground-white">
+                            </div> <!-- element-feedback-box -->
 
-                                        - Parent, Kirklees
+                        </div> <!-- layout-span-three -->
 
-                                </p> <!-- type-paragraph-small -->
+                        <div class="layout-span-three">
 
-                            </div> <!-- element-box-actions -->
+                            <div class="colour-background-yellow element-box-portrait">
 
-                        </div> <!-- element-feedback-box -->
+                                <div class="image-container-golden">
+                                    
 
-                    </div> <!-- layout-span-three -->
+                                </div> <!-- image-container-golden -->
 
-                    <div class="layout-span-three layout-column-right">
+                                <div class="element-box-information">
 
-                        <div class="colour-background-orange element-box-portrait">
+                                    <p class="type-paragraph-left">
 
-                            <div class="image-container-golden">
+                                            "However my lad behaved we were accepted, welcomed and valued."
 
-                                
+                                    </p> <!-- type-paragraph-small -->
 
-                            </div> <!-- image-container-golden -->
+                                </div> <!-- element-box-information -->
 
-                            <div class="element-box-information">
+                                <div class="element-box-actions">
 
-                                <p class="type-paragraph-left">
+                                    <p class="type-paragraph colour-foreground-white">
 
-                                        "However my lad behaved we were accepted, welcomed and valued."
+                                            - Parent of child with autism
 
-                                </p> <!-- type-paragraph-small -->
+                                    </p> <!-- type-paragraph-small -->
 
-                            </div> <!-- element-box-information -->
+                                </div> <!-- element-box-actions -->
 
-                            <div class="element-box-actions">
+                            </div> <!-- element-feedback-box -->
 
-                                <p class="type-paragraph colour-foreground-white">
+                            <div class="colour-background-green element-box-portrait">
 
-                                        - Parent of child with autism
+                                <div class="image-container-golden">
 
-                                </p> <!-- type-paragraph-small -->
+                                    
 
-                            </div> <!-- element-box-actions -->
+                                </div> <!-- image-container-golden -->
 
-                        </div> <!-- element-feedback-box -->
+                                <div class="element-box-information">
 
-                    </div> <!-- layout-span-three -->
+                                    <p class="type-paragraph-left">
 
-                    <div class="layout-span-three">
+                                            "Children have bags more confidence to join in and try out activities."
 
-                        <div class="colour-background-green element-box-portrait">
+                                    </p> <!-- type-paragraph-small -->
 
-                            <div class="image-container-golden">
+                                </div> <!-- element-box-information -->
 
-                                
+                                <div class="element-box-actions">
 
-                            </div> <!-- image-container-golden -->
+                                    <p class="type-paragraph colour-foreground-white">
 
-                            <div class="element-box-information">
+                                            - Teacher, Longley School Huddersfield
 
-                                <p class="type-paragraph-left">
+                                    </p> <!-- type-paragraph-small -->
 
-                                        "Children have bags more confidence to join in and try out activities."
+                                </div> <!-- element-box-actions -->
 
-                                </p> <!-- type-paragraph-small -->
+                            </div> <!-- element-feedback-box -->
 
-                            </div> <!-- element-box-information -->
 
-                            <div class="element-box-actions">
 
-                                <p class="type-paragraph colour-foreground-white">
+                            <div class="colour-background-yellow element-box-portrait">
 
-                                        - Teacher, Longley School Huddersfield
+                                <div class="image-container-golden">
 
-                                </p> <!-- type-paragraph-small -->
+                                    
 
-                            </div> <!-- element-box-actions -->
+                                </div> <!-- image-container-golden -->
 
-                        </div> <!-- element-feedback-box -->
+                                <div class="element-box-information">
 
-                    </div> <!-- layout-span-three -->
+                                    <p class="type-paragraph-left">
 
-                    <div class="layout-span-three">
+                                            "A bonding experience for children, staff and teachers – we all had a great time."
 
-                        <div class="colour-background-blue element-box-portrait">
+                                    </p> <!-- type-paragraph-small -->
 
-                            <div class="image-container-golden">
+                                </div> <!-- element-box-information -->
 
-                                
+                                <div class="element-box-actions">
 
-                            </div> <!-- image-container-golden -->
+                                    <p class="type-paragraph colour-foreground-white">
 
-                            <div class="element-box-information">
+                                            - Teacher, Lydgate School, Huddersfield
 
-                                <p class="type-paragraph-left">
+                                    </p> <!-- type-paragraph-small -->
 
-                                        "A bonding experience for children, staff and teachers – we all had a great time."
+                                </div> <!-- element-box-actions -->
 
-                                </p> <!-- type-paragraph-small -->
+                            </div> <!-- element-feedback-box -->
 
-                            </div> <!-- element-box-information -->
+                        </div> <!-- layout-span-three -->
 
-                            <div class="element-box-actions">
+                        <div class="layout-span-three">
+                    
+                            <div class="colour-background-orange element-box-portrait">
 
-                                <p class="type-paragraph colour-foreground-white">
+                                <div class="image-container-golden">
 
-                                        - Teacher, Lydgate School, Huddersfield
+                                    
 
-                                </p> <!-- type-paragraph-small -->
+                                </div> <!-- image-container-golden -->
 
-                            </div> <!-- element-box-actions -->
+                                <div class="element-box-information">
 
-                        </div> <!-- element-feedback-box -->
+                                    <p class="type-paragraph-left">
 
-                    </div> <!-- layout-span-three -->
+                                            "I am constantly impressed by Shabang’s enthusiasm, dedication, creativity and positivity."
 
-                    <div class="layout-span-three">
+                                    </p> <!-- type-paragraph-small -->
 
-                        <div class="colour-background-orange element-box-portrait">
+                                </div> <!-- element-box-information -->
 
-                            <div class="image-container-golden">
+                                <div class="element-box-actions">
 
-                                
+                                    <p class="type-paragraph colour-foreground-white">
 
-                            </div> <!-- image-container-golden -->
+                                            - Parent of child with Down Syndrome
 
-                            <div class="element-box-information">
+                                    </p> <!-- type-paragraph-small -->
 
-                                <p class="type-paragraph-left">
+                                </div> <!-- element-box-actions -->
 
-                                        "I am constantly impressed by Shabang’s enthusiasm, dedication, creativity and positivity."
+                            </div> <!-- element-feedback-box -->
 
-                                </p> <!-- type-paragraph-small -->
 
-                            </div> <!-- element-box-information -->
+                            <div class="colour-background-blue element-box-portrait">
 
-                            <div class="element-box-actions">
+                                <div class="image-container-golden">
 
-                                <p class="type-paragraph colour-foreground-white">
+                                    
 
-                                        - Parent of child with Down Syndrome
+                                </div> <!-- image-container-golden -->
 
-                                </p> <!-- type-paragraph-small -->
+                                <div class="element-box-information">
 
-                            </div> <!-- element-box-actions -->
+                                    <p class="type-paragraph-left">
 
-                        </div> <!-- element-feedback-box -->
+                                            "Amazing Amazing place! So inclusive, So inspiring So welcoming."
 
-                    </div> <!-- layout-span-three -->
+                                    </p> <!-- type-paragraph-small -->
 
-                    <div class="layout-span-three layout-column-right">
+                                </div> <!-- element-box-information -->
 
-                        <div class="colour-background-green element-box-portrait">
+                                <div class="element-box-actions">
 
-                            <div class="image-container-golden">
+                                    <p class="type-paragraph colour-foreground-white">
 
-                                
+                                            - Parent
 
-                            </div> <!-- image-container-golden -->
+                                    </p> <!-- type-paragraph-small -->
 
-                            <div class="element-box-information">
+                                </div> <!-- element-box-actions -->
 
-                                <p class="type-paragraph-left">
+                            </div> <!-- element-feedback-box -->
 
-                                        "Amazing Amazing place! So inclusive, So inspiring So welcoming."
+                            <div class="colour-background-green element-box-portrait">
 
-                                </p> <!-- type-paragraph-small -->
+                                <div class="image-container-golden">
 
-                            </div> <!-- element-box-information -->
+                                    
 
-                            <div class="element-box-actions">
+                                </div> <!-- image-container-golden -->
 
-                                <p class="type-paragraph colour-foreground-white">
+                                <div class="element-box-information">
 
-                                        - Parent
+                                    <p class="type-paragraph-left">
 
-                                </p> <!-- type-paragraph-small -->
+                                            "We really appreciate being included – your creative energy always brings about some amazing work from all our pupils"
 
-                            </div> <!-- element-box-actions -->
+                                    </p> <!-- type-paragraph-small -->
 
-                        </div> <!-- element-feedback-box -->
+                                </div> <!-- element-box-information -->
 
-                    </div> <!-- layout-span-three -->
+                                <div class="element-box-actions">
 
-                    <div class="layout-span-three">
+                                    <p class="type-paragraph colour-foreground-white">
 
-                        <div class="colour-background-blue element-box-portrait">
+                                           - Teacher, Longley School Huddersfield
 
-                            <div class="image-container-golden">
+                                    </p> <!-- type-paragraph-small -->
 
-                                
+                                </div> <!-- element-box-actions -->
 
-                            </div> <!-- image-container-golden -->
+                            </div> <!-- element-feedback-box -->
 
-                            <div class="element-box-information">
+                        </div> <!-- layout-span-three -->
 
-                                <p class="type-paragraph-left">
+                        <div class="layout-span-three layout-column-right">
 
-                                        "Shabang are unique and irreplaceable"
+                            <div class="colour-background-blue element-box-portrait">
 
-                                </p> <!-- type-paragraph-small -->
+                                <div class="image-container-golden">
 
-                            </div> <!-- element-box-information -->
+                                    
 
-                            <div class="element-box-actions">
+                                </div> <!-- image-container-golden -->
 
-                                <p class="type-paragraph colour-foreground-white">
+                                <div class="element-box-information">
 
-                                       - Teacher
+                                    <p class="type-paragraph-left">
 
-                                </p> <!-- type-paragraph-small -->
+                                            "Shabang are unique and irreplaceable"
 
-                            </div> <!-- element-box-actions -->
+                                    </p> <!-- type-paragraph-small -->
 
-                        </div> <!-- element-feedback-box -->
+                                </div> <!-- element-box-information -->
 
-                    </div> <!-- layout-span-three -->
+                                <div class="element-box-actions">
 
-                    <div class="layout-span-three">
+                                    <p class="type-paragraph colour-foreground-white">
 
-                        <div class="colour-background-orange element-box-portrait">
+                                           - Teacher
 
-                            <div class="image-container-golden">
+                                    </p> <!-- type-paragraph-small -->
 
-                                
+                                </div> <!-- element-box-actions -->
 
-                            </div> <!-- image-container-golden -->
+                            </div> <!-- element-feedback-box -->
 
-                            <div class="element-box-information">
 
-                                <p class="type-paragraph-left">
 
-                                        "What Shabang! created was a world of beauty and imagination! They help re-create the awareness we had as children - that we are one with the world – with nature."
+                        <div class="colour-background-red element-box-portrait">
 
-                                </p> <!-- type-paragraph-small -->
+                                <div class="image-container-golden">
 
-                            </div> <!-- element-box-information -->
+                                    
 
-                            <div class="element-box-actions">
+                                </div> <!-- image-container-golden -->
 
-                                <p class="type-paragraph colour-foreground-white">
+                                <div class="element-box-information">
 
-                                       - Westport Adult Services
+                                    <p class="type-paragraph-left">
 
-                                </p> <!-- type-paragraph-small -->
+                                            "What Shabang! created was a world of beauty and imagination! They help re-create the awareness we had as children - that we are one with the world – with nature."
 
-                            </div> <!-- element-box-actions -->
+                                    </p> <!-- type-paragraph-small -->
 
-                        </div> <!-- element-feedback-box -->
+                                </div> <!-- element-box-information -->
 
-                    </div> <!-- layout-span-three -->
+                                <div class="element-box-actions">
 
-                    <div class="layout-span-three">
+                                    <p class="type-paragraph colour-foreground-white">
 
-                        <div class="colour-background-green element-box-portrait">
+                                           - Westport Adult Services
 
-                            <div class="image-container-golden">
+                                    </p> <!-- type-paragraph-small -->
 
-                                
+                                </div> <!-- element-box-actions -->
 
-                            </div> <!-- image-container-golden -->
+                            </div> <!-- element-feedback-box -->
 
-                            <div class="element-box-information">
-
-                                <p class="type-paragraph-left">
-
-                                        "We really appreciate being included – your creative energy always brings about some amazing work from all our pupils"
-
-                                </p> <!-- type-paragraph-small -->
-
-                            </div> <!-- element-box-information -->
-
-                            <div class="element-box-actions">
-
-                                <p class="type-paragraph colour-foreground-white">
-
-                                       - Teacher, Longley School Huddersfield
-
-                                </p> <!-- type-paragraph-small -->
-
-                            </div> <!-- element-box-actions -->
-
-                        </div> <!-- element-feedback-box -->
-
-                    </div> <!-- layout-span-three -->
+                        </div> <!-- layout-span-three -->
 
                 </div> <!-- layout-row -->
 
             </div> <!-- layout-container -->
 
-        </div> <!-- article-feedback-funders -->
+        </article> <!-- article-feedback-funders -->
 
         <?php include('includes/footer.php'); ?>
 

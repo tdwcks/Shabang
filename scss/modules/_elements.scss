@@ -23,14 +23,18 @@
 
 .element-box-portrait {
 	width: 100%;
-	@include maintain-ratio(9 12);
+	height: auto;
+	overflow: auto;
+	padding-bottom: 100px;
 	position: relative;
 	margin-bottom: 24px;
 }
 
 .element-box-portrait-two {
 	width: 100%;
-	@include maintain-ratio(9 16);
+	height: auto;
+	overflow: auto;
+	padding-bottom: 25px;
 	position: relative;
 	margin-bottom: 24px;
 
@@ -423,7 +427,7 @@
 	position: relative;
 
 	.type-title-style-two {
-		width: 100%;
+		@include calc(width, "100% - 50px");
 	}
 
 	&:after {
@@ -444,14 +448,18 @@
 }
 
 .element-answer {
-	display: none;
+	
 
 	.type-paragraph-small {
-		width: 90%;
-		font-size: 0.95em;
+		@include calc(width, "100% - 50px");
+		font-size: 1.1em;
 		color: $colourTypeDark;
 		padding: 0;
 		margin-bottom: 0;
+
+		@include mq("extra-small", "max-width") {
+			width: 100%;
+		}
 	}
 }
 

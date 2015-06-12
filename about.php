@@ -76,17 +76,9 @@
 
                 <div class="layout-row">
 
-                    <div class="layout-span-six">
+                     <div class="layout-span-three">
 
-                        <h5 class="type-title-style-one">History</h4>
-
-                        <p class="colour-foreground-cream type-paragraph-large">Kim and Russ met when they were both working for a Leeds Theatre company – Interplay. Previous to that Russ had been a musician in pop and rock bands and a rep and TIE actor and Kim had been a teacher and performer in Community theatre companies.</p>
-
-                    </div> <!-- layout-span-six -->
-
-                    <div class="layout-shift-two layout-span-four layout-column-right">
-
-                        <div class="image-container-circle">
+                        <div class="image-container-comic">
 
                             <img alt="Kim Reuter and Russ Elias" src="img/">
 
@@ -94,28 +86,25 @@
 
                     </div> <!-- layout-span-six -->
 
-                </div> <!-- layout-row -->
+                    <div class="layout-span-eight layout-shift-one layout-column-right">
 
-                <div class="layout-row"> 
+                        <h2 class="type-title-style-two colour-foreground-cream">History</h2>
 
-                    <div class="layout-span-four">
+                        <p class="type-paragraph-large colour-foreground-cream">Kim and Russ met when they were both working for a Leeds Theatre company – Interplay. Previous to that Russ had been a musician in pop and rock bands and a rep and TIE actor and Kim had been a teacher and performer in Community theatre companies.</p>
+
+                        <div class="layout-span-six">
 
                         <p class="type-paragraph-mid">After a few years at interplay we left to set up Shabang Theatre Adventures and with no state funded tried our hand at producing shows and touring them around the country ‘s special schools. We soon developed our own style , and in the days before National Curriculum, would take the whole school on an eccentric theatrical adventure lasting three or four days at a time.</p>
 
-                    </div> <!-- layout-span-four -->
+                        </div> <!-- layout-span-six -->
 
-                    <div class="layout-span-four">
+                        <div class="layout-span-six layout-column-right">
 
-                        <p class="type-paragraph-mid">We came together with our Watershed partners in 2000 to realise the purchase and renovation of an old forgotten weaving shed in our home village of Slaithwaite and after a couple of successful applications to the National Lottery’s Family Learning and Reaching Communities Funds we now work with families as well as schools and child development centres.</p>
+                        <p class="type-paragraph-mid">We came together with our Watershed partners in 2000 to realise the purchase and renovation of an old forgotten weaving shed in our home village of Slaithwaite and after a couple of successful applications to the National Lottery’s Family Learning and Reaching Communities Funds we now work with families as well as schools and child development centres. Along the way we have managed to produce a son, Ruben who happens to have Down Syndrome.</p>
 
-                    </div> <!-- layout-span-four -->
+                        </div> <!-- layout-span-six -->
 
-
-                    <div class="layout-span-four layout-column-right">
-
-                        <p class="type-paragraph-mid">Along the way we have managed to produce a son, Ruben who happens to have Down Syndrome.</p>
-
-                    </div> <!-- layout-span-four -->
+                    </div> <!-- layout-span-eight -->
 
                 </div> <!-- layout-row -->
 
@@ -133,7 +122,7 @@
 
                         <div class="element-title-centre">
 
-                            <h2 class="type-title-style-one colour-foreground-green">Things we get asked a lot</h2>
+                            <h2 class="type-title-style-one colour-foreground-green">Things we get asked</h2>
 
                             <p class="type-paragraph-centered">
 
@@ -141,7 +130,7 @@
 
                             </p> <!-- type-paragraph-centered -->
 
-                            <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green link-centred">Contact</a>
+                            <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green link-centred">Get In Touch</a>
 
                         </div> <!-- element-title-centre -->
 
@@ -232,7 +221,7 @@
 
                                 <div class="element-answer"> 
 
-                                    <p class="type-paragraph-small ">We are asked a lot about volunteer placements and try to accommodate as many as we can. Give us a ring on 01484 840723 and we will see what we can do for you.</p>
+                                    <p class="type-paragraph-small ">We are asked a lot about volunteer placements and try to accommodate as many as we can. Give us a ring on <a target="_blank" href="tel:01484 840723" class="link-style-two colour-foreground-blue">01484 840723</a> and we will see what we can do for you.</p>
 
                                 </div> <!-- element-answer -->
 
@@ -280,7 +269,7 @@
 
                                 <div class="element-answer"> 
 
-                                    <p class="type-paragraph-small">Give us a ring on 01484 848073 and have a chat with us.</p>
+                                    <p class="type-paragraph-small">Give us a ring on <a target="_blank" href="tel:01484 840723" class="link-style-two colour-foreground-blue">01484 840723</a> and have a chat with us.</p>
 
                                 </div> <!-- element-answer -->
 

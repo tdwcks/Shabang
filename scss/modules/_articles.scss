@@ -417,15 +417,17 @@
 
 .article-about-more {
 	border-top: 3px solid $colourDarkBlue;
+	border-bottom: 3px solid $colourDarkBlue;
 	width: 100%;
 	overflow: auto;
 	height: auto;
-	padding: 25px 0px;
+	padding: 50px 0px;
 	background: $colourBlue;
 
 	.type-title-style-one {
 		color: $colourBg;
-		margin-top: 60px;
+		margin-top: 0px;
+		padding: 0;
 	}
 
 	.type-paragraph-large {
@@ -434,6 +436,34 @@
 
 	.type-paragraph-mid {
 		color: $colourBg;
+	}
+
+	@include mq("medium", "max-width") {
+
+		.layout-span-three {
+			width: 100%;
+		}
+		
+		.layout-span-six {
+			width: 100%;
+		}
+
+		.type-paragraph-large {
+			padding: 0;
+		}
+
+		.type-paragraph-mid {
+			padding: 0;
+			margin: 10px 0;
+		}
+
+		.layout-span-eight {
+			width: 100%;
+		}
+
+		.layout-shift-one {
+			margin-left: 0;
+		}
 	}
 }
 
@@ -548,6 +578,7 @@
 .article-feedback-funders {
 	padding: 50px 0px;
 	overflow: auto;
+	width: 100%;
 	height: auto;
 }
 

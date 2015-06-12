@@ -313,21 +313,17 @@
 
                     <div class="layout-title-center">
 
-                        <div class="element-title-centre">
+                        <h2 class="type-title-style-one colour-foreground-green">Shabang! Shop</h2>
 
-                            <h2 class="type-title-style-one colour-foreground-green">Shabang! Shop</h2>
+                        <p class="type-paragraph-centered">
 
-                            <p class="type-paragraph-centered">
+                            Check out our fantastic range of resources available for you at home or at school.
 
-                                Check out our fantastic range of resources available for you at home or at school.
+                        </p> <!-- type-paragraph-centered -->
 
-                            </p> <!-- type-paragraph-centered -->
+                        <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green link-centred">Go Shopping</a>
 
-                            <span id="js-discover-arrow" class="header-arrow"></span>
-
-                        </div> <!-- element-title-centre -->
-
-                    </div> <!-- layout-span-four -->
+                    </div> <!-- element-title-centre -->
 
                 </div> <!-- layout-row -->
 

@@ -40,21 +40,21 @@
 
             <div class="layout-container">
 
-            <div class="layout-span-four layout-shift-four">
+            <div class="layout-row">
 
-                <div class="element-title-centre">
+                <div class="layout-title-center">
 
                     <h2 class="type-title-style-one colour-foreground-green">You Make It Possible!</h2>
 
                     <p class="type-paragraph-centered">
 
-                        We offer many of our sessions free of charge thanks to the amazing support from funding bodies, private donations &amp; fundraisers.
+                        We offer many of our sessions free of charge thanks to the amazing support from funding bodies, private donations & fundraisers.
 
                     </p> <!-- type-paragraph-centered -->
 
-                </div> <!-- element-title-centre -->
+                </div> <!-- layout-title-center -->
 
-            </div> <!-- layout-span-four -->
+            </div> <!-- layout-row -->
 
             <div class="layout-row">
 
@@ -81,88 +81,6 @@
                             </div> <!-- element-box-information -->
 
                         </div> <!-- element-feedback-box -->
-
-                    </div> <!-- layout-span-three -->
-
-                    <div class="layout-span-three">
-
-                        <div class="colour-background-green element-box-portrait-two">
-
-                            <div class="image-container-golden">
-
-                                
-
-                            </div> <!-- image-container-golden -->
-
-                            <div class="element-box-information">
-
-                                <h5 class="type-title-style-one">Big Lottery Fund</h5>
-
-                                <p class="type-paragraph-left">
-
-                                        Revenue funding for ‘Bridge Builders’ a five-year programme of creative activities and events with children with additional needs, their siblings and families.
-
-                                </p> <!-- type-paragraph-small -->
-
-                            </div> <!-- element-box-information -->
-
-                        </div> <!-- element-feedback-box -->
-
-                    </div> <!-- layout-span-three -->
-
-                    <div class="layout-span-three">
-
-                        <div class="colour-background-green element-box-portrait-two">
-
-                            <div class="image-container-golden">
-
-                                
-
-                            </div> <!-- image-container-golden -->
-
-                            <div class="element-box-information">
-
-                                <h5 class="type-title-style-one">Children In Need</h5>
-
-                                <p class="type-paragraph-left">
-
-                                        Project funding to run a weekly arts based club with young people with Down Syndrome to explore drama, music, theatre and film.
-
-                                </p> <!-- type-paragraph-small -->
-
-                            </div> <!-- element-box-information -->
-
-                        </div> <!-- element-feedback-box -->
-
-                    </div> <!-- layout-span-three -->
-
-                    <div class="layout-span-three layout-column-right">
-
-                        <div class="colour-background-green element-box-portrait-two">
-
-                            <div class="image-container-golden">
-
-                                
-
-                            </div> <!-- image-container-golden -->
-
-                            <div class="element-box-information">
-
-                                <h5 class="type-title-style-one">Youth Music</h5>
-
-                                <p class="type-paragraph-left">
-
-                                        Project funding for ‘Special Songs for Signing’ introducing pre-school children with additional needs to high quality, original songs and music making activities.
-
-                                </p> <!-- type-paragraph-small -->
-
-                            </div> <!-- element-box-information -->
-
-                        </div> <!-- element-feedback-box -->
-
-                    </div> <!-- layout-span-three -->
-
-                    <div class="layout-span-three">
 
                         <div class="colour-background-green element-box-portrait-two">
 
@@ -200,6 +118,28 @@
 
                             <div class="element-box-information">
 
+                                <h5 class="type-title-style-one">Big Lottery Fund</h5>
+
+                                <p class="type-paragraph-left">
+
+                                        Revenue funding for ‘Bridge Builders’ a five-year programme of creative activities and events with children with additional needs, their siblings and families.
+
+                                </p> <!-- type-paragraph-small -->
+
+                            </div> <!-- element-box-information -->
+
+                        </div> <!-- element-feedback-box -->
+
+                        <div class="colour-background-green element-box-portrait-two">
+
+                            <div class="image-container-golden">
+
+                                
+
+                            </div> <!-- image-container-golden -->
+
+                            <div class="element-box-information">
+
                                 <h5 class="type-title-style-one">Foyle Foundation</h5>
 
                                 <p class="type-paragraph-left">
@@ -226,11 +166,59 @@
 
                             <div class="element-box-information">
 
+                                <h5 class="type-title-style-one">Children In Need</h5>
+
+                                <p class="type-paragraph-left">
+
+                                        Project funding to run a weekly arts based club with young people with Down Syndrome to explore drama, music, theatre and film.
+
+                                </p> <!-- type-paragraph-small -->
+
+                            </div> <!-- element-box-information -->
+
+                        </div> <!-- element-feedback-box -->
+
+                        <div class="colour-background-green element-box-portrait-two">
+
+                            <div class="image-container-golden">
+
+                                
+
+                            </div> <!-- image-container-golden -->
+
+                            <div class="element-box-information">
+
                                 <h5 class="type-title-style-one">The Baily Thomas Charitable Fund</h5>
 
                                 <p class="type-paragraph-left">
 
                                         Project funding for ‘Yakety Yak’ a two-year programme of communication based Makaton courses for parents of children with additional needs.
+
+                                </p> <!-- type-paragraph-small -->
+
+                            </div> <!-- element-box-information -->
+
+                        </div> <!-- element-feedback-box -->
+
+                    </div> <!-- layout-span-three -->
+
+                    <div class="layout-span-three layout-column-right">
+
+                        <div class="colour-background-green element-box-portrait-two">
+
+                            <div class="image-container-golden">
+
+                                
+
+                            </div> <!-- image-container-golden -->
+
+                            <div class="element-box-information">
+
+                                <h5 class="type-title-style-one">Youth Music</h5>
+
+                                <p class="type-paragraph-left">
+
+                                        Project funding for ‘Special Songs for Signing’ introducing pre-school children with additional needs to high quality, original songs and music making activities.
 
                                 </p> <!-- type-paragraph-small -->
 

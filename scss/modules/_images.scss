@@ -68,7 +68,7 @@ img.image-post-content {
 
 .image-container-comic {
 	width: 100%;
-	@include maintain-ratio(1 1.419);
+	@include maintain-ratio(1 1.414);
 	background: $colourDarken;
 	margin-bottom: 25px;
 	cursor: pointer;
