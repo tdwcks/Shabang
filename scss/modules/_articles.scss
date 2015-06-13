@@ -830,13 +830,6 @@
 	padding: 50px 0px;
 }
 
-.article-contact {
-	height: auto;
-	overflow:auto;
-	width: 100%;
-	padding: 0px 0px 50px 0;
-}
-
 .article-message {
 	position: fixed;
 	bottom: 0;
@@ -989,6 +982,27 @@
 	@include mq("medium", "max-width") {
 		.layout-container-inner {
 			width: 95%;
+		}
+	}
+}
+
+.article-contact {
+	height: auto;
+	overflow:auto;
+	width: 100%;
+	padding: 0px 0px 50px 0;
+
+	@include mq("medium", "max-width") {
+		
+		.layout-shift-three {
+			margin-left: 0;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		
+		.layout-shift-three {
+			margin-left: 0;
 		}
 	}
 }

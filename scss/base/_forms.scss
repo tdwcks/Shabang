@@ -81,7 +81,7 @@ input {
 	 -webkit-appearance: none;
 
 	&:focus {
-		background: $colourYellow;
+		background: $colourGreen;
 	}
 }
 
@@ -145,7 +145,7 @@ textarea {
 	resize:vertical;
 
 	&:focus {
-		background: $colourYellow;
+		background: $colourGreen;
 	}
 }
 

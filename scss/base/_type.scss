@@ -43,6 +43,31 @@ h2 {
       text-transform: uppercase;
     }
 
+    &.type-style-two {
+      text-align: center;
+      font-weight: 500;
+      color: #fff;
+      font-size: 2em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 10px 0;
+
+      @include mq("small", "max-width") {
+        font-size: 1.6em;
+      }
+    }
+
+    &.type-style-three {
+      padding-top: 30px;
+      display: block;
+      text-transform: uppercase;
+      font-size: 1.3em;
+      font-weight: 400;
+      text-align: center;
+      width: 100%;
+      letter-spacing: 1px;
+    }
+
     &.type-title-style-one {
       text-align: center;
     }
@@ -194,10 +219,41 @@ h5 {
       color: #fff;
     }
 
+    &.type-style-six {
+      font-size: 1.1em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #fff;
+      line-height: 1.4em;
+    }
+
     &.type-style-one {
       color: $colourBg;
       font-weight: 300;
       font-size: 1em;
+    }
+
+    &.type-style-contact-action {
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      position: relative;
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 0;
+        right: 27%;
+        background-image: url(img/icon_arrow_orange.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
     }
 }
 

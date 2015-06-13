@@ -842,15 +842,6 @@
 	}
 }
 
-
-.element-contact-information {
-	width: 100%;
-	padding: 50px 0;
-	@include maintain-ratio(16 9);
-	margin-bottom: 50px;
-	background: $colourBlue;
-}
-
 .element-shop-music-top {
 	height: 80px;
 	@include calc(width, "50% - 12px");
@@ -962,6 +953,87 @@
 			border-bottom: 0px;
 		}
 
+	}
+}
+
+.element-contact-box {
+	margin-top: 35px;
+	display: block;
+	position: relative;
+	height: auto;
+	overflow: auto;
+	width: 100%;
+	background: $colourBlue;
+	text-decoration: none;
+	padding-bottom: 50px;
+
+	&:nth-child(even) {
+		margin-top: 24px;
+		background: $colourGreen;
+	}
+
+	@include mq("small", "max-width") {
+		padding-bottom: 30px;
+		
+		&:last-child {
+
+			.type-style-two {
+				font-size: 1.2em;
+			}
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+		
+		margin-top: 25px;
+	}
+}
+
+.element-contact-box-address {
+	margin: 35px 0;
+	height: auto;
+	overflow: auto;
+	background: $colourRed;
+	position: relative;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+
+	#map {
+		width: 100%;
+		padding: 99px 0;
+		background: $colourDarken;
+
+		@include mq("medium", "max-width") {
+			padding: 88px 0;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		margin: 35px 0 0 0;
+	}
+}
+
+.element-contact-action {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background: $colourDarken;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 15px 15px 10px 15px;
+	text-decoration: none;
+}
+
+.element-contact-information {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 25px;
+
+	.type-title-style-one {
+		
 	}
 }
 

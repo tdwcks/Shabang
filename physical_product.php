@@ -36,9 +36,9 @@
 
         <?php include('includes/header.php'); ?>
 
-        <?php include('includes/shop_header_product.php'); ?>
+        <?php include('includes/shop_header.php'); ?>
 
-        <article class="article-shop-product">
+        <article class="article-shop-physical-product">
 
             <div class="layout-container-inner">
 
@@ -49,22 +49,17 @@
                         
                     </div> <!-- image-container-golden -->
 
-                    <div class="image-container-golden">
-
-                        
-                    </div> <!-- image-container-golden -->
-
                 </div> <!-- layout-span-eight -->
 
                 <div class="layout-span-four layout-column-right">
 
-                    <span class="type-style-four">Physical Product</span>
+                    <span class="type-style-one">Physical Product</span>
 
-                    <h3 class="type-style-one colour-foreground-blue">Shabang! Song Book</h3>
+                    <h4 class="type-style-one">Shabang! Song Book</h4>
 
-                    <span class="type-style-four">£19.99</span>
+                    <span class="type-style-two">£19.99</span>
 
-                    <p class="type-paragraph-mid">A fabulous new sing and sign resource book with CD especially designed for children with (or without) additional learning needs.</p>
+                    <p class="type-paragraph">A fabulous new sing and sign resource book with CD especially designed for children with (or without) additional learning needs.</p>
 
                     <div class="element-buy-actions">
 

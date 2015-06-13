@@ -48,21 +48,83 @@
 
         <div class="article-contact">
 
-            <div class="article-contact-information">
-
-                <a href="tel:01484 848073" class="style-type-four">01484 848073</a>
-
-                <a href="tel:01484 848073" class="style-type-four">01484 848073</a>
-
-            </div> <!-- element-contact-information -->
-
             <div class="layout-container">
+
+                <div class="layout-row">
+
+                    <div class="layout-span-six">
+
+                        <div class="element-contact-box-address">
+
+                                <div id="map"></div>
+
+                            <div class="element-contact-information">
+
+                                <h5 class="type-style-six">Visit Us</h5>
+
+                                <h2 class="type-style-two">The Watershed</h5>
+
+                                <h5 class="type-style-six">22 Bridge Street, Slaithwaite, HD7 5JN</h5>
+
+                            </div>
+
+                            <a href="https://www.google.co.uk/maps/dir//22+Bridge+St,+Slaithwaite,+Huddersfield,+West+Yorkshire+HD7/@53.622397,-1.879928,17z/data=!4m13!1m4!3m3!1s0x487bc4bce24cac6b:0xc6cd7651ebb5be25!2s22+Bridge+St,+Slaithwaite,+Huddersfield,+West+Yorkshire+HD7!3b1!4m7!1m0!1m5!1m1!1s0x487bc4bce24cac6b:0xc6cd7651ebb5be25!2m2!1d-1.879928!2d53.622397" class="element-contact-action">
+
+                                <h5 class="type-style-contact-action">Get Directions</h5>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="layout-span-six layout-column-right">
+
+                        <a href="tel:01484 848073" class="element-contact-box colour-background-red">
+
+                            <div class="element-contact-information">
+
+                                <h5 class="type-style-six">Call Us</h3>
+
+                                <h2 class="type-style-two">01484 848073</h2>
+
+                            </div>
+
+                            <div class="element-contact-action">
+
+                                <h5 class="type-style-contact-action">Call Our Phone</h5>
+
+                            </div>
+
+                        </a>
+
+                        <a href="mailto:someone@example.com?Subject=Howdy!" class="element-contact-box colour-background-yellow">
+
+                            <div class="element-contact-information">
+
+                                <h5 class="type-style-six">Email Us</h3>
+                                
+                                <h2 class="type-style-two">info@shabang.org.uk</h2>
+
+                            </div>
+
+                            <div class="element-contact-action">
+
+                                <h5 class="type-style-contact-action">Start An Email</h5>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                </div> <!-- layout-row -->
 
                 <div class="layout-row">
 
                     <div class="layout-span-six layout-shift-three layout-column-right">
 
-                        <h3 class="type-title-style-two colour-foreground-blue">Contact Form</h3>
+                        <h2 class="type-style-three colour-foreground-blue">Contact Form</h3>
 
                         <form id="form-contact" method="post">
 

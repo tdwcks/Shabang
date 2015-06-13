@@ -81,7 +81,6 @@
                         <div class="image-container-circle">
 
 
-
                         </div> <!-- image-container-circle -->
 
                     </div> <!-- layout-span-two -->

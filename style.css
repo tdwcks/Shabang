@@ -109,6 +109,26 @@ h2 {
     letter-spacing: 1px;
     font-weight: 400;
     text-transform: uppercase; }
+  h2.type-style-two {
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 0; }
+    @media (max-width: 835px) {
+      h2.type-style-two {
+        font-size: 1.6em; } }
+  h2.type-style-three {
+    padding-top: 30px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px; }
   h2.type-title-style-one {
     text-align: center; }
   h2.type-title-style-two {
@@ -223,10 +243,35 @@ h5 {
     letter-spacing: 1px;
     text-align: center;
     color: #fff; }
+  h5.type-style-six {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.4em; }
   h5.type-style-one {
     color: #f8fbf4;
     font-weight: 300;
     font-size: 1em; }
+  h5.type-style-contact-action {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative; }
+    h5.type-style-contact-action:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 0;
+      right: 27%;
+      background-image: url(img/icon_arrow_orange.svg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
 
 p {
   font-weight: 300;
@@ -1392,7 +1437,7 @@ input {
   margin: 0;
   -webkit-appearance: none; }
   input:focus {
-    background: #edc721; }
+    background: #07af32; }
 
 input[type="submit"] {
   width: 130px;
@@ -1474,7 +1519,7 @@ textarea {
   margin: 0;
   resize: vertical; }
   textarea:focus {
-    background: #edc721; }
+    background: #07af32; }
 
 fieldset.form-buy-quantity {
   padding: 0; }
@@ -2029,12 +2074,6 @@ fieldset.form-buy-quantity {
   width: 100%;
   padding: 50px 0px; }
 
-.article-contact {
-  height: auto;
-  overflow: auto;
-  width: 100%;
-  padding: 0px 0px 50px 0; }
-
 .article-message {
   position: fixed;
   bottom: 0;
@@ -2136,6 +2175,18 @@ fieldset.form-buy-quantity {
   @media (max-width: 1100px) {
     .article-music-product .layout-container-inner {
       width: 95%; } }
+
+.article-contact {
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  padding: 0px 0px 50px 0; }
+  @media (max-width: 1100px) {
+    .article-contact .layout-shift-three {
+      margin-left: 0; } }
+  @media (max-width: 835px) {
+    .article-contact .layout-shift-three {
+      margin-left: 0; } }
 
 .image-container-circle {
   width: 100%;
@@ -3430,15 +3481,6 @@ li:last-child {
       margin-top: 20px;
       padding: 10px 0px; } }
 
-.element-contact-information {
-  width: 100%;
-  padding: 50px 0;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-  margin-bottom: 50px;
-  background: #169ee4; }
-
 .element-shop-music-top {
   height: 80px;
   width: -moz-calc(50% - 12px);
@@ -3522,5 +3564,64 @@ li:last-child {
       padding: 0; }
       .element-song-list:first-child li:last-child {
         border-bottom: 0px; } }
+
+.element-contact-box {
+  margin-top: 35px;
+  display: block;
+  position: relative;
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  background: #169ee4;
+  text-decoration: none;
+  padding-bottom: 50px; }
+  .element-contact-box:nth-child(even) {
+    margin-top: 24px;
+    background: #07af32; }
+  @media (max-width: 835px) {
+    .element-contact-box {
+      padding-bottom: 30px; }
+      .element-contact-box:last-child .type-style-two {
+        font-size: 1.2em; } }
+  @media (max-width: 700px) {
+    .element-contact-box {
+      margin-top: 25px; } }
+
+.element-contact-box-address {
+  margin: 35px 0;
+  height: auto;
+  overflow: auto;
+  background: #e8471d;
+  position: relative;
+  padding-bottom: 50px;
+  box-sizing: border-box; }
+  .element-contact-box-address #map {
+    width: 100%;
+    padding: 99px 0;
+    background: rgba(0, 0, 0, 0.2); }
+    @media (max-width: 1100px) {
+      .element-contact-box-address #map {
+        padding: 88px 0; } }
+  @media (max-width: 835px) {
+    .element-contact-box-address {
+      margin: 35px 0 0 0; } }
+
+.element-contact-action {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.2);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 15px 15px 10px 15px;
+  text-decoration: none; }
+
+.element-contact-information {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px; }
 
 /*# sourceMappingURL=style.css.map */
