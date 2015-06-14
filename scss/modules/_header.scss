@@ -272,6 +272,7 @@ li .header-activities-submenu {
 
 	.is-activities-active & {
 		border-bottom: 15px solid $colourGreen;
+		right: 630px;
 		@include animation(header_arrow_in  0.3s 0.5s forwards);
 	}
 }
@@ -286,10 +287,22 @@ li .header-activities-submenu {
 	.is-discover-active & {
 		display: block;
 		@include animation(header_menu_in 0.5s forwards);
-		border-bottom: 3px solid $colourDarken;
+		
 	}
 
 	.is-discover-closing & {
+		@include animation(header_menu_out 0.4s forwards);
+	}
+
+	.is-activities-active & {
+		background: $colourGreen;
+		display: block;
+		@include animation(header_menu_in 0.5s forwards);
+		
+	}
+
+	.is-activities-closing & {
+		background: $colourGreen;
 		@include animation(header_menu_out 0.4s forwards);
 	}
 }
@@ -349,23 +362,6 @@ li .header-activities-submenu li {
 }
 
 li .header-activities-submenu {
-	display: none;
-}
-
-#js-discover-menu {
-	display: block;
-	@include transform(translateY(-42px));
-
-	.navigation--discover--active & {
-		@include animation(0.2s header_menu_in ease-in-out forwards);
-	}
-
-	.navigation--discover--inactive & {
-		@include animation(0.2s header_menu_out ease-in-out forwards);
-	}
-}
-
-#js-activities-menu {
 	display: none;
 }
 

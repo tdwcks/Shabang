@@ -25,7 +25,7 @@
 
     </head>
 
-    <body class="is-discover-active">
+    <body class="is-activities-active">
 
         <!--[if lt IE 8]>
 

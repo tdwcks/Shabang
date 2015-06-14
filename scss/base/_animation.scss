@@ -43,13 +43,13 @@
 
 @include keyframes(header_menu_out) {
   from {
-    height: 50px;
     opacity: 1;
+    height: 50px;
   }
 
   to {
     opacity: 1;
-    height: 0;
+    height: 0px;
    }
 }
 

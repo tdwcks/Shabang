@@ -44,6 +44,12 @@
 
 			<ul class="header-navigation-internal">
 
+                <li class="header-main-menu-item">
+                    
+                    <a href="index.php" class="link-style-one colour-foreground-red">Home</a>
+
+                </li> 
+
 				<li id="js-discover-trigger" class="header-main-menu-item js-navigation-discover">
 
                     <a href="#" class="link-style-one colour-foreground-blue">Discover</a>

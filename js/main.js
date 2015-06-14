@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 	});
 
-	// Launch Discover Trigger
+	// Launch Discover Men
 
 	$(document).on('click', '#js-discover-trigger', function(e) {
 		e.preventDefault(); 
@@ -35,16 +35,32 @@ $(document).ready(function() {
 			
 		}
 
+		else if ($('body').hasClass('is-activities-active')) {
+
+			$('body').removeClass('is-activities-active');
+			$('body').addClass('is-activities-closing');
+			
+			var openDiscover = function(){
+
+			  $('body').removeClass('is-activities-closing')
+			  $('body').addClass('is-discover-active');
+			}
+
+			setInterval(openDiscover, 500);
+
+		}
+
 		else {
 
 			$('body').removeClass('is-discover-closing');
 			$('body').addClass('is-discover-active');
 
+
 		}	
 
 	});
 
-	// Launch Discover Menu Mobile
+	// Launch Activities Menu
 
 	$(document).on('click', '#js-activities-trigger', function(e) {
 		e.preventDefault(); 
@@ -52,11 +68,26 @@ $(document).ready(function() {
 		if ($('body').hasClass('is-activities-active')) {
 
 			$('body').removeClass('is-activities-active');
+			$('body').addClass('is-activities-closing');
 			
+		}
+
+		else if ($('body').hasClass('is-discover-active')) {
+
+			$('body').removeClass('is-discover-active');
+			$('body').addClass('is-discover-closing');
+			
+			var openActivities = function(){
+			  $('body').removeClass('is-discover-closing')
+			  $('body').addClass('is-activities-active');
+			}
+			setInterval(openActivities, 500);
+
 		}
 
 		else {
 			alert('de');
+			$('body').removeClass('is-activities-closing');	
 			$('body').addClass('is-activities-active');
 
 		}	
