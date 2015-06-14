@@ -25,7 +25,7 @@
 
     </head>
 
-    <body>
+    <body class="is-discover-active">
 
         <!--[if lt IE 8]>
 
@@ -117,7 +117,7 @@
 
                                 <span class="type-style-one">Recent Stories</span>
 
-                                <h3 class="type-title-style-three">Brain Boosters Session Last Weekend With Bud and Blossom! </h3>
+                                <h3 class="type-title-style-three">Brain Boosters Session Last Weekend With Bud! </h3>
 
                             </div> <!-- element-tertiary-information -->
 

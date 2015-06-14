@@ -54,22 +54,10 @@
 
                         <li>
 
-                            <a href="about.php">About Shabang!</a>
+                            <a href="<?php echo $userPath; ?>watershed.php">The Watershed</a>
 
                         </li>
 
-                        <li>
-                        
-                            <a href="<?php echo $userPath; ?>characters.php">Characters</a>
-
-                        </li>
-                        
-                        <li>
-
-                            <a href="<?php echo $userPath; ?>what_people_say.php">What People Say</a>
-
-                        </li>
-                        
                         <li>
 
                             <a href="<?php echo $userPath; ?>funders.php">Funders &amp; Supporters</a>
@@ -78,7 +66,19 @@
 
                         <li>
 
-                            <a href="<?php echo $userPath; ?>watershed.php">The Watershed</a>
+                            <a href="<?php echo $userPath; ?>what_people_say.php">What People Say</a>
+
+                        </li>
+
+                         <li>
+                        
+                            <a href="<?php echo $userPath; ?>characters.php">Characters</a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="about.php">About Shabang!</a>
 
                         </li>
 
@@ -164,104 +164,6 @@
 
 	</div> <!-- layout-container -->
 
-</header> 
+</header>
 
-<div class="header-submenu">
-
-		<div id="js-discover-menu" class="colour-background-blue header-layout-bar">
-
-			<div class="layout-container">
-
-				<ul>
-
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>about.php">About Shabang!</a>
-
-                	</li>
-
-                	<li>
-                	
-                		<a href="<?php echo $userPath; ?>characters.php">Characters</a>
-
-                	</li>
-                	
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>what_people_say.php">What People Say</a>
-
-                	</li>
-                	
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>funders.php">Funders &amp; Supporters</a>
-
-                	</li>
-
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>watershed.php">The Watershed</a>
-
-                	</li>
-
-            	</ul>
-
-			</div> <!-- layout-container -->
-
-		</div> <!-- js-discover-menu -->
-
-		<div id="js-activities-menu" class="header-layout-bar colour-backgound-green">
-
-			<div class="layout-container">
-
-				<ul>
-
-                	<li>
-                	
-                		<a href="<?php echo $userPath; ?>yakety_yak.php">Yakety Yak</a>
-
-                	</li>
-
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>brain_boosters.php">Brain Boosters</a>
-
-                	</li>
-
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>day_dreamers.php">Day Dreamers</a>
-
-                	</li>
-                	
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>the_up_club.php">The Up Club</a>
-
-                	</li>
-
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>little_tiddlers.php">Little Tiddlers</a>
-
-                	</li>
-
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>sensory_scapes.php">Sensory Scapes</a>
-
-                	</li>
-
-                	<li>
-
-                		<a href="<?php echo $userPath; ?>dream_catchers.php">Dream Catchers</a>
-
-                	</li>
-
-            	</ul>
-
-			</div> <!-- layout-container -->
-
-		</div> <!-- js-activities-menu -->
-
-</div> <!-- header-submenu -->
+<div class="header-submenu-holder"></div> 

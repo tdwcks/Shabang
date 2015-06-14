@@ -31,11 +31,13 @@ $(document).ready(function() {
 		if ($('body').hasClass('is-discover-active')) {
 
 			$('body').removeClass('is-discover-active');
+			$('body').addClass('is-discover-closing');
 			
 		}
 
 		else {
 
+			$('body').removeClass('is-discover-closing');
 			$('body').addClass('is-discover-active');
 
 		}	
@@ -54,7 +56,7 @@ $(document).ready(function() {
 		}
 
 		else {
-
+			alert('de');
 			$('body').addClass('is-activities-active');
 
 		}	

@@ -5,11 +5,17 @@
 //
 
 header {
-	z-index: 10;
+	position: relative;
+	z-index: 100;
 }
 
-.header-layout-bar {
-	z-index: 9;
+.header-main-menu-item ul {
+	z-index: 1;
+	position: relative;
+}
+
+.header-submenu-holder {
+	z-index: 1;
 	position: relative;
 }
 
