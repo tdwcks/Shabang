@@ -102,6 +102,8 @@ h2 {
   line-height: 1.4em;
   font-weight: 300;
   margin-bottom: 0.3em; }
+  .article-longform-content-coloured h2 {
+    background: #f8fbf4; }
   h2.type-style-one {
     color: #fff;
     font-size: 1em;
@@ -4072,6 +4074,8 @@ li .header-activities-submenu {
 
 .element-activities-event {
   text-decoration: none; }
+  .element-activities-event .image-container-golden img {
+    width: 120%; }
   .element-activities-event h5 {
     padding-top: 20px; }
 

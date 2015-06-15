@@ -34,6 +34,10 @@ h2 {
     font-weight: 300;
     margin-bottom: 0.3em;
 
+    .article-longform-content-coloured & {
+      background: $colourBg;
+    }
+
     &.type-style-one {
       color: #fff;
       font-size: 1em;
