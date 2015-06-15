@@ -24,6 +24,15 @@ h1 {
     line-height: 1.2em;
     margin-bottom: 0.5em;
     font-weight: normal;
+
+    .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
+
 }
 
 h2 {
@@ -35,7 +44,11 @@ h2 {
     margin-bottom: 0.3em;
 
     .article-longform-content-coloured & {
-      background: $colourBg;
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
     }
 
     &.type-style-one {
@@ -85,6 +98,14 @@ h3 {
     font-size: 1.2em;
     line-height: 1.2em;
     margin-bottom: 0.4em;
+
+    .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
 
     &.type-form-title {
       color: $colourBgDark;
@@ -163,6 +184,14 @@ h4 {
   line-height: 1.4em;
   margin-bottom: 0.3em;
 
+  .article-longform-content-coloured & {
+      color: $colourBg;
+  }
+
+  .article-longform-content & {
+      color: $colourTypeDark;
+    }
+
   &.type-title-one {
      letter-spacing: 1px;
      text-align: center;
@@ -177,6 +206,14 @@ h5 {
     font-size: 1.1em;
     line-height: 1.2em;
     margin-bottom: 0.3em;
+
+    .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
 
     &.type-title-style-one {
       line-height: 1.4em;
@@ -265,6 +302,14 @@ p {
   font-weight: 300;
   font-size: 1.125em;
   line-height: 1.5em;
+
+  .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
 
   a {
     @include transition(all, 0.4s, ease-in-out);
@@ -366,6 +411,14 @@ p {
 
 span {
   font-size: 0.8em;
+
+  .article-longform-content-coloured & {
+    color: $colourBg;
+  }
+
+  .article-longform-content & {
+    color: $colourTypeDark;
+  }
 
   &.type-span-style-one {
     font-size: 1em;

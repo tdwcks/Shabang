@@ -94,6 +94,10 @@ h1 {
   line-height: 1.2em;
   margin-bottom: 0.5em;
   font-weight: normal; }
+  .article-longform-content-coloured h1 {
+    color: #f8fbf4; }
+  .article-longform-content h1 {
+    color: #4A4A4A; }
 
 h2 {
   font-family: Brandon, sans-serif;
@@ -103,7 +107,9 @@ h2 {
   font-weight: 300;
   margin-bottom: 0.3em; }
   .article-longform-content-coloured h2 {
-    background: #f8fbf4; }
+    color: #f8fbf4; }
+  .article-longform-content h2 {
+    color: #4A4A4A; }
   h2.type-style-one {
     color: #fff;
     font-size: 1em;
@@ -140,6 +146,10 @@ h3 {
   font-size: 1.2em;
   line-height: 1.2em;
   margin-bottom: 0.4em; }
+  .article-longform-content-coloured h3 {
+    color: #f8fbf4; }
+  .article-longform-content h3 {
+    color: #4A4A4A; }
   h3.type-form-title {
     color: #eef1e9; }
   h3.type-style-one {
@@ -198,6 +208,10 @@ h4 {
   font-size: 1.5em;
   line-height: 1.4em;
   margin-bottom: 0.3em; }
+  .article-longform-content-coloured h4 {
+    color: #f8fbf4; }
+  .article-longform-content h4 {
+    color: #4A4A4A; }
   h4.type-title-one {
     letter-spacing: 1px;
     text-align: center;
@@ -210,6 +224,10 @@ h5 {
   font-size: 1.1em;
   line-height: 1.2em;
   margin-bottom: 0.3em; }
+  .article-longform-content-coloured h5 {
+    color: #f8fbf4; }
+  .article-longform-content h5 {
+    color: #4A4A4A; }
   h5.type-title-style-one {
     line-height: 1.4em;
     font-size: 0.9em;
@@ -279,6 +297,10 @@ p {
   font-weight: 300;
   font-size: 1.125em;
   line-height: 1.5em; }
+  .article-longform-content-coloured p {
+    color: #f8fbf4; }
+  .article-longform-content p {
+    color: #4A4A4A; }
   p a {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -346,6 +368,10 @@ p {
 
 span {
   font-size: 0.8em; }
+  .article-longform-content-coloured span {
+    color: #f8fbf4; }
+  .article-longform-content span {
+    color: #4A4A4A; }
   span.type-span-style-one {
     font-size: 1em;
     width: 60px;
@@ -4112,9 +4138,10 @@ li .header-activities-submenu {
     display: none; } }
 .element-character-comic a {
   color: #f8fbf4;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 400;
   text-align: center;
+  letter-spacing: 1px;
   text-transform: uppercase; }
 
 .element-auto-container {
