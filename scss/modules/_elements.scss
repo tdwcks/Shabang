@@ -581,9 +581,20 @@
 
 	.element-character-information {
 		box-sizing: border-box;
-		padding: 12px 35px;
+		padding: 12px 15px;
+		height: 107px;
 		width: 62%;
 		float: left;
+		display: table;
+		text-align: center;
+
+		h3.type-style-one {
+			padding: 0;
+			margin: 0;
+			font-size: 1.3em;
+			display: table-cell;
+			vertical-align: middle;
+		}
 	}
 }
 

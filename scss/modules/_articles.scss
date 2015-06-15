@@ -353,8 +353,16 @@
 		height: 140px;
 		margin-bottom: 0px;
 
+		.element-character-information {
+			height: 140px;
+		}
+
 		@include mq("small", "max-width") {
 			height: 120px;
+
+			.element-character-information {
+				height: 120px;
+			}
 		}
 	}
 
