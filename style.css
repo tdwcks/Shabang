@@ -2446,7 +2446,8 @@ fieldset.form-buy-quantity {
   padding: 5px 0px 10px 0px; }
   .article-top-banner-lower p {
     padding: 0;
-    color: #f8fbf4; }
+    color: #f8fbf4;
+    font-size: 1.3em; }
   @media (max-width: 1100px) {
     .article-top-banner-lower .layout-span-six {
       width: -moz-calc(50% - 12px);
@@ -2497,6 +2498,38 @@ fieldset.form-buy-quantity {
     .article-longform-content .layout-span-two {
       width: 100%; }
     .article-longform-content .layout-span-six {
+      width: 100%; } }
+
+.article-longform-content-coloured {
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  padding: 50px 0px; }
+  .article-longform-content-coloured p {
+    font-size: 1.2em;
+    color: #fff; }
+  @media (max-width: 835px) {
+    .article-longform-content-coloured .layout-span-two {
+      width: -moz-calc(25% - 18px);
+      width: -webkit-calc(25% - 18px);
+      width: calc(25% - 18px); }
+    .article-longform-content-coloured .layout-shift-one {
+      margin-left: -moz-calc(8.33% + 2px);
+      margin-left: -webkit-calc(8.33% + 2px);
+      margin-left: calc(8.33% + 2px); }
+    .article-longform-content-coloured .layout-span-six {
+      width: -moz-calc(66.64% - 12px);
+      width: -webkit-calc(66.64% - 12px);
+      width: calc(66.64% - 12px);
+      margin-right: 0; } }
+  @media (max-width: 700px) {
+    .article-longform-content-coloured .layout-container {
+      width: 90%; }
+    .article-longform-content-coloured .layout-shift-one {
+      margin-left: 0; }
+    .article-longform-content-coloured .layout-span-two {
+      width: 100%; }
+    .article-longform-content-coloured .layout-span-six {
       width: 100%; } }
 
 .article-events-sytem-expanded {
@@ -2587,10 +2620,7 @@ fieldset.form-buy-quantity {
   height: auto;
   background: #0a8b28;
   overflow: auto;
-  padding: 25px 0px;
-  display: none; }
-  .is-login-active .article-shop-login {
-    display: block; }
+  padding: 25px 0px; }
   .article-shop-login label {
     color: #f8fbf4; }
   .article-shop-login input {

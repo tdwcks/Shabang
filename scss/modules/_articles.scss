@@ -797,6 +797,7 @@
 	p {
 		padding: 0;
 		color: $colourBg;
+		font-size: 1.3em;
 	}
 
 	@include mq("medium", "max-width") {
@@ -840,6 +841,54 @@
 	overflow:auto;
 	width: 100%;
 	padding: 50px 0px;
+
+	@include mq("small", "max-width") {
+
+		.layout-span-two {
+			@include calc(width, "25% - 18px");
+		}
+
+		.layout-shift-one {
+			@include calc(margin-left, "8.33% + 2px");
+		}
+
+		.layout-span-six {
+			@include calc(width, "66.64% - 12px");
+			margin-right: 0;
+		}
+	}
+
+
+	@include mq("extra-small", "max-width") {
+
+		.layout-container {
+			width: 90%;
+		}
+
+		.layout-shift-one {
+			margin-left: 0;
+		}
+
+		.layout-span-two {
+			width: 100%;
+		}
+
+		.layout-span-six {
+			width: 100%;
+		}
+	}
+}
+
+.article-longform-content-coloured {
+	height: auto;
+	overflow:auto;
+	width: 100%;
+	padding: 50px 0px;
+
+	p {
+		font-size: 1.2em;
+		color: #fff;
+	}
 
 	@include mq("small", "max-width") {
 
@@ -1003,11 +1052,7 @@
 	background: $colourDarkGreen;
 	overflow: auto;
 	padding: 25px 0px;
-	display: none;
 
-	.is-login-active & {
-		display: block;
-	}
 
 	label {
 		color: $colourBg;

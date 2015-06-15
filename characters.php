@@ -248,7 +248,7 @@
 
                 <div class="layout-span-six layout-shift-three">
 
-                    <p class="type-paragraph-large">We've no doubt you've heard all about the world famous gardener Bud Mulch, star of the touring show “Fun In the Potting Shed”.</p>
+                    <p>We've no doubt you've heard all about the world famous gardener Bud Mulch, star of the touring show “Fun In the Potting Shed”.</p>
 
                 </div> <!-- layout-span-six -->
 
@@ -256,7 +256,7 @@
 
        </article> <!-- article-top-banner-lower -->
 
-        <article class="article-longform-content colour-background-green">
+        <article class="article-longform-content-coloured colour-background-green">
 
             <div class="layout-container">
 
@@ -283,7 +283,7 @@
 
                     <span class="type-span-style-two colour-foreground-cream"><i class="fa fa-camera"></i>Picture From Brain Boosters</span>
 
-                    <p class="type-paragraph-one colour-foreground-cream">We have worked alongside Jill Wallis , the course facilitator to develop a series of fun interactive techniques which will help your child with additional needs improve their concentration, language development and general learning. The course teaches physical movement to improve learning and is differentiated to suit the needs of the participants.</p>
+                    <p>We have worked alongside Jill Wallis , the course facilitator to develop a series of fun interactive techniques which will help your child with additional needs improve their concentration, language development and general learning. The course teaches physical movement to improve learning and is differentiated to suit the needs of the participants.</p>
 
                     <div class="image-container-golden">
 
