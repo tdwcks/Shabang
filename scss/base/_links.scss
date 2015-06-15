@@ -336,6 +336,25 @@ a {
 	}
 }
 
+.link-video-exit {
+	background-image: url(img/icon-close-white.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 50px;
+	width: 50px;
+	float: left;
+	display: block;
+	cursor: pointer;
+
+	@include mq("small", "max-width") {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+}
+
 .link-float-right {
 	float: right;
 }

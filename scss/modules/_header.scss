@@ -60,7 +60,7 @@ header {
 	padding-left: 25px;
 
 	li {
-		margin-right: 35px;
+		margin-right: 25px;
 
 		&:first-child {
 			margin-left: 40px;
@@ -92,12 +92,12 @@ header {
 	float: right;
 
 	li {
-		margin-right: 40px;
+		margin-right: 25px;
 	}
 
 	@include mq("medium", "max-width") {
 
-    	li:last-child {
+    	.header-main-menu-item:last-child {
     		margin-right: 0;
     	}
 	}
@@ -118,14 +118,14 @@ header {
 
 .header-main-menu-item {
 	
-	&:nth-child(1):after {
+	&:nth-child(2):after {
 		
 		.is-discover-active & {
 			@include transform(rotate(-180deg));
 		}
 	}
 
-	&:nth-child(2):after {
+	&:nth-child(3):after {
 		background-image: url(img/icon-arrow-green.svg);
 
 		.is-activities-active & {
@@ -133,17 +133,17 @@ header {
 		}
 	}
 
-	&:nth-child(3):after {
+	&:nth-child(4):after {
 		@include transform(rotate(-90deg));
 		background-image: url(img/icon-arrow-orange.svg);
 	}
 
-	&:nth-child(4):after {
+	&:nth-child(5):after {
 		@include transform(rotate(-90deg));
 		background-image: url(img/icon-arrow-red.svg);
 	}
 
-	&:nth-child(5):after {
+	&:nth-child(6):after {
 		@include transform(rotate(-90deg));
 	}
 
@@ -247,12 +247,39 @@ li .header-activities-submenu {
 	.is-discover-active & {
 		display: block;
 	}
+
+	@include mq("medium", "max-width") {
+
+		padding: 13px 0px;
+
+		li {
+			margin-right: 20px;
+		}  
+
+		a {
+			font-size: 1em;
+		}
+	}
+
+	@include mq("small", "max-width") {
+
+		position: relative;
+		top: 0;
+		padding: 13px 20px;
+
+		a {
+			
+			text-align: left;
+			color: $colourTypeDark;
+
+		}
+	}
 }
 
 .header-arrow {
 	position: absolute;
 	top: 86px;
-	right: 757px;
+	right: 660px;
 	width: 0; 
 	height: 0; 
 	border-left: 16px solid transparent;
@@ -272,9 +299,22 @@ li .header-activities-submenu {
 
 	.is-activities-active & {
 		border-bottom: 15px solid $colourGreen;
-		right: 630px;
+		right: 550px;
 		@include animation(header_arrow_in  0.3s 0.5s forwards);
 	}
+
+	@include mq("medium", "max-width") {
+		right: 420px;
+		
+		.is-activities-active & {
+			right: 315px;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		display: none;
+	}
+
 }
 
 .header-submenu-holder {
@@ -287,23 +327,45 @@ li .header-activities-submenu {
 	.is-discover-active & {
 		display: block;
 		@include animation(header_menu_in 0.5s forwards);
+
+		@include mq("small", "max-width") {
+			display: none;
+			opacity: 0;
+		}
 		
 	}
 
 	.is-discover-closing & {
 		@include animation(header_menu_out 0.4s forwards);
+
+		@include mq("small", "max-width") {
+			display: none;
+			opacity: 0;
+		}
 	}
 
 	.is-activities-active & {
 		background: $colourGreen;
 		display: block;
 		@include animation(header_menu_in 0.5s forwards);
-		
+
+		@include mq("small", "max-width") {
+			display: none;
+			opacity: 0;
+		}
 	}
 
 	.is-activities-closing & {
 		background: $colourGreen;
 		@include animation(header_menu_out 0.4s forwards);
+
+		@include mq("small", "max-width") {
+			display: none;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		display: none;
 	}
 }
 

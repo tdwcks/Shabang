@@ -25,7 +25,7 @@
 
     </head>
 
-    <body class="is-activities-active">
+    <body>
 
         <!--[if lt IE 8]>
 
@@ -36,41 +36,61 @@
 
         <?php include('includes/header.php'); ?>
 
+        <article class="article-hero-video">
+
+            <div class="element-video-holder">
+
+                <div class="layout-container-inner">
+
+                    <a id="js-video-exit" class="link-video-exit"></a>
+
+                    <div class="element-embetter-holder">
+
+                        <div class="embetter" data-youtube-id="nCpFZn4TTMQ"><a href="https://www.youtube.com/watch?v=nCpFZn4TTMQ" target="_blank"><img src="http://img.youtube.com/vi/nCpFZn4TTMQ/0.jpg"></a></div>
+
+                    </div> <!-- element-embetter-holder -->
+
+                </div> <!-- layout-container-inner -->
+
+            </div> <!-- element-video-holder -->
+
+        </article> <!-- article-leader-video -->
+
         <article class="article-hero">
 
             <div class="layout-container">
 
                 <div class="layout-span-six">
 
-                    <a class="element-hero-featured colour-background-red">
+                  <a class="element-hero-featured colour-background-red">
 
-                        <div class="image-container-golden">
+                      <div class="image-container-golden">
 
-                        </div> <!-- image-container-golden -->
+                      </div> <!-- image-container-golden -->
 
-                        <div class="element-featured-holder">
+                      <div class="element-featured-holder colour-background-red">
 
-                            <div class="element-featured-information colour-background-red">
+                          <div class="element-featured-actions">
 
-                                <span class="type-style-one">Recent Story</span>
+                            <span class="type-style-one">Recent Story</span>
 
-                                <span class="type-style-two">Posted 14th June</span>
+                            <span class="type-style-two">Posted 14th June</span>
 
-                            </div>
+                          </div> <!-- element-featured-actions -->
 
-                            <div class="element-featured-actions colour-background-dark-red">
+                          <div class="element-featured-information">
 
-                                <h3 class="type-title-style-three">Brain Boosters Session Last Weekend With Bud! </h3>
+                            <h3 class="type-title-style-three">Brain Booster Capers</h3>
 
-                                <span class="type-fake-button colour-background-red">Read Story</span>
+                            <span class="type-fake-button colour-background-dark-red">View Item</span>
 
-                            </div> <!-- element-box-actions -->
+                          </div> <!-- element-featured-information -->
 
-                        </div> <!-- element-box-information -->
+                      </div> <!-- element-featured-holder -->
 
-                    </a> <!-- element-hero-featured -->
+                  </a> <!-- element-hero-featured -->
 
-                </div> <!-- layout-span-six -->
+              </div> <!-- layout-span-six -->
 
                 <div class="layout-span-six layout-column-right">
 
@@ -99,7 +119,7 @@
 
                     </a> <!-- element-hero-secondary -->
 
-                    <div class="layout-split-half">
+                    <div id="js-video-trigger" class="layout-split-half">
 
                         <a class="element-hero-tertiary colour-background-orange">
 
@@ -419,8 +439,191 @@
 
         </article> <!-- article-home-shop -->
 
-        <article class="article-home-characters colour-background-green">
+        <article class="article-home-characters">
 
+            <h2 class="type-title-style-one colour-foreground-cream">Meet Our Characters</h2>
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <a href="" class="element-character-link colour-background-blue">
+
+                        <div class="layout-fix-square">
+
+                            <div class="image-container-square">
+
+                            </div>  <!-- layout-span-three -->
+
+                        </div> <!-- layout-span-three -->
+
+                        <div class="element-character-information">
+
+                            <h3 class="type-style-one colour-foreground-cream">Bud and Blossom</h3>
+
+                        </div> <!-- element-character-information -->
+
+                    </a> <!-- element-character-link -->
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <a class="element-character-link colour-background-red">
+
+                        <div class="layout-fix-square">
+
+                            <div class="image-container-square">
+
+                            </div>  <!-- layout-span-three -->
+
+                        </div> <!-- layout-span-three -->
+
+                        <div class="element-character-information">
+
+                            <h3 class="type-style-one colour-foreground-cream">Bud and Blossom</h3>
+
+                        </div> <!-- element-character-information -->
+
+                    </a> <!-- element-character-link -->
+                    
+                </div>
+
+                <div class="swiper-slide">
+
+                    <a class="element-character-link colour-background-yellow">
+
+                        <div class="layout-fix-square">
+
+                            <div class="image-container-square">
+
+                            </div>  <!-- layout-span-three -->
+
+                        </div> <!-- layout-span-three -->
+
+                        <div class="element-character-information">
+
+                            <h3 class="type-style-one colour-foreground-cream">Bud and Blossom</h3>
+
+                        </div> <!-- element-character-information -->
+
+                    </a> <!-- element-character-link -->
+                    
+                </div>
+
+                <div class="swiper-slide">
+
+                    <a class="element-character-link colour-background-orange">
+
+                        <div class="layout-fix-square">
+
+                            <div class="image-container-square">
+
+                            </div>  <!-- layout-span-three -->
+
+                        </div> <!-- layout-span-three -->
+
+                        <div class="element-character-information">
+
+                            <h3 class="type-style-one colour-foreground-cream">Bud and Blossom</h3>
+
+                        </div> <!-- element-character-information -->
+
+                    </a> <!-- element-character-link -->
+                    
+                </div>
+
+                <div class="swiper-slide">
+
+                    <a class="element-character-link colour-background-green">
+
+                        <div class="layout-fix-square">
+
+                            <div class="image-container-square">
+
+                            </div>  <!-- layout-span-three -->
+
+                        </div> <!-- layout-span-three -->
+
+                        <div class="element-character-information">
+
+                            <h3 class="type-style-one colour-foreground-cream">Bud and Blossom</h3>
+
+                        </div> <!-- element-character-information -->
+
+                    </a> <!-- element-character-link -->
+                    
+                </div>
+
+                <div class="swiper-slide">
+
+                    <a class="element-character-link colour-background-blue">
+
+                        <div class="layout-fix-square">
+
+                            <div class="image-container-square">
+
+                            </div>  <!-- layout-span-three -->
+
+                        </div> <!-- layout-span-three -->
+
+                        <div class="element-character-information">
+
+                            <h3 class="type-style-one colour-foreground-cream">Bud and Blossom</h3>
+
+                        </div> <!-- element-character-information -->
+
+                    </a> <!-- element-character-link -->
+                    
+                </div>
+
+                <div class="swiper-slide">
+
+                    <a class="element-character-link colour-background-red">
+
+                        <div class="layout-fix-square">
+
+                            <div class="image-container-square">
+
+                            </div>  <!-- layout-span-three -->
+
+                        </div> <!-- layout-span-three -->
+
+                        <div class="element-character-information">
+
+                            <h3 class="type-style-one colour-foreground-cream">Bud and Blossom</h3>
+
+                        </div> <!-- element-character-information -->
+
+                    </a> <!-- element-character-link -->
+                    
+                </div>
+
+                <div class="swiper-slide">
+
+                    <a class="element-character-link colour-background-orange">
+
+                        <div class="layout-fix-square">
+
+                            <div class="image-container-square">
+
+                            </div>  <!-- layout-span-three -->
+
+                        </div> <!-- layout-span-three -->
+
+                        <div class="element-character-information">
+
+                            <h3 class="type-style-one colour-foreground-cream">Bud and Blossom</h3>
+
+                        </div> <!-- element-character-information -->
+
+                    </a> <!-- element-character-link -->
+                    
+                </div>
+                
+            </div>
+
+             <div class="swiper-pagination"></div>
 
         </article> <!-- article-home-characters -->
 
@@ -448,6 +651,14 @@
 
                 </div> <!-- layout-row -->
 
+                <div class="layout-row">
+                    
+                    <div id="js-social-boxes">
+
+                    </div>
+
+                </div> <!-- layout-row -->
+
             </div> <!-- layout-container -->
 
         </article> <!-- article-social-wall -->
@@ -461,6 +672,36 @@
         <script src="js/plugins.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script src="js/reqwest.min.js"></script>
+        
+        <script src="js/embetter.js"></script>
+        <script>
+            var pageEl = document.querySelector('.element-embetter-holder');
+            var curServices = [
+              window.embetter.services.youtube
+            ];
+            window.embetter.utils.initMediaPlayers(pageEl, curServices);
+        </script>
+
+        <script src="js/swiper.min.js"></script>
+
+        <script>
+            var swiper = new Swiper('.article-home-characters', {
+               pagination: '.swiper-pagination',
+               slidesPerView: 'auto',
+               centeredSlides: true,
+               paginationClickable: true,
+               spaceBetween: 24, 
+               grabCursor: true
+            });
+        </script>
+
+        <script>
+            $('#js-social-boxes').load('includes/socialFeed.php', function() {
+                $('#js-social-boxes').fadeIn(300);
+            });
+        </script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

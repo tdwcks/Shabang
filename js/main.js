@@ -32,6 +32,13 @@ $(document).ready(function() {
 
 			$('body').removeClass('is-discover-active');
 			$('body').addClass('is-discover-closing');
+
+			var CloseDiscover = function(){
+
+			  $('body').removeClass('is-discover-closing');
+			}
+
+			setInterval(CloseDiscover, 1500);
 			
 		}
 
@@ -50,7 +57,7 @@ $(document).ready(function() {
 
 		}
 
-		else {
+		else if ($('body').hasClass('')) {
 
 			$('body').removeClass('is-discover-closing');
 			$('body').addClass('is-discover-active');
@@ -69,47 +76,66 @@ $(document).ready(function() {
 
 			$('body').removeClass('is-activities-active');
 			$('body').addClass('is-activities-closing');
+
+			var closeActivities = function(){
+
+			  $('body').removeClass('is-activities-active');
+			  $('body').removeClass('is-activities-closing');
+			}
+
+			setInterval(closeActivities, 1000);
 			
 		}
 
 		else if ($('body').hasClass('is-discover-active')) {
 
+
 			$('body').removeClass('is-discover-active');
 			$('body').addClass('is-discover-closing');
 			
 			var openActivities = function(){
+
 			  $('body').removeClass('is-discover-closing')
 			  $('body').addClass('is-activities-active');
 			}
+
 			setInterval(openActivities, 500);
 
 		}
 
 		else {
-			alert('de');
-			$('body').removeClass('is-activities-closing');	
+
+			$('body').removeClass('is-discover-active');
 			$('body').addClass('is-activities-active');
 
 		}	
 
 	});
 
-	// Launch Activities Menu Mobile
+	// Launch Video On Click 
 
-	$(document).on('click', '#js-activities-trigger', function(e) {
+	$(document).on('click', '#js-video-trigger', function(e) {
 		e.preventDefault(); 
 
-		if ($('body').hasClass('is-activities-active')) {
+			$('body').addClass('is-video-active');
 
-			$('body').removeClass('is-activities-active');
+	});
+
+	// Launch Video On Click 
+
+	$(document).on('click', '#js-video-exit', function(e) {
+		e.preventDefault(); 
+
+				$('body').removeClass('is-video-active');
+				$('body').addClass('is-video-closing');
 			
-		}
+			var closeVideo = function(){
 
-		else {
+				$('body').removeClass('is-video-closing');
+			}
 
-			$('body').addClass('is-activities-active');
-
-		}	
+			setInterval(closeVideo, 500);
+			
 
 	});
 

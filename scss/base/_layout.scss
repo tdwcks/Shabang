@@ -166,6 +166,7 @@
 .layout-title-center {
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 50px;
 	@include calc(width, "33.3% - 16px");
 
 	@include mq("small", "max-width") {
