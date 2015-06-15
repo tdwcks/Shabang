@@ -417,6 +417,21 @@
 	}
 }
 
+.element-swiper-caption {
+	background: $colourTypeMid;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	padding: 17px 0;
+	margin: 0;
+
+	.type-span-style-two {
+		margin: 0;
+		padding: 0;
+	}
+}
+
 .element-box-actions {
 	box-sizing: border-box;
 	height: auto;
@@ -539,6 +554,7 @@
 }
 
 .element-activities-event {
+	text-decoration: none;
 
 	h5 {
 		padding-top: 20px;

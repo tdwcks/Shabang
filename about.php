@@ -58,6 +58,18 @@
 
                     <div class="element-swiper-holder">
 
+                        <div class="image-container-golden">
+
+                            <img src="img/about_hero_slider.jpg">
+
+                        </div>
+
+                        <div class="element-swiper-caption">
+
+                            <span class="type-span-style-two colour-foreground-cream"><i class="fa fa-camera"></i>Picture From Brain Boosters</span>
+
+                        </div> <!-- element-swiper-caption --> 
+
                     </div> <!-- element-swiper-holder --> 
 
                 </div> <!-- swiper-slide -->
@@ -66,6 +78,18 @@
 
                     <div class="element-swiper-holder">
 
+                        <div class="image-container-golden">
+
+                            <img src="img/about_character_bud.jpg">
+
+                        </div>
+
+                        <div class="element-swiper-caption">
+
+                            <span class="type-span-style-two colour-foreground-cream"><i class="fa fa-camera"></i>Kim and Russ as Bud and Blossom</span>
+
+                        </div> <!-- element-swiper-caption --> 
+
                     </div> <!-- element-swiper-holder --> 
 
                 </div> <!-- swiper-slide -->
@@ -73,6 +97,22 @@
                 <div class="swiper-slide">
 
                     <div class="element-swiper-holder">
+
+                        <div class="element-swiper-holder">
+
+                        <div class="image-container-golden">
+
+                            <img src="img/activities_brain_booster.jpg">
+
+                        </div>
+
+                        <div class="element-swiper-caption">
+
+                            <span class="type-span-style-two colour-foreground-cream"><i class="fa fa-camera"></i>Picture from our Brain Booster sessions</span>
+
+                        </div> <!-- element-swiper-caption --> 
+
+                    </div> <!-- element-swiper-holder --> 
 
                     </div> <!-- element-swiper-holder --> 
 
@@ -120,7 +160,7 @@
 
                         <div class="image-container-comic">
 
-                            <img alt="Kim Reuter and Russ Elias" src="img/">
+                            <img src="img/about_history.jpg">
 
                         </div> <!-- image-container-circle -->
 
