@@ -602,6 +602,14 @@
 	@include mq("extra-small", "max-width") {
 		display: none;
 	}
+
+	a {
+		color: $colourBg;
+		font-size: 1em;
+		font-weight: 400;
+		text-align: center;
+		text-transform: uppercase;
+	}
 }
 
 .element-auto-container {

@@ -2156,7 +2156,7 @@ fieldset.form-buy-quantity {
   border-top: 3px solid rgba(0, 0, 0, 0.2);
   width: 100%;
   height: auto;
-  overflow-x: auto;
+  overflow-x: hidden;
   padding: 50px 0px 100px 0;
   position: relative; }
   .article-home-characters .element-character-link {
@@ -4106,6 +4106,12 @@ li .header-activities-submenu {
 @media (max-width: 700px) {
   .element-character-comic {
     display: none; } }
+.element-character-comic a {
+  color: #f8fbf4;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase; }
 
 .element-auto-container {
   width: 100%;
