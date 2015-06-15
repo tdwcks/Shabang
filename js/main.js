@@ -135,8 +135,6 @@ $(document).ready(function() {
 			}
 
 			setInterval(closeVideo, 500);
-			
-
 	});
 
 	// FAQ Expand
@@ -156,6 +154,25 @@ $(document).ready(function() {
 		}	
 
 	});
+
+	// Trigger Log In
+
+	$(document).on('click', '#js-trigger-shop-login', function() {
+
+		if ($('body').hasClass('is-login-active')) {
+
+			$('body').removeClass('is-login-active');
+			
+		}
+
+		else {
+
+			$('body').addClass('is-login-active');
+
+		}	
+
+	});
+
 
 	//  
 

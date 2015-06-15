@@ -12,7 +12,7 @@
 
           <a id="js-shop-basket" class="link-style-four">10</a>
 
-          <a id="js-trigger-shop-login"class="link-button-style-one colour-background-dark-green">Log In</a>
+          <a id="js-trigger-shop-login" class="link-button-style-one colour-background-dark-green">Log In</a>
 
         </div> <!-- element-shop-top-actions -->
 

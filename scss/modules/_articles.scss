@@ -1003,6 +1003,11 @@
 	background: $colourDarkGreen;
 	overflow: auto;
 	padding: 25px 0px;
+	display: none;
+
+	.is-login-active & {
+		display: block;
+	}
 
 	label {
 		color: $colourBg;

@@ -2587,7 +2587,10 @@ fieldset.form-buy-quantity {
   height: auto;
   background: #0a8b28;
   overflow: auto;
-  padding: 25px 0px; }
+  padding: 25px 0px;
+  display: none; }
+  .is-login-active .article-shop-login {
+    display: block; }
   .article-shop-login label {
     color: #f8fbf4; }
   .article-shop-login input {
