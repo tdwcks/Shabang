@@ -888,6 +888,12 @@
 	p {
 		font-size: 1.2em;
 		color: #fff;
+
+		a {
+			text-decoration: none;
+			border-bottom: 2px solid #fff;
+			color: #fff;
+		}
 	}
 
 	@include mq("small", "max-width") {

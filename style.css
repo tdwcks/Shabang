@@ -2508,6 +2508,10 @@ fieldset.form-buy-quantity {
   .article-longform-content-coloured p {
     font-size: 1.2em;
     color: #fff; }
+    .article-longform-content-coloured p a {
+      text-decoration: none;
+      border-bottom: 2px solid #fff;
+      color: #fff; }
   @media (max-width: 835px) {
     .article-longform-content-coloured .layout-span-two {
       width: -moz-calc(25% - 18px);
