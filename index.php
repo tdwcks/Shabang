@@ -441,7 +441,7 @@
 
         <article class="article-home-characters">
 
-            <h2 class="type-title-style-one colour-foreground-cream">Meet Our Characters</h2>
+            <h2 class="type-title-style-one colour-foreground-yellow">Meet Our Characters</h2>
 
             <div class="swiper-wrapper">
 

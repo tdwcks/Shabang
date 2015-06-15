@@ -12,7 +12,7 @@ a {
 	position: relative;
 	float: right;
 	width: 90px;
-	display: block;
+	display: none;
 	margin-top: 40px;
 	margin-left: 40px;
 
@@ -132,6 +132,12 @@ a {
 			right: 0;
 		}
 	}
+}
+
+.article-hero-filter .link-full-width .link-arrow {
+	top: -15px;
+	background-image: url(img/icon-arrow-up.svg);
+	@include animation(arrow-animation-reverse 1.5s forwards infinite);
 }
 
 .link-full-width-two {

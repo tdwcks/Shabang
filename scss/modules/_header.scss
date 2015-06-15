@@ -117,6 +117,12 @@ header {
 }
 
 .header-main-menu-item {
+
+	&:nth-child(1):after {
+		
+		@include transform(rotate(-90deg));
+		background-image: url(img/icon-arrow-red.svg);
+	}
 	
 	&:nth-child(2):after {
 		
@@ -149,7 +155,7 @@ header {
 
 	.is-menu-active & {
 
-	    @for $i from 1 through 5 {
+	    @for $i from 1 through 6 {
 		    
 		    &:nth-child(#{$i}) {
 		        @include animation--fadedown($i/10);

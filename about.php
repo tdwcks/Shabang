@@ -38,10 +38,50 @@
 
         <article class="article-image-slider">
 
-            <div class="layout-container">
+            <div class="swiper-wrapper">
 
-            </div> <!-- layout-container -->
+                <div class="swiper-slide">
 
+                    <div class="element-swiper-holder">
+
+                        <div class="element-embetter-holder">
+
+                            <div class="embetter" data-youtube-id="nCpFZn4TTMQ"><a href="https://www.youtube.com/watch?v=nCpFZn4TTMQ" target="_blank"><img src="http://img.youtube.com/vi/nCpFZn4TTMQ/0.jpg"></a></div>
+
+                        </div> <!-- element-embetter-holder -->
+
+                    </div> <!-- element-swiper-holder --> 
+
+                </div> <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+
+                    <div class="element-swiper-holder">
+
+                    </div> <!-- element-swiper-holder --> 
+
+                </div> <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+
+                    <div class="element-swiper-holder">
+
+                    </div> <!-- element-swiper-holder --> 
+
+                </div> <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+
+                    <div class="element-swiper-holder">
+
+                    </div> <!-- element-swiper-holder --> 
+
+                </div> <!-- swiper-slide -->
+
+            </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        
         </article> <!-- article-image-slider -->
 
         <article class="article-about-information">
@@ -130,7 +170,7 @@
 
                             </p> <!-- type-paragraph-centered -->
 
-                            <a href="<?php echo $userPath; ?>shop.php" class="link-button-style-one colour-background-green link-centred">Get In Touch</a>
+                            <a href="<?php echo $userPath; ?>contact.php" class="link-button-style-one colour-background-green link-centred">Get In Touch</a>
 
                         </div> <!-- element-title-centre -->
 
@@ -292,6 +332,30 @@
         <script src="js/plugins.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script src="js/reqwest.min.js"></script>
+        
+        <script src="js/embetter.js"></script>
+        <script>
+            var pageEl = document.querySelector('.element-embetter-holder');
+            var curServices = [
+              window.embetter.services.youtube
+            ];
+            window.embetter.utils.initMediaPlayers(pageEl, curServices);
+        </script>
+
+        <script src="js/swiper.min.js"></script>
+
+        <script>
+            var swiper = new Swiper('.article-image-slider', {
+               pagination: '.swiper-pagination',
+               slidesPerView: 'auto',
+               centeredSlides: true,
+               paginationClickable: true,
+               spaceBetween: 24, 
+               grabCursor: true
+            });
+        </script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

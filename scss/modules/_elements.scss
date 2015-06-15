@@ -256,6 +256,12 @@
 	}
 }
 
+.element-swiper-holder {
+	width: 100%;
+	background: $colourTypeMid;
+	@include maintain-ratio(16 9);
+}
+
 .element-hero-tertiary {
 	position: relative;
 	display: block;
@@ -430,9 +436,9 @@
 .element-question-answer {
 	border-top: 1px solid $colourLines;
 	padding: 20px 0 15px 0;
+	cursor: pointer;
 
 	&:last-child {
-
 		border-bottom: 1px solid $colourLines;
 	}
 }
@@ -458,11 +464,16 @@
 		background-position: center center;
 		float: right;
 		@include transition(all, 0.3s, ease-in-out);
+
+		.is-question-active & {
+			@include transform(rotate(-180deg));
+		}
 	}
 }
 
 .element-answer {
 	
+	display: none;
 
 	.type-paragraph-small {
 		@include calc(width, "100% - 50px");
@@ -474,6 +485,10 @@
 		@include mq("extra-small", "max-width") {
 			width: 100%;
 		}
+	}
+
+	.is-question-active & {
+		display: block;
 	}
 }
 

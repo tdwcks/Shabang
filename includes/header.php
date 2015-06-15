@@ -148,7 +148,7 @@
 
                 <li class="header-main-menu-item">
                     
-                    <a href="<?php echo $userPath; ?>whats_on.php" class="link-style-one colour-foreground-orange">What's On</a>
+                    <a href="<?php echo $userPath; ?>whaton.php" class="link-style-one colour-foreground-orange">What's On</a>
 
                 </li> 
 

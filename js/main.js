@@ -139,24 +139,48 @@ $(document).ready(function() {
 
 	});
 
-	// Launch Events On What's On
+	// FAQ Expand
 
-	$(document).on('click', '#js-events-trigger', function(e) {
-		e.preventDefault(); 
+	$(document).on('click', '.element-question-answer', function() {
 
-		if ($('body').hasClass('is-events-active')) {
+		if ($(this).hasClass('is-question-active')) {
 
-			$('body').removeClass('is-events-active');
+			$(this).removeClass('is-question-active');
 			
 		}
 
 		else {
 
-			$('body').addClass('is-events-active');
+			$(this).addClass('is-question-active');
 
 		}	
 
 	});
+
+	//  
+
+	$(document).on('click', '#js-events-trigger', function() {
+
+		$('body').addClass('is-events-system-active');
+
+	});
+
+
+	$(document).on('click', '#js-events-collapse-trigger', function() {
+
+		$('body').addClass('is-events-system-closing');
+		$('body').removeClass('is-events-system-active');
+
+		var removeEventsClose = function(){
+
+				$('body').removeClass('is-events-system-closing');
+			}
+
+		setInterval(removeEventsClose, 500);
+
+
+	});
+
 
 });
 
