@@ -38,10 +38,96 @@
 
         <article class="article-image-slider">
 
-            <div class="layout-container">
+            <div class="swiper-wrapper">
 
-            </div> <!-- layout-container -->
+                <div class="swiper-slide">
 
+                   <div class="element-swiper-holder">
+
+                        <div class="image-container-golden">
+
+                            <img src="img/about_watershed_one.jpg">
+
+                        </div>
+
+                        <div class="element-swiper-caption">
+
+                            <span class="type-span-style-two colour-foreground-cream"><i class="fa fa-camera"></i>The Watershed is the participatory arts base we share with two other organisations.</span>
+
+                        </div> <!-- element-swiper-caption --> 
+
+                    </div> <!-- element-swiper-holder -->  
+
+                </div> <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+
+                    <div class="element-swiper-holder">
+
+                        <div class="image-container-golden">
+
+                            <img src="img/about_watershed_two.jpg">
+
+                        </div>
+
+                        <div class="element-swiper-caption">
+
+                            <span class="type-span-style-two colour-foreground-cream"><i class="fa fa-camera"></i>After seven years and over £530k capital revelopment, the disused weaving mill has been brought back to life.</span>
+
+                        </div> <!-- element-swiper-caption --> 
+
+                    </div> <!-- element-swiper-holder --> 
+
+                </div> <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+
+                    <div class="element-swiper-holder">
+
+                        <div class="image-container-golden">
+
+                            <img src="img/about_watershed_three.jpg">
+
+                        </div>
+
+                        <div class="element-swiper-caption">
+
+                            <span class="type-span-style-two colour-foreground-cream"><i class="fa fa-camera"></i>We have a range of spaces for activities, relaxation and mental stimulation for a wide range of people.</span>
+
+                        </div> <!-- element-swiper-caption --> 
+
+                    </div> <!-- element-swiper-holder --> 
+
+                </div> <!-- swiper-slide -->
+
+                <div class="swiper-slide">
+
+                    <div class="element-swiper-holder">
+
+                        <div class="element-swiper-holder">
+
+                        <div class="image-container-golden">
+
+                            <img src="img/about_watershed_four.jpg">
+
+                        </div>
+
+                        <div class="element-swiper-caption">
+
+                            <span class="type-span-style-two colour-foreground-cream"><i class="fa fa-camera"></i>Visitors can look out onto the River Colne, and the peaceful Colne Valley countryside.</span>
+
+                        </div> <!-- element-swiper-caption --> 
+
+                    </div> <!-- element-swiper-holder --> 
+
+                    </div> <!-- element-swiper-holder --> 
+
+                </div> <!-- swiper-slide -->
+
+            </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        
         </article> <!-- article-image-slider -->
 
         <article class="article-about-information">
@@ -80,6 +166,7 @@
 
                         <div class="image-container-circle">
 
+                            <img src="img/about_watershed_one_circle.jpg">
 
                         </div> <!-- image-container-circle -->
 
@@ -97,7 +184,7 @@
 
                         <div class="image-container-circle">
 
-
+                            <img src="img/about_watershed_one_circle.jpg">
 
                         </div> <!-- image-container-circle -->
 
@@ -119,7 +206,7 @@
 
                         <div class="image-container-circle">
 
-
+                            <img src="img/about_watershed_one_circle.jpg">
 
                         </div> <!-- image-container-circle -->
 
@@ -137,7 +224,7 @@
 
                         <div class="image-container-circle">
 
-
+                            <img src="img/about_watershed_two_circle.jpg">
 
                         </div> <!-- image-container-circle -->
 
@@ -167,6 +254,19 @@
         <script src="js/plugins.js"></script>
 
         <script src="js/main.js"></script>
+
+        <script src="js/swiper.min.js"></script>
+
+        <script>
+            var swiper = new Swiper('.article-image-slider', {
+               pagination: '.swiper-pagination',
+               slidesPerView: 'auto',
+               centeredSlides: true,
+               paginationClickable: true,
+               spaceBetween: 24, 
+               grabCursor: true
+            });
+        </script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

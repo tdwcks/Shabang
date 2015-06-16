@@ -144,7 +144,7 @@
 
                   <div class="link-drop-down-container">
 
-                      <span class="type-style-three">Pick A Tune</span>
+                      <span class="type-style-three">All Time</span>
 
                       <ul class="link-drop-down-items">
 
@@ -162,7 +162,7 @@
 
                   <div class="link-drop-down-container">
 
-                      <span class="type-style-three">Pick A Tune</span>
+                      <span class="type-style-three">All Activities</span>
 
                       <ul class="link-drop-down-items">
 

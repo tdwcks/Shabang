@@ -567,6 +567,14 @@
 	}
 }
 
+.article-funders {
+
+	.image-container-golden {
+		background: #b8dfba;
+	}
+	
+}
+
 .article-watershed-more {
 
 	padding-bottom: 0px;
@@ -1066,7 +1074,11 @@
 	background: $colourDarkGreen;
 	overflow: auto;
 	padding: 25px 0px;
+	display: none;
 
+	.is-login-active & {
+		display: block;
+	}
 
 	label {
 		color: $colourBg;

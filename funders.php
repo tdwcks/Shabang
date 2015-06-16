@@ -36,7 +36,7 @@
 
         <?php include('includes/header.php'); ?>
 
-        <div class="article-feedback-funders">
+        <div class="article-feedback-funders article-funders">
 
             <div class="layout-container">
 
@@ -64,7 +64,7 @@
 
                             <div class="image-container-golden">
 
-                                
+                                <img src="img/logo_k.png">
 
                             </div> <!-- image-container-golden -->
 
@@ -86,7 +86,7 @@
 
                             <div class="image-container-golden">
 
-                                
+                                <img src="img/logo_sjp.png">
 
                             </div> <!-- image-container-golden -->
 
@@ -112,7 +112,7 @@
 
                             <div class="image-container-golden">
 
-                                
+                                <img src="img/logo_blf.png">
 
                             </div> <!-- image-container-golden -->
 
@@ -134,7 +134,7 @@
 
                             <div class="image-container-golden">
 
-                                
+                                <img src="img/logo_ff.png">
 
                             </div> <!-- image-container-golden -->
 
@@ -160,7 +160,7 @@
 
                             <div class="image-container-golden">
 
-                                
+                                <img src="img/logo_cin.png">
 
                             </div> <!-- image-container-golden -->
 
@@ -182,7 +182,7 @@
 
                             <div class="image-container-golden">
 
-                                
+                                <img src="img/logo_bt.png">
 
                             </div> <!-- image-container-golden -->
 
@@ -208,7 +208,7 @@
 
                             <div class="image-container-golden">
 
-                                
+                                <img src="img/logo_ym.png">
 
                             </div> <!-- image-container-golden -->
 

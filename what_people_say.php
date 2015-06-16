@@ -64,7 +64,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_one.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -94,7 +94,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_two.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -124,7 +124,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_three.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -157,7 +157,8 @@
                             <div class="colour-background-yellow element-box-portrait">
 
                                 <div class="image-container-golden">
-                                    
+
+                                    <img src="img/feedback_four.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -187,7 +188,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_five.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -219,7 +220,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_six.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -253,7 +254,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_seven.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -284,7 +285,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_eight.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -314,7 +315,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_nine.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -348,7 +349,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_ten.jpg">
 
                                 </div> <!-- image-container-golden -->
 
@@ -380,7 +381,7 @@
 
                                 <div class="image-container-golden">
 
-                                    
+                                    <img src="img/feedback_one.jpg">
 
                                 </div> <!-- image-container-golden -->
 

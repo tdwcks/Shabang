@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 	});
 
-	// Launch Discover Men
+	// Launch Discover Menu
 
 	$(document).on('click', '#js-discover-trigger', function(e) {
 		e.preventDefault(); 

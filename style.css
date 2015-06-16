@@ -994,6 +994,7 @@ a {
       float: right; } }
 
 .link-drop-down-items {
+  display: none;
   background: #07af32;
   padding: 0;
   clear: both;
@@ -2324,6 +2325,9 @@ fieldset.form-buy-quantity {
     .article-about-more .layout-shift-one {
       margin-left: 0; } }
 
+.article-funders .image-container-golden {
+  background: #b8dfba; }
+
 .article-watershed-more {
   padding-bottom: 0px; }
   .article-watershed-more .type-paragraph-mid {
@@ -2657,7 +2661,10 @@ fieldset.form-buy-quantity {
   height: auto;
   background: #0a8b28;
   overflow: auto;
-  padding: 25px 0px; }
+  padding: 25px 0px;
+  display: none; }
+  .is-login-active .article-shop-login {
+    display: block; }
   .article-shop-login label {
     color: #f8fbf4; }
   .article-shop-login input {
@@ -3994,7 +4001,8 @@ li .header-activities-submenu {
   bottom: 0px;
   text-align: center;
   width: 100%;
-  padding: 17px 0;
+  padding: 17px 15px;
+  box-sizing: border-box;
   margin: 0; }
   .element-swiper-caption .type-span-style-two {
     margin: 0;
