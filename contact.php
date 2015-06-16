@@ -23,6 +23,10 @@
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+        
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+
     </head>
 
     <body>
@@ -190,9 +194,53 @@
 
         <script src="js/main.js"></script>
 
-        <script src="js/circletype.js"></script>
+        <script>
 
-        <script src="js/lettering.js"></script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoidGR3Y2tzIiwiYSI6IlhwMGlGR28ifQ.irq5Rbn1WvGb_VIwn1auNA';
+        var map = L.mapbox.map('map', 'tdwcks.k79k9hod')
+        .setView([53.622408, -1.879932], 16);
+
+        var myLayer = L.mapbox.featureLayer().addTo(map);
+
+        var geoJson = [{
+
+            type: 'Feature',
+            "geometry": { "type": "Point", "coordinates": [-1.879932,53.622408]},
+            "properties": {
+                "icon": {
+                    "iconUrl": "img/map-logo.svg",
+                    "iconSize": [120, 120], // size of the icon
+                    "iconAnchor": [35, 85], // point of the icon which will correspond to marker's location
+                }
+            } 
+
+        }, {
+            // Add Another Point
+        }];
+
+        // Add custom popups to each using our custom feature properties
+        myLayer.on('layeradd', function(e) {
+            var marker = e.layer,
+                feature = marker.feature;
+
+
+        });
+
+        // Set a custom icon on each marker based on feature properties.
+        myLayer.on('layeradd', function(e) {
+            var marker = e.layer,
+                feature = marker.feature;
+
+            marker.setIcon(L.icon(feature.properties.icon));
+        });
+
+
+        // Add features to the map
+        myLayer.setGeoJSON(geoJson);
+
+
+
+        </script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
