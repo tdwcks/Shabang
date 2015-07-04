@@ -1,0 +1,150 @@
+// ==========================================================================
+//
+// Footer
+//
+//
+
+footer {
+	border-top: 1px solid $colourLines;
+	background: $colourBgDark;
+	height: 330px;
+	width: 100%;
+
+	@include mq("medium", "max-width") {
+		height: auto;
+		overflow: auto;
+	}
+}
+
+.footer-top-section {
+	background: $colourBgDark;
+	height: 280px;
+	width: 100%;
+
+	@include mq("medium", "max-width") {
+		display: none;
+	}
+}
+
+.footer-logo {
+	display: block;
+	text-indent: -9999px;
+	float: left;
+	margin: 0;
+	width: 60%;
+	height: 56px;
+	margin-top: 20px;
+	position: relative;
+	padding-bottom: 30px;
+	background-image: url(img/logo_h1.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.footer-site-map {
+	float: left;
+	@include calc(width, "50% - 12px");
+	margin: 0;
+	padding: 50px 0 0 0;
+	margin-right: 24px;
+
+	&:nth-child(2) {
+		margin-right: 0px;
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+	a {
+		text-decoration: none;
+		font-size: 0.9em;
+		color: $colourTypeExtraLight;
+	}
+}
+
+.footer-site-map-shift {
+	@include calc(margin-left, "50% + 24px");
+	margin-right: 0;
+}
+
+
+.footer-supporters {
+	float: left;
+	@include calc(width, "50% - 12px");
+	margin: 0;
+	padding: 50px 0 0 0;
+	display: block;
+
+	li {
+		list-style-type: none;
+		margin-left: -20px;
+		width: 100%;
+
+		&:nth-child(4) {
+			margin-top: -10px;
+			margin-left: 0;
+		}
+
+		&:nth-child(3) {
+			margin-top: -20px;
+		}
+
+		a {
+			text-decoration: none;
+			font-size: 0.9em;
+			color: $colourTypeExtraLight;
+		}
+	}
+}
+
+.footer-bottom-section {
+	width: 100%;
+	height: 40px;
+	padding-top: 11px;
+	background: $colourBg;
+	border-top: 1px solid $colourLines;
+
+	@include mq("medium", "max-width") {
+		border-top: 0px;
+		height: auto;
+		overflow: auto;
+		padding-bottom: 30px;
+
+		.layout-split-half {
+			float: left;
+			@include calc(width, "50% - 12px");
+		}
+
+		.type-small-print {
+			width: 60%;
+			display: block;
+		}
+
+		.type-copyright {
+			float: right;
+			text-align: right;
+			width: 100%;
+			display: block;
+			margin-top: 30px;
+		}
+
+		.link-button-style-one {
+			margin-top: 50px;
+		}
+	}
+
+	@include mq("extra-small", "max-width") {
+
+		.link-button-style-one {
+			margin-top: 75px;
+		}
+	}
+}
+

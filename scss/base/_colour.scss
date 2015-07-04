@@ -1,0 +1,85 @@
+// ==========================================================================
+//
+// Colour
+//
+//
+
+.colour-foreground-blue {
+	color: $colourBlue;
+}
+
+.colour-background-blue {
+	background: $colourBlue;
+}
+
+.colour-background-dark-blue {
+	background: darken($colourBlue, 10%);
+}
+
+.colour-foreground-green {
+	color: $colourGreen;
+}
+
+.colour-background-green {
+	background: $colourGreen;
+}
+
+.colour-background-dark-green {
+	background: $colourDarkGreen;
+}
+
+.colour-foreground-yellow {
+	color: $colourYellow;
+}
+
+.colour-background-yellow {
+	background: $colourYellow;
+}
+
+.colour-background-dark-yellow {
+	background: darken($colourYellow, 10%);
+}
+
+.colour-foreground-orange {
+	color: $colourOrange;
+}
+
+.colour-background-orange {
+	background: $colourOrange;
+}
+
+.colour-background-dark-orange {
+	background: $colourDarkOrange;
+}
+
+.colour-foreground-red {
+	color: $colourRed;
+}
+
+.colour-background-red {
+	background: $colourRed;
+}
+
+.colour-background-dark-red {
+	background: $colourDarkRed;
+}
+
+.colour-foreground-cream {
+	color: $colourBg;
+}
+
+.colour-background-dark-cream {
+	color: $colourBgDark;
+}
+
+.colour-foreground-white {
+	color: #fff;
+}
+
+.colour-foreground-type {
+	color: $colourTypeDark;
+}
+
+.colour-background-darken {
+	background: $colourDarken;
+}

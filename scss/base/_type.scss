@@ -1,0 +1,556 @@
+// ==========================================================================
+//
+// Typography
+//
+//
+
+$main_font: Brandon, sans-serif;
+$base_font_size: 18px;
+
+@include font-face(Brandon, 'fonts/brandon_reg-webfont', 300);
+@include font-face(Brandon, 'fonts/brandon_med-webfont', 400);
+@include font-face(Brandon, 'fonts/brandon_bld-webfont', 500);
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  position: relative;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+
+    .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
+
+}
+
+h2 {
+    font-family: $main_font;
+    color: $colourTypeDark;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    font-weight: 300;
+    margin-bottom: 0.3em;
+
+    .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
+
+    &.type-style-one {
+      color: #fff;
+      font-size: 1em;
+      margin-top: 5px;
+      letter-spacing: 1px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    &.type-style-two {
+      text-align: center;
+      font-weight: 500;
+      color: #fff;
+      font-size: 2em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 10px 0;
+
+      @include mq("small", "max-width") {
+        font-size: 1.6em;
+      }
+    }
+
+    &.type-style-three {
+      padding-top: 30px;
+      display: block;
+      text-transform: uppercase;
+      font-size: 1.3em;
+      font-weight: 400;
+      text-align: center;
+      width: 100%;
+      letter-spacing: 1px;
+    }
+
+    &.type-title-style-one {
+      text-align: center;
+    }
+
+    &.type-title-style-two {
+      font-size: 2em;
+    }
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-bottom: 0.4em;
+
+    .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
+
+    &.type-form-title {
+      color: $colourBgDark;
+    }
+
+    &.type-style-one {
+      font-size: 1.4em;
+      font-weight: 300;
+      padding: 20px 0 10px 0;
+      margin-bottom: 0px;
+    }
+
+    &.type-style-two {
+      display: block;
+      padding: 28px 0 13px 0;
+      text-transform: uppercase;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+      color: $colourBg;
+    }
+
+    &.type-style-three {
+      width: 150px;
+      float: left;
+      color: $colourBg;
+      text-transform: uppercase;
+      margin-top: 39px;
+      display: block;
+      font-size: 1em;
+      letter-spacing: 1px;
+      font-weight: 400;
+    }
+
+    &.type-style-five {
+      color: $colourTypeDark;
+      text-transform: uppercase;
+    }
+
+    &.type-title-style-one {
+      text-transform: uppercase;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+      color: $colourBg;
+    }
+
+    &.type-title-style-two {
+      text-transform: uppercase;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+    }
+
+    &.type-title-style-three {
+      font-size: 1.5em;
+      line-height: 1.4em;
+      margin: 0;
+      color: $colourBg;
+      float: left;
+      font-weight: 300;
+      width: 60%;
+    }
+
+    &.type-title-style-five {
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      font-size: 1.2em;
+      padding: 10px 0;
+      letter-spacing: 1px;
+    }
+}
+
+h4 {
+  font-family: $main_font;
+  color: $colourTypeDark;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin-bottom: 0.3em;
+
+  .article-longform-content-coloured & {
+      color: $colourBg;
+  }
+
+  .article-longform-content & {
+      color: $colourTypeDark;
+    }
+
+  &.type-title-one {
+     letter-spacing: 1px;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: 500;
+     font-size: 1em;
+  }
+}
+
+h5 {
+    font-family: $main_font;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin-bottom: 0.3em;
+
+    .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
+
+    &.type-title-style-one {
+      line-height: 1.4em;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 10px 0;
+    }
+
+    &.type-title-style-two {
+      color: $colourTypeDark;
+      font-weight: 300;
+      font-size: 1.1em;
+      line-height: 1.3em;
+    }
+
+    &.type-title-style-three {
+      color: $colourTypeMid;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 1em;
+      line-height: 1.3em;
+    }
+
+    &.type-title-four {
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 1em;
+      line-height: 1.6em;
+      padding-bottom: 20px;
+      margin: 0;
+    }
+
+    &.type-title-style-five {
+      line-height: 1.4em;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #fff;
+    }
+
+    &.type-style-six {
+      font-size: 1.1em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #fff;
+      line-height: 1.4em;
+    }
+
+    &.type-style-one {
+      color: $colourBg;
+      font-weight: 300;
+      font-size: 1em;
+    }
+
+    &.type-style-contact-action {
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      position: relative;
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 0;
+        right: 27%;
+        background-image: url(img/icon_arrow_orange.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.125em;
+  line-height: 1.5em;
+
+  .article-longform-content-coloured & {
+      color: $colourBg;
+    }
+
+    .article-longform-content & {
+      color: $colourTypeDark;
+    }
+
+  a {
+    @include transition(all, 0.4s, ease-in-out);
+
+    &:hover {
+
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  .side-matter-ref {
+      border: none;
+
+    sup {
+      font-size: 0.6em;
+      margin-left: 0;
+    }
+  }
+
+  &.type-paragraph-super {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  &.type-paragraph-large {
+    font-size: 1.3em;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+
+  &.type-paragraph-default {
+    margin-top: 0;
+    padding-bottom: 25px;
+  }
+
+  &.type-paragraph-centered {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  &.type-paragraph-mid {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    clear: left;
+    display: block;
+    color: $colourTypeDark;
+
+    @include mq("extra-small", "max-width") {
+
+      font-size: 1.3em;
+      line-height: 1.5em;
+    
+    }
+  }
+
+  &.type-paragraph-regular {
+    font-size: 1.25em;
+    margin-top: 0;
+    padding: 10px 0px;
+    clear: left;
+    display: block;
+    color: $colourTypeDark;
+  }
+
+  &.type-paragraph-one {
+    font-size: 1.25em;
+    margin-top: 0;
+    padding: 10px 0px;
+    clear: left;
+    display: block;
+  }
+
+  &.type-paragraph-small {
+    font-size: 0.9em;
+    clear: left;
+    display: block;
+    color: $colourTypeExtraLight;
+  }
+
+  &.type-paragraph {
+    font-size: 1em;
+    clear: left;
+    display: block;
+  }
+
+  &.type-paragraph-left {
+    font-size: 1.05em;
+    color: $colourTypeDark;
+  }
+}
+
+span {
+  font-size: 0.8em;
+
+  .article-longform-content-coloured & {
+    color: $colourBg;
+  }
+
+  .article-longform-content & {
+    color: $colourTypeDark;
+  }
+
+  &.type-span-style-one {
+    font-size: 1em;
+    width: 60px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-top: 6px;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+  }
+
+  &.type-span-style-two {
+    font-size: 1em;
+    padding: 25px 0px 10px 0;
+    display: block;
+
+    i {
+      padding-right: 15px;
+
+    }
+  }
+
+  &.type-style-one {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #fff;
+    width: 50%;
+    float: left;
+  }
+
+  &.type-style-two {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    width: 50%;
+    text-align: right;
+    float: right;
+  }
+
+  &.type-style-three {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    float: left;
+  }
+
+  &.type-style-four {
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 400;
+     padding: 0;
+     margin: 0;
+     color: $colourTypeDark;
+     width: 100%;
+     float: left;
+  }
+
+  &.type-style-five {
+    width: 100%;
+    display: block;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  &.type-style-six {
+    display: block;
+    @include border-radius(3px);
+    border: 1px solid $colourBgDark;
+    width: 50px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 2px 0 0 0;
+    margin-top: 5px;
+
+  }
+
+  &.type-fake-button {
+    @include transition(all, 0.3s, ease-in-out);
+    @include border-radius(20px);
+    padding: 9px 20px 7px 20px;
+    text-transform: uppercase;
+    color: $colourBg;
+    text-decoration: none;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    cursor: pointer;
+    float: right;
+
+    @include mq("medium", "max-width") {
+      display: none;
+    }
+  }
+
+  &.type-fake-button-two {
+    @include transition(all, 0.3s, ease-in-out);
+    @include border-radius(5px);
+    padding: 9px 20px 7px 20px;
+    text-transform: uppercase;
+    color: $colourBg;
+    text-decoration: none;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -65px;
+  }
+
+  &.type-small-print {
+    font-size: 0.9em;
+    color: $colourTypeLight;
+    padding: 25px 25px 0 0;
+  }
+
+  &.type-copyright {
+    padding-left: 75px;
+    color: $colourTypeDark;
+  }
+
+}

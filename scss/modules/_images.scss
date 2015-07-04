@@ -1,0 +1,75 @@
+// ==========================================================================
+//
+// Images
+//
+//
+
+.image-container-circle {
+	width: 100%;
+	@include maintain-ratio(1 1);
+	@include border-radius(100%);
+	overflow: hidden;
+	background: $colourDarken;
+}
+
+.image-container-square {
+	width: 100%;
+	@include maintain-ratio(1 1.2);
+	overflow: hidden;
+	background: $colourDarken;
+}
+
+.image-container-golden {
+	width: 100%;
+	@include maintain-ratio(16 9);
+	overflow: hidden;
+	background: $colourDarken;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+img.image-post-content {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.image-album-square {
+	@include maintain-ratio(1 1);
+	background: $colourDarken;
+}
+
+.image-container-secondary {
+	overflow: hidden;
+	display: block;
+	width: 50%;
+	height: 300px;
+	@include calc(width, "50% + 12px");
+	background: $colourDarken;
+	float: left;
+
+	@include mq("medium", "max-width") {
+		@include calc(width, "43% + 12px");
+	}
+
+	@include mq("small", "max-width") {
+		display: none;
+	}
+
+	@include mq("extra-small", "max-width") {
+	    display: block;
+	    width: 100%;
+			height: 225px;
+	}
+}
+
+.image-container-comic {
+	width: 100%;
+	@include maintain-ratio(1 1.414);
+	background: $colourDarken;
+	margin-bottom: 25px;
+	cursor: pointer;
+}

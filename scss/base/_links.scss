@@ -1,0 +1,375 @@
+// ==========================================================================
+//
+// Links
+//
+//
+
+a {
+	@include transition(all, 0.3s, ease-in-out);
+	text-decoration: none;
+}
+
+.link-menu-trigger {
+	position: relative;
+	float: right;
+	width: 90px;
+	display: none;
+	margin-top: 40px;
+	margin-left: 40px;
+
+	span {
+		padding: 0;
+		font-size: 1.1em;
+		color: $colourTypeMid;
+	}
+
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 25px;
+		height: 25px;
+		background-image: url(img/icon-hamburger.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+
+		.is-menu-active & {
+			background-image: url(img/icon-close.svg);
+		}
+	}
+
+	@include mq("large", "max-width") {
+	   	display: none;
+	}
+
+	@include mq("small", "max-width") {
+	   	display: block;
+	}
+}
+
+.link-style-one {
+	text-decoration: none;
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 0.95em;
+}
+
+.link-style-two {
+	color: $colourTypeDark;
+	border-bottom: 2px solid $colourBlue;
+	text-decoration: none;
+
+	&:hover {
+		color: $colourBlue;
+	}
+}
+
+.link-button-style-one {
+	@include border-radius(20px);
+	padding: 9px 20px 7px 20px;
+	text-transform: uppercase;
+	color: $colourBg;
+	text-decoration: none;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	font-weight: 400;
+	cursor: pointer;
+
+	&:hover {
+		@include border-radius(10px);
+	}
+}
+
+.link-button-style-two {
+  font-size: 0.7em;
+  display: block;
+  @include border-radius(3px);
+  border: 1px solid $colourBgDark;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  float: right;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 4px 4px 3px 4px;
+  box-sizing: border-box;
+  margin-top: -5px;
+  margin-left: 0%;
+  max-width: 40%;
+  cursor: pointer;
+}
+
+.link-full-width {
+	width: 100%;
+	padding: 23px 0 15px 0;
+	display: block;
+	background: $colourDarken;
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 10px;
+	clear: both;
+	cursor: pointer;
+	position: relative;
+	margin-bottom: 0px;
+
+	.link-arrow {
+		opacity: 0.4;
+		position: absolute;
+		background-image: url(img/icon-arrow-down.svg);
+		background-repeat: no-repeat;
+		background-size: 80% 80%;
+		background-position: center center;
+		top: -20px;
+		height: 20px;
+		width: 20px;
+		@include animation(arrow-animation 1.5s forwards infinite);
+
+		&.link-arrow-right {
+			right: 0;
+		}
+	}
+}
+
+.article-hero-filter .link-full-width .link-arrow {
+	top: -15px;
+	background-image: url(img/icon-arrow-up.svg);
+	@include animation(arrow-animation-reverse 1.5s forwards infinite);
+}
+
+.link-full-width-two {
+	border-top: 3px solid $colourDarkBlue;
+	background: $colourBlue;
+	text-align: center;
+	height: auto;
+	overflow: auto;
+	font-size: 0.95em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #fff;
+	width: 100%;
+	display: block;
+	letter-spacing: 1px;
+	padding: 20px 0;
+
+	@include mq("small", "min-width") {
+		display: none;
+	}
+}
+
+.link-icon-style-one {
+
+	.fa {
+		color: $colourTypeMid;
+		@include transition(all, 0.3s, ease-in-out);
+		font-size: 1.2em;
+
+		&:hover {
+			color: $colourBlue;
+		}
+	}
+}
+
+.link-icon-style-two {
+	font-size: 2em;
+	cursor: pointer;
+	float: left;
+}
+
+.link-style-three {
+	color: $colourTypeMid;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+
+	&:hover {
+		color: $colourBlue;
+	}
+}
+
+.link-icon-large {
+	color: #fff;
+	padding: 30px 20px;
+	float: left;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	border-right: 1px solid $colourDarkGreen;
+	cursor: pointer;
+
+	i {
+		font-size: 2.2em;
+		display: block;
+		margin-top: -8px;
+	}
+
+	&:hover {
+		background: $colourDarkGreen;
+	}
+}
+
+.link-icon-left {
+	i {
+		padding-right: 15px;
+		float: left;
+	}
+
+	span {
+		float: right;
+		font-size: 1em;
+	}
+}
+
+.link-icon-right {
+	i {
+		padding-left: 15px;
+		float: right;
+	}
+
+	span {
+		float: left;
+		font-size: 1em;
+	}
+}
+
+.link-style-four {
+	width: 36px;
+	height: 27px;
+	background: $colourDarkGreen;
+	display: block;
+	float: right;
+	text-align: center;
+	padding-top: 5px;
+	margin: 0;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+
+	&:before {
+		content: "Shopping Basket";
+		display: block;
+		width: 190px;
+		position: absolute;
+		left: -190px;
+		top: 4px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 400;
+		color: #fff;
+	}
+
+	@include mq("extra-small", "max-width") {
+		&:before {
+			content: "Basket";
+			width: 80px;
+			left: -80px;
+		}
+	}
+}
+
+.link-drop-down-container {
+	margin: 0px 25px;
+	width: 200px;
+	height: 50px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	cursor: pointer;
+
+	span {
+		margin: 0;
+		padding: 10px 15px;
+		box-sizing: border-box;
+		background: $colourGreen;
+	}
+
+	&:after {
+		display: block;
+		content: "";
+		position: absolute;
+		top: 0;
+		right: -38px;
+		height: 38px;
+		width: 38px;
+		background-color: $colourDarkGreen;
+		background-image: url(img/icon-arrow-down.svg);
+		background-repeat: no-repeat;
+		background-size: 30% 30%;
+		background-position: center center;
+	}
+
+	@include mq("small", "max-width") {
+		float: right;
+	}
+}
+
+.link-drop-down-items {
+	display: none;
+	background: $colourGreen;
+	padding: 0;
+	clear: both;
+	margin: 0;
+	height: auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 200px;
+	box-shadow: rgba(0,0,0,0.4) 0px 0px 10px;
+
+	li {
+		padding: 10px 15px;
+		box-sizing: border-box;
+		list-style-type: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		letter-spacing: 1px;
+		color: #fff;
+		cursor: pointer;
+		width: 200px;
+
+		&:nth-child(odd) {
+			background: $colourDarken;
+		}
+	}
+
+	@include mq("small", "max-width") {
+		
+	}
+}
+
+.link-video-exit {
+	background-image: url(img/icon-close-white.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 50px;
+	width: 50px;
+	float: left;
+	display: block;
+	cursor: pointer;
+
+	@include mq("small", "max-width") {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+}
+
+.link-float-right {
+	float: right;
+}
+
+.link-centred {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 110px;
+}

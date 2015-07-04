@@ -1,0 +1,180 @@
+// ==========================================================================
+//
+// Forms
+//
+//
+
+::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: 300;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(255, 255, 255, 0.7);
+   font-weight: 300;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.7);
+   font-weight: 300;
+}
+
+:-ms-input-placeholder {  
+   color: rgba(255, 255, 255, 0.7);
+   font-weight: 300;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	float: left;
+
+	.type-style-three {
+		padding: 10px 0;
+		float: right;
+		display: block;
+	}
+
+	&.form-fieldset-half {
+		@include calc(width, "50% - 12px");
+		margin-right: 20px;
+		float: left;
+		display: block;
+
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+
+		@include mq("extra-small", "max-width") {
+			width: 100%;
+		}
+	}
+
+	&.form-full-width {
+		width: 100%;
+	}
+}
+
+label {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 20px 0;
+	display: block;
+	font-size: 0.9em;
+	color: $colourTypeDark;
+}
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	outline: none;
+	border: 0;
+	padding: 12px 15px 12px 15px;
+	font-size: 1.2em;
+	color: #fff;
+	background: $colourBlue;
+	font-family: $main_font;
+	@include border-radius(3px);
+	font-weight: 300; 
+	margin: 0;
+	 -webkit-appearance: none;
+
+	&:focus {
+		background: $colourGreen;
+	}
+}
+
+input[type="submit"] {
+	width: 130px;
+	background: $colourYellow;
+	@include border-radius(30px);
+	color: $colourBg;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 1em;
+	border: none;
+	cursor: pointer;
+	margin-top: 15px;
+	float: right;
+	padding: 10px 20px 10px 20px;
+	@include transition(all, 0.3s, ease-in-out);
+
+	&:hover {
+		@include border-radius(10px);
+	}
+}
+
+
+input[type="shop"] {
+	text-align: center;
+	max-width: 160px;
+	margin-top: 2px;
+	background: $colourYellow;
+	@include border-radius(30px);
+	color: $colourBg;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 0.9em;
+	border: none;
+	cursor: pointer;
+	float: right;
+	padding: 8px 10px 7px 10px;
+	@include transition(all, 0.3s, ease-in-out);
+
+	&:hover {
+		@include border-radius(10px);
+	}
+}
+
+textarea {
+	@include border-radius(3px);
+	box-sizing: border-box;
+	width: 100%;
+	outline: none;
+	border: 0;
+	padding: 13px 20px 13px 15px;
+	font-size: 1.2em;
+	color: #fff;
+	background: $colourBlue;
+	font-family: $main_font;
+	font-weight: 300; 
+	margin: 0;
+	resize:vertical;
+
+	&:focus {
+		background: $colourGreen;
+	}
+}
+
+fieldset.form-buy-quantity {
+	padding: 0;
+
+	label {
+		margin: 0;
+		margin-top: 10px;
+		float: left;
+		width: 80px;
+		padding-right: 5px;
+		font-size: 0.9em;
+	}
+
+	input {
+		width: 30px;
+		font-size: 1em;
+		@include border-radius(0px);
+		padding: 2px 5px;
+		margin-top: 6px;
+		background: $colourBg;
+		color: $colourTypeMid;
+		border: 1px solid $colourLines;
+		text-align: center;
+		float: left;
+	}
+}
+
+#form-contact {
+	position: relative;
+}
