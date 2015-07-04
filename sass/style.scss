@@ -1,16 +1,15 @@
-/* Theme Name: Shabang! Wordpress 
-Description: Shabang! Inclusive Learning, Wordpress website theme. 
+/* Project Name: Wasserman Experience Intranet
 Author: Miln Ltd 
 Author URI: miln.co
 Version: 1.0 
 */
+
 @charset "utf-8";
 
 @import "bourbon/bourbon";
 
 @import "base/mixins";
 @import "base/variables";
-@import "base/colour";
 @import "base/type";
 @import "base/base";
 @import "base/layout";
@@ -18,11 +17,9 @@ Version: 1.0
 @import "base/z";
 @import "base/animation";
 @import "base/forms";
-@import "base/embetter";
 
 @import "modules/articles";
 @import "modules/images";
 @import "modules/footer";
 @import "modules/header";
-@import "modules/swiper";
 @import "modules/elements";
