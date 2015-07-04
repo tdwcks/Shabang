@@ -10,7 +10,7 @@
 
             <a class="link-icon-large link-icon-right"><span class="link-arrow-label">Next</span><i class="fa fa-angle-right"></i></a>
 
-        </div> <!-- element-product-switcher -->
+        </div> <!-- element-product-switcher  -->
 
         <div class="element-shop-top-actions">
 
